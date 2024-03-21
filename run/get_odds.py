@@ -30,6 +30,16 @@ def get_new_events(cfg_hour_prior):
         if timedelta(hours=0) <= time_difference <= timedelta(hours=cfg_hour_prior):
             print(f"{match['homeTeam']['name']} vs {match['awayTeam']['name']}")
             counter += 1
+        
+        team1 = match["homeTeam"]["shortName"]
+        team2 = match["awayTeam"]["shortName"]
+        sofascore_matchpage_url = f"https://www.sofascore.com/{match["slug"]}/{match["customId"]}#id:{id}"
+        
+        if match["changes"]["changeTimestamp"] == 0:
+            scraped = 0
+        else:
+            # needs to be scraped
+            pass
     
     print(f"Total upcoming matches: {counter}")
     
