@@ -1,0 +1,5502 @@
+{
+    "events": [
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "EtbsLtb",
+            "status": {
+                "code": 110,
+                "description": "AET",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "San Antonio Spurs",
+                "slug": "san-antonio-spurs",
+                "shortName": "Spurs",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 42501,
+                "nameCode": "SAS",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3429,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#a6afaf",
+                    "secondary": "#000000",
+                    "text": "#000000"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0633\u0627\u0646 \u0627\u0646\u0637\u0648\u0646\u064a\u0648 \u0633\u067e\u0648\u0631\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Brooklyn Nets",
+                "slug": "brooklyn-nets",
+                "shortName": "Nets",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 56218,
+                "nameCode": "BKN",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3436,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#ffffff",
+                    "secondary": "#000000",
+                    "text": "#000000"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0631\u0648\u0643\u0644\u064a\u0646 \u0646\u064a\u062a\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 122,
+                "display": 122,
+                "period1": 25,
+                "period2": 30,
+                "period3": 25,
+                "period4": 30,
+                "normaltime": 110,
+                "overtime": 12
+            },
+            "awayScore": {
+                "current": 115,
+                "display": 115,
+                "period1": 29,
+                "period2": 27,
+                "period3": 27,
+                "period4": 27,
+                "normaltime": 110,
+                "overtime": 5
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710726443
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1710726502
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549110,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710716400,
+            "slug": "brooklyn-nets-san-antonio-spurs",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "ytbsAtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 2,
+            "homeTeam": {
+                "name": "Los Angeles Clippers",
+                "slug": "los-angeles-clippers",
+                "shortName": "Clippers",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 55921,
+                "nameCode": "LAC",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3425,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#006bb6",
+                    "secondary": "#ed174c",
+                    "text": "#ed174c"
+                }
+            },
+            "awayTeam": {
+                "name": "Atlanta Hawks",
+                "slug": "atlanta-hawks",
+                "shortName": "Hawks",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 37159,
+                "nameCode": "ATL",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3423,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#e03a3e",
+                    "secondary": "#ffffff",
+                    "text": "#ffffff"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0627\u0637\u0644\u0646\u0637\u0627 \u0647\u0627\u0648\u0643\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 93,
+                "display": 93,
+                "period1": 29,
+                "period2": 15,
+                "period3": 18,
+                "period4": 31,
+                "normaltime": 93
+            },
+            "awayScore": {
+                "current": 110,
+                "display": 110,
+                "period1": 31,
+                "period2": 30,
+                "period3": 27,
+                "period4": 22,
+                "normaltime": 110
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710733880
+            },
+            "changes": {
+                "changes": [
+                    "time.currentPeriodStart",
+                    "status.code",
+                    "status.description",
+                    "status.type",
+                    "homeScore.normaltime",
+                    "awayScore.normaltime"
+                ],
+                "changeTimestamp": 1710733893
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549969,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710725400,
+            "slug": "los-angeles-clippers-atlanta-hawks",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "utbsHtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 2,
+            "homeTeam": {
+                "name": "Indiana Pacers",
+                "slug": "indiana-pacers",
+                "shortName": "Pacers",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 29708,
+                "nameCode": "IND",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3419,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#00275d",
+                    "secondary": "#ffc633",
+                    "text": "#ffc633"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0627\u064a\u0646\u062f\u064a\u0627\u0646\u0627 \u067e\u0627\u064a\u0633\u064a\u0631\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Cleveland Cavaliers",
+                "slug": "cleveland-cavaliers",
+                "shortName": "Cavaliers",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 41659,
+                "nameCode": "CLE",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3432,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#871539",
+                    "secondary": "#000000",
+                    "text": "#000000"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0643\u0644\u064a\u06a2\u0644\u0627\u0646\u062f \u0643\u0627\u06a2\u0627\u0644\u064a\u064a\u0631\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 103,
+                "display": 103,
+                "period1": 34,
+                "period2": 20,
+                "period3": 29,
+                "period4": 20,
+                "normaltime": 103
+            },
+            "awayScore": {
+                "current": 108,
+                "display": 108,
+                "period1": 25,
+                "period2": 29,
+                "period3": 36,
+                "period4": 18,
+                "normaltime": 108
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710811674
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1710811694
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549973,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710802800,
+            "slug": "cleveland-cavaliers-indiana-pacers",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "vtbsKtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "Philadelphia 76ers",
+                "slug": "philadelphia-76ers",
+                "shortName": "76ers",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 66043,
+                "nameCode": "PHI",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3420,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#006bb6",
+                    "secondary": "#ed174c",
+                    "text": "#ed174c"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0641\u064a\u0644\u0627\u062f\u064a\u0644\u0641\u064a\u0627  ERS 76"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Miami Heat",
+                "slug": "miami-heat",
+                "shortName": "Heat",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 80444,
+                "nameCode": "MIA",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3435,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#98002e",
+                    "secondary": "#000000",
+                    "text": "#000000"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0645\u064a\u0627\u0645\u064a \u0647\u064a\u062a"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 98,
+                "display": 98,
+                "period1": 31,
+                "period2": 20,
+                "period3": 28,
+                "period4": 19,
+                "normaltime": 98
+            },
+            "awayScore": {
+                "current": 91,
+                "display": 91,
+                "period1": 23,
+                "period2": 26,
+                "period3": 16,
+                "period4": 26,
+                "normaltime": 91
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710813706
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1710813736
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549056,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710804600,
+            "slug": "miami-heat-philadelphia-76ers",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "xtbsztb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "Boston Celtics",
+                "slug": "boston-celtics",
+                "shortName": "Celtics",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 133279,
+                "nameCode": "BOS",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3422,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#008348",
+                    "secondary": "#ffffff",
+                    "text": "#ffffff"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0648\u0633\u0637\u0646 \u0633\u064a\u0644\u062a\u064a\u0643\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Detroit Pistons",
+                "slug": "detroit-pistons",
+                "shortName": "Pistons",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 21644,
+                "nameCode": "DET",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3424,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#006bb6",
+                    "secondary": "#ed174c",
+                    "text": "#ed174c"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062f\u064a\u062a\u0631\u0648\u064a\u062a \u067e\u064a\u0633\u062a\u0648\u0646\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 119,
+                "display": 119,
+                "period1": 31,
+                "period2": 28,
+                "period3": 33,
+                "period4": 27,
+                "normaltime": 119
+            },
+            "awayScore": {
+                "current": 94,
+                "display": 94,
+                "period1": 28,
+                "period2": 18,
+                "period3": 20,
+                "period4": 28,
+                "normaltime": 94
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710812037
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1710812054
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549055,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710804600,
+            "slug": "detroit-pistons-boston-celtics",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "jtbsotb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "Chicago Bulls",
+                "slug": "chicago-bulls",
+                "shortName": "Bulls",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 57540,
+                "nameCode": "CHI",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3409,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#ce1141",
+                    "secondary": "#000000",
+                    "text": "#000000"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0634\u064a\u0643\u0627\u063a\u0648 \u0628\u0648\u0644\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Portland Trail Blazers",
+                "slug": "portland-trail-blazers",
+                "shortName": "Trail Blazers",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 25424,
+                "nameCode": "POR",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3414,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#f0163a",
+                    "secondary": "#ffffff",
+                    "text": "#ffffff"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 110,
+                "display": 110,
+                "period1": 29,
+                "period2": 25,
+                "period3": 35,
+                "period4": 21,
+                "normaltime": 110
+            },
+            "awayScore": {
+                "current": 107,
+                "display": 107,
+                "period1": 27,
+                "period2": 22,
+                "period3": 26,
+                "period4": 32,
+                "normaltime": 107
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710815396
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1710815417
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549057,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710806400,
+            "slug": "portland-trail-blazers-chicago-bulls",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "BtbsJtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 2,
+            "homeTeam": {
+                "name": "Utah Jazz",
+                "slug": "utah-jazz",
+                "shortName": "Jazz",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 28607,
+                "nameCode": "UTA",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3434,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#002b5c",
+                    "secondary": "#f9a01b",
+                    "text": "#f9a01b"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u064a\u0648\u062a\u0627 \u062f\u062c\u0627\u0632"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Minnesota Timberwolves",
+                "slug": "minnesota-timberwolves",
+                "shortName": "Timberwolves",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 30497,
+                "nameCode": "MIN",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3426,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#005083",
+                    "secondary": "#ffffff",
+                    "text": "#ffffff"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0645\u064a\u0646\u064a\u0633\u0648\u062a\u0627 \u062a\u064a\u0645\u0628\u0631\u0648\u0644\u06a2\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 104,
+                "display": 104,
+                "period1": 37,
+                "period2": 22,
+                "period3": 24,
+                "period4": 21,
+                "normaltime": 104
+            },
+            "awayScore": {
+                "current": 114,
+                "display": 114,
+                "period1": 25,
+                "period2": 28,
+                "period3": 30,
+                "period4": 31,
+                "normaltime": 114
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710818014
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1710818060
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549059,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710810000,
+            "slug": "utah-jazz-minnesota-timberwolves",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "ntbsptb",
+            "status": {
+                "code": 110,
+                "description": "AET",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "Sacramento Kings",
+                "slug": "sacramento-kings",
+                "shortName": "Kings",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 31840,
+                "nameCode": "SAC",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3413,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#724c9f",
+                    "secondary": "#8e9090",
+                    "text": "#8e9090"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0633\u0627\u0643\u0631\u0627\u0645\u064a\u0646\u062a\u0648 \u0643\u064a\u0646\u063a\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Memphis Grizzlies",
+                "slug": "memphis-grizzlies",
+                "shortName": "Grizzlies",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 47333,
+                "nameCode": "MEM",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3415,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#6189b9",
+                    "secondary": "#23375b",
+                    "text": "#23375b"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0645\u064a\u0645\u0641\u064a\u0633 \u062c\u0631\u064a\u0632\u0644\u064a\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 121,
+                "display": 121,
+                "period1": 28,
+                "period2": 29,
+                "period3": 27,
+                "period4": 21,
+                "normaltime": 105,
+                "overtime": 16
+            },
+            "awayScore": {
+                "current": 111,
+                "display": 111,
+                "period1": 32,
+                "period2": 15,
+                "period3": 29,
+                "period4": 29,
+                "normaltime": 105,
+                "overtime": 6
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710824014
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1710824065
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549060,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710813600,
+            "slug": "memphis-grizzlies-sacramento-kings",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "wtbsDtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 2,
+            "homeTeam": {
+                "name": "Golden State Warriors",
+                "slug": "golden-state-warriors",
+                "shortName": "Warriors",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 214216,
+                "nameCode": "GSW",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3428,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#fdb927",
+                    "secondary": "#006bb6",
+                    "text": "#006bb6"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062c\u0648\u0644\u062f\u0646 \u0633\u062a\u0627\u064a\u062a \u0648\u0648\u0631\u064a\u064a\u0631\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "New York Knicks",
+                "slug": "new-york-knicks",
+                "shortName": "Knicks",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 38048,
+                "nameCode": "NYK",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3421,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#006bb6",
+                    "secondary": "#f58426",
+                    "text": "#f58426"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0646\u064a\u0648\u064a\u0648\u0631\u0643 \u0646\u064a\u0643\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 112,
+                "display": 112,
+                "period1": 22,
+                "period2": 34,
+                "period3": 32,
+                "period4": 24,
+                "normaltime": 112
+            },
+            "awayScore": {
+                "current": 119,
+                "display": 119,
+                "period1": 30,
+                "period2": 32,
+                "period3": 37,
+                "period4": 20,
+                "normaltime": 119
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710822726
+            },
+            "changes": {
+                "changes": [
+                    "time.played",
+                    "time.currentPeriodStart",
+                    "status.code",
+                    "status.description",
+                    "status.type",
+                    "homeScore.normaltime",
+                    "awayScore.normaltime",
+                    "time.played"
+                ],
+                "changeTimestamp": 1710822745
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549058,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710813600,
+            "slug": "golden-state-warriors-new-york-knicks",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "ytbsCtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "Los Angeles Lakers",
+                "slug": "los-angeles-lakers",
+                "shortName": "Lakers",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 228254,
+                "nameCode": "LAL",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3427,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#fdb927",
+                    "secondary": "#552582",
+                    "text": "#552582"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0644\u0648\u0633 \u0627\u0646\u062c\u0644\u0633 \u0644\u0627\u064a\u0643\u0631\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Atlanta Hawks",
+                "slug": "atlanta-hawks",
+                "shortName": "Hawks",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 37159,
+                "nameCode": "ATL",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3423,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#e03a3e",
+                    "secondary": "#ffffff",
+                    "text": "#ffffff"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0627\u0637\u0644\u0646\u0637\u0627 \u0647\u0627\u0648\u0643\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 136,
+                "display": 136,
+                "period1": 38,
+                "period2": 35,
+                "period3": 38,
+                "period4": 25,
+                "normaltime": 136
+            },
+            "awayScore": {
+                "current": 105,
+                "display": 105,
+                "period1": 28,
+                "period2": 31,
+                "period3": 27,
+                "period4": 19,
+                "normaltime": 105
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710823108
+            },
+            "changes": {
+                "changes": [
+                    "status.code",
+                    "status.description",
+                    "status.type",
+                    "homeScore.normaltime",
+                    "awayScore.normaltime",
+                    "time.currentPeriodStart"
+                ],
+                "changeTimestamp": 1710823110
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549061,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710815400,
+            "slug": "los-angeles-lakers-atlanta-hawks",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "FtbsMtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "Orlando Magic",
+                "slug": "orlando-magic",
+                "shortName": "Magic",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 25284,
+                "nameCode": "ORL",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3437,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#007dc5",
+                    "secondary": "#c4ced3",
+                    "text": "#c4ced3"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0627\u0648\u0631\u0644\u0627\u0646\u062f\u0648 \u0645\u0627\u062c\u064a\u0643"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Charlotte Hornets",
+                "slug": "charlotte-hornets",
+                "shortName": "Hornets",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 25398,
+                "nameCode": "CHA",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3430,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#008ca8",
+                    "secondary": "#1d1160",
+                    "text": "#1d1160"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u0634\u0627\u0631\u0644\u0648\u062a \u0647\u0648\u0631\u0646\u064a\u062a\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 112,
+                "display": 112,
+                "period1": 27,
+                "period2": 40,
+                "period3": 24,
+                "period4": 21,
+                "normaltime": 112
+            },
+            "awayScore": {
+                "current": 92,
+                "display": 92,
+                "period1": 17,
+                "period2": 15,
+                "period3": 33,
+                "period4": 27,
+                "normaltime": 92
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710897143
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1710897172
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549062,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710889200,
+            "slug": "orlando-magic-charlotte-hornets",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "mtbsGtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 2,
+            "homeTeam": {
+                "name": "Washington Wizards",
+                "slug": "washington-wizards",
+                "shortName": "Wizards",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 22617,
+                "nameCode": "WAS",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3431,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#f5002f",
+                    "secondary": "#002566",
+                    "text": "#002566"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0648\u0627\u0634\u0646\u0637\u0646 \u0648\u064a\u0632\u0627\u0631\u062f\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Houston Rockets",
+                "slug": "houston-rockets",
+                "shortName": "Rockets",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 32084,
+                "nameCode": "HOU",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3412,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#ffffff",
+                    "secondary": "#ce1141",
+                    "text": "#ce1141"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0647\u064a\u0648\u0633\u062a\u0648\u0646 \u0631\u0648\u0643\u062a\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 114,
+                "display": 114,
+                "period1": 36,
+                "period2": 21,
+                "period3": 25,
+                "period4": 32,
+                "normaltime": 114
+            },
+            "awayScore": {
+                "current": 137,
+                "display": 137,
+                "period1": 39,
+                "period2": 21,
+                "period3": 41,
+                "period4": 36,
+                "normaltime": 137
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710897713
+            },
+            "changes": {
+                "changes": [
+                    "time.currentPeriodStart",
+                    "status.code",
+                    "status.description",
+                    "status.type",
+                    "homeScore.normaltime",
+                    "awayScore.normaltime"
+                ],
+                "changeTimestamp": 1710897726
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549970,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710889200,
+            "slug": "washington-wizards-houston-rockets",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "LtbsOkc",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 2,
+            "homeTeam": {
+                "name": "Brooklyn Nets",
+                "slug": "brooklyn-nets",
+                "shortName": "Nets",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 56218,
+                "nameCode": "BKN",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3436,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#ffffff",
+                    "secondary": "#000000",
+                    "text": "#000000"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0631\u0648\u0643\u0644\u064a\u0646 \u0646\u064a\u062a\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "New Orleans Pelicans",
+                "slug": "new-orleans-pelicans",
+                "shortName": "Pelicans",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 26787,
+                "nameCode": "NOP",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 5539,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#002b5c",
+                    "secondary": "#b4975a",
+                    "text": "#b4975a"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0646\u064a\u0648 \u0623\u0648\u0631\u0644\u064a\u0627\u0646\u0632 \u067e\u064a\u0644\u064a\u0643\u0627\u0646\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 91,
+                "display": 91,
+                "period1": 21,
+                "period2": 24,
+                "period3": 24,
+                "period4": 22,
+                "normaltime": 91
+            },
+            "awayScore": {
+                "current": 104,
+                "display": 104,
+                "period1": 27,
+                "period2": 37,
+                "period3": 21,
+                "period4": 19,
+                "normaltime": 104
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710899165
+            },
+            "changes": {
+                "changes": [
+                    "status.code",
+                    "status.description",
+                    "status.type",
+                    "homeScore.normaltime",
+                    "awayScore.normaltime",
+                    "time.currentPeriodStart",
+                    "time.played"
+                ],
+                "changeTimestamp": 1710899169
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549967,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710891000,
+            "slug": "new-orleans-pelicans-brooklyn-nets",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "ltbsEtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 2,
+            "homeTeam": {
+                "name": "San Antonio Spurs",
+                "slug": "san-antonio-spurs",
+                "shortName": "Spurs",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 42501,
+                "nameCode": "SAS",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3429,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#a6afaf",
+                    "secondary": "#000000",
+                    "text": "#000000"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0633\u0627\u0646 \u0627\u0646\u0637\u0648\u0646\u064a\u0648 \u0633\u067e\u0648\u0631\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Dallas Mavericks",
+                "slug": "dallas-mavericks",
+                "shortName": "Mavericks",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 78701,
+                "nameCode": "DAL",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3411,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#007dc5",
+                    "secondary": "#20385b",
+                    "text": "#20385b"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062f\u0627\u0644\u0627\u0633 \u0645\u0627\u06a2\u0631\u064a\u0643\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 107,
+                "display": 107,
+                "period1": 30,
+                "period2": 26,
+                "period3": 28,
+                "period4": 23,
+                "normaltime": 107
+            },
+            "awayScore": {
+                "current": 113,
+                "display": 113,
+                "period1": 38,
+                "period2": 27,
+                "period3": 26,
+                "period4": 22,
+                "normaltime": 113
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710901487
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1710901524
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549972,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710892800,
+            "slug": "san-antonio-spurs-dallas-mavericks",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "rtbsBtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 2,
+            "homeTeam": {
+                "name": "Minnesota Timberwolves",
+                "slug": "minnesota-timberwolves",
+                "shortName": "Timberwolves",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 30497,
+                "nameCode": "MIN",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3426,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#005083",
+                    "secondary": "#ffffff",
+                    "text": "#ffffff"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0645\u064a\u0646\u064a\u0633\u0648\u062a\u0627 \u062a\u064a\u0645\u0628\u0631\u0648\u0644\u06a2\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Denver Nuggets",
+                "slug": "denver-nuggets",
+                "shortName": "Nuggets",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 83360,
+                "nameCode": "DEN",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3417,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#4fa8ff",
+                    "secondary": "#f3bb4b",
+                    "text": "#f3bb4b"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062f\u0646\u06a2\u0631 \u0646\u0627\u062c\u064a\u062a\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 112,
+                "display": 112,
+                "period1": 28,
+                "period2": 27,
+                "period3": 29,
+                "period4": 28,
+                "normaltime": 112
+            },
+            "awayScore": {
+                "current": 115,
+                "display": 115,
+                "period1": 35,
+                "period2": 35,
+                "period3": 17,
+                "period4": 28,
+                "normaltime": 115
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710904988
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1710905026
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549968,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710896400,
+            "slug": "minnesota-timberwolves-denver-nuggets",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "utbsztb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 2,
+            "homeTeam": {
+                "name": "Detroit Pistons",
+                "slug": "detroit-pistons",
+                "shortName": "Pistons",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 21644,
+                "nameCode": "DET",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3424,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#006bb6",
+                    "secondary": "#ed174c",
+                    "text": "#ed174c"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062f\u064a\u062a\u0631\u0648\u064a\u062a \u067e\u064a\u0633\u062a\u0648\u0646\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Indiana Pacers",
+                "slug": "indiana-pacers",
+                "shortName": "Pacers",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 29708,
+                "nameCode": "IND",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3419,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#00275d",
+                    "secondary": "#ffc633",
+                    "text": "#ffc633"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0627\u064a\u0646\u062f\u064a\u0627\u0646\u0627 \u067e\u0627\u064a\u0633\u064a\u0631\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 103,
+                "display": 103,
+                "period1": 24,
+                "period2": 28,
+                "period3": 26,
+                "period4": 25,
+                "normaltime": 103
+            },
+            "awayScore": {
+                "current": 122,
+                "display": 122,
+                "period1": 29,
+                "period2": 34,
+                "period3": 35,
+                "period4": 24,
+                "normaltime": 122
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710984018
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1710984043
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549971,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710975600,
+            "slug": "detroit-pistons-indiana-pacers",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "HtbsKtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 2,
+            "homeTeam": {
+                "name": "Cleveland Cavaliers",
+                "slug": "cleveland-cavaliers",
+                "shortName": "Cavaliers",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 41659,
+                "nameCode": "CLE",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3432,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#871539",
+                    "secondary": "#000000",
+                    "text": "#000000"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0643\u0644\u064a\u06a2\u0644\u0627\u0646\u062f \u0643\u0627\u06a2\u0627\u0644\u064a\u064a\u0631\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Miami Heat",
+                "slug": "miami-heat",
+                "shortName": "Heat",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 80444,
+                "nameCode": "MIA",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3435,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#98002e",
+                    "secondary": "#000000",
+                    "text": "#000000"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0645\u064a\u0627\u0645\u064a \u0647\u064a\u062a"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 104,
+                "display": 104,
+                "period1": 30,
+                "period2": 27,
+                "period3": 18,
+                "period4": 29,
+                "normaltime": 104
+            },
+            "awayScore": {
+                "current": 107,
+                "display": 107,
+                "period1": 31,
+                "period2": 30,
+                "period3": 22,
+                "period4": 24,
+                "normaltime": 107
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710984312
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1710984343
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549063,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710975600,
+            "slug": "miami-heat-cleveland-cavaliers",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "ntbsItb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 2,
+            "homeTeam": {
+                "name": "Toronto Raptors",
+                "slug": "toronto-raptors",
+                "shortName": "Raptors",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 36543,
+                "nameCode": "TOR",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3433,
+                "country": {
+                    "alpha2": "CA",
+                    "name": "Canada"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#ce1141",
+                    "secondary": "#000000",
+                    "text": "#000000"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u0648\u0631\u0648\u0646\u062a\u0648 \u0631\u0627\u067e\u062a\u0648\u0631\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Sacramento Kings",
+                "slug": "sacramento-kings",
+                "shortName": "Kings",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 31840,
+                "nameCode": "SAC",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3413,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#724c9f",
+                    "secondary": "#8e9090",
+                    "text": "#8e9090"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0633\u0627\u0643\u0631\u0627\u0645\u064a\u0646\u062a\u0648 \u0643\u064a\u0646\u063a\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 89,
+                "display": 89,
+                "period1": 27,
+                "period2": 18,
+                "period3": 20,
+                "period4": 24,
+                "normaltime": 89
+            },
+            "awayScore": {
+                "current": 123,
+                "display": 123,
+                "period1": 32,
+                "period2": 36,
+                "period3": 31,
+                "period4": 24,
+                "normaltime": 123
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710985676
+            },
+            "changes": {
+                "changes": [
+                    "time.currentPeriodStart",
+                    "status.code",
+                    "status.description",
+                    "status.type",
+                    "homeScore.normaltime",
+                    "awayScore.normaltime"
+                ],
+                "changeTimestamp": 1710985683
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549065,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710977400,
+            "slug": "toronto-raptors-sacramento-kings",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "ktbsxtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "Boston Celtics",
+                "slug": "boston-celtics",
+                "shortName": "Celtics",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 133279,
+                "nameCode": "BOS",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3422,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#008348",
+                    "secondary": "#ffffff",
+                    "text": "#ffffff"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0648\u0633\u0637\u0646 \u0633\u064a\u0644\u062a\u064a\u0643\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Milwaukee Bucks",
+                "slug": "milwaukee-bucks",
+                "shortName": "Bucks",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 105057,
+                "nameCode": "MIL",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3410,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#00471b",
+                    "secondary": "#eee1c6",
+                    "text": "#eee1c6"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0645\u064a\u0644\u0648\u0627\u0643\u064a \u0628\u0627\u0643\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 122,
+                "display": 122,
+                "period1": 33,
+                "period2": 36,
+                "period3": 32,
+                "period4": 21,
+                "normaltime": 122
+            },
+            "awayScore": {
+                "current": 119,
+                "display": 119,
+                "period1": 28,
+                "period2": 28,
+                "period3": 27,
+                "period4": 36,
+                "normaltime": 119
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710986903
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1710986930
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549064,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710977400,
+            "slug": "boston-celtics-milwaukee-bucks",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "ttbsJtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "Oklahoma City Thunder",
+                "slug": "oklahoma-city-thunder",
+                "shortName": "Thunder",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 34607,
+                "nameCode": "OKC",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3418,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#3479bc",
+                    "secondary": "#dd4b33",
+                    "text": "#dd4b33"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0627\u0648\u0643\u0644\u0627\u0647\u0648\u0645\u0627 \u0633\u064a\u062a\u064a \u062a\u0627\u0646\u062f\u0631"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Utah Jazz",
+                "slug": "utah-jazz",
+                "shortName": "Jazz",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 28607,
+                "nameCode": "UTA",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3434,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#002b5c",
+                    "secondary": "#f9a01b",
+                    "text": "#f9a01b"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u064a\u0648\u062a\u0627 \u062f\u062c\u0627\u0632"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 119,
+                "display": 119,
+                "period1": 31,
+                "period2": 22,
+                "period3": 29,
+                "period4": 37,
+                "normaltime": 119
+            },
+            "awayScore": {
+                "current": 107,
+                "display": 107,
+                "period1": 25,
+                "period2": 29,
+                "period3": 26,
+                "period4": 27,
+                "normaltime": 107
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710987966
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1710988012
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549066,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710979200,
+            "slug": "utah-jazz-oklahoma-city-thunder",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "otbsAtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 2,
+            "homeTeam": {
+                "name": "Portland Trail Blazers",
+                "slug": "portland-trail-blazers",
+                "shortName": "Trail Blazers",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 25424,
+                "nameCode": "POR",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3414,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#f0163a",
+                    "secondary": "#ffffff",
+                    "text": "#ffffff"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Los Angeles Clippers",
+                "slug": "los-angeles-clippers",
+                "shortName": "Clippers",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 55921,
+                "nameCode": "LAC",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3425,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#006bb6",
+                    "secondary": "#ed174c",
+                    "text": "#ed174c"
+                }
+            },
+            "homeScore": {
+                "current": 103,
+                "display": 103,
+                "period1": 28,
+                "period2": 22,
+                "period3": 20,
+                "period4": 33,
+                "normaltime": 103
+            },
+            "awayScore": {
+                "current": 116,
+                "display": 116,
+                "period1": 27,
+                "period2": 33,
+                "period3": 34,
+                "period4": 22,
+                "normaltime": 116
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710994245
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1710994264
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549068,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710986400,
+            "slug": "los-angeles-clippers-portland-trail-blazers",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "qtbsvtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "Phoenix Suns",
+                "slug": "phoenix-suns",
+                "shortName": "Suns",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 60617,
+                "nameCode": "PHX",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3416,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#e56020",
+                    "secondary": "#1d1160",
+                    "text": "#1d1160"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0641\u0648\u0646\u064a\u0643\u0633 \u0633\u0627\u0646\u0632"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Philadelphia 76ers",
+                "slug": "philadelphia-76ers",
+                "shortName": "76ers",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 66043,
+                "nameCode": "PHI",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3420,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#006bb6",
+                    "secondary": "#ed174c",
+                    "text": "#ed174c"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0641\u064a\u0644\u0627\u062f\u064a\u0644\u0641\u064a\u0627  ERS 76"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 115,
+                "display": 115,
+                "period1": 21,
+                "period2": 39,
+                "period3": 30,
+                "period4": 25,
+                "normaltime": 115
+            },
+            "awayScore": {
+                "current": 102,
+                "display": 102,
+                "period1": 23,
+                "period2": 24,
+                "period3": 19,
+                "period4": 36,
+                "normaltime": 102
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710994503
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1710994564
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549069,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710986400,
+            "slug": "philadelphia-76ers-phoenix-suns",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "ptbsDtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "Golden State Warriors",
+                "slug": "golden-state-warriors",
+                "shortName": "Warriors",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 214216,
+                "nameCode": "GSW",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3428,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#fdb927",
+                    "secondary": "#006bb6",
+                    "text": "#006bb6"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062c\u0648\u0644\u062f\u0646 \u0633\u062a\u0627\u064a\u062a \u0648\u0648\u0631\u064a\u064a\u0631\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Memphis Grizzlies",
+                "slug": "memphis-grizzlies",
+                "shortName": "Grizzlies",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 47333,
+                "nameCode": "MEM",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3415,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#6189b9",
+                    "secondary": "#23375b",
+                    "text": "#23375b"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0645\u064a\u0645\u0641\u064a\u0633 \u062c\u0631\u064a\u0632\u0644\u064a\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 137,
+                "display": 137,
+                "period1": 33,
+                "period2": 35,
+                "period3": 40,
+                "period4": 29,
+                "normaltime": 137
+            },
+            "awayScore": {
+                "current": 116,
+                "display": 116,
+                "period1": 32,
+                "period2": 26,
+                "period3": 32,
+                "period4": 26,
+                "normaltime": 116
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1710995165
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1710995224
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549067,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1710986400,
+            "slug": "golden-state-warriors-memphis-grizzlies",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "MtbsOkc",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "Orlando Magic",
+                "slug": "orlando-magic",
+                "shortName": "Magic",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 25284,
+                "nameCode": "ORL",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3437,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#007dc5",
+                    "secondary": "#c4ced3",
+                    "text": "#c4ced3"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0627\u0648\u0631\u0644\u0627\u0646\u062f\u0648 \u0645\u0627\u062c\u064a\u0643"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "New Orleans Pelicans",
+                "slug": "new-orleans-pelicans",
+                "shortName": "Pelicans",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 26787,
+                "nameCode": "NOP",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 5539,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#002b5c",
+                    "secondary": "#b4975a",
+                    "text": "#b4975a"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0646\u064a\u0648 \u0623\u0648\u0631\u0644\u064a\u0627\u0646\u0632 \u067e\u064a\u0644\u064a\u0643\u0627\u0646\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 121,
+                "display": 121,
+                "period1": 23,
+                "period2": 34,
+                "period3": 38,
+                "period4": 26,
+                "normaltime": 121
+            },
+            "awayScore": {
+                "current": 106,
+                "display": 106,
+                "period1": 28,
+                "period2": 20,
+                "period3": 27,
+                "period4": 31,
+                "normaltime": 106
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1711070381
+            },
+            "changes": {
+                "changes": [
+                    "status.code",
+                    "status.description",
+                    "status.type",
+                    "homeScore.normaltime",
+                    "awayScore.normaltime",
+                    "time.currentPeriodStart",
+                    "time.played"
+                ],
+                "changeTimestamp": 1711070383
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549070,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1711062000,
+            "slug": "new-orleans-pelicans-orlando-magic",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "ntbsGtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "Washington Wizards",
+                "slug": "washington-wizards",
+                "shortName": "Wizards",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 22617,
+                "nameCode": "WAS",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3431,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#f5002f",
+                    "secondary": "#002566",
+                    "text": "#002566"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0648\u0627\u0634\u0646\u0637\u0646 \u0648\u064a\u0632\u0627\u0631\u062f\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Sacramento Kings",
+                "slug": "sacramento-kings",
+                "shortName": "Kings",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 31840,
+                "nameCode": "SAC",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3413,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#724c9f",
+                    "secondary": "#8e9090",
+                    "text": "#8e9090"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0633\u0627\u0643\u0631\u0627\u0645\u064a\u0646\u062a\u0648 \u0643\u064a\u0646\u063a\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 109,
+                "display": 109,
+                "period1": 35,
+                "period2": 21,
+                "period3": 28,
+                "period4": 25,
+                "normaltime": 109
+            },
+            "awayScore": {
+                "current": 102,
+                "display": 102,
+                "period1": 27,
+                "period2": 27,
+                "period3": 22,
+                "period4": 26,
+                "normaltime": 102
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1711070636
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1711070983
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549071,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1711062000,
+            "slug": "washington-wizards-sacramento-kings",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "jtbsmtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "Houston Rockets",
+                "slug": "houston-rockets",
+                "shortName": "Rockets",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 32084,
+                "nameCode": "HOU",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3412,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#ffffff",
+                    "secondary": "#ce1141",
+                    "text": "#ce1141"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0647\u064a\u0648\u0633\u062a\u0648\u0646 \u0631\u0648\u0643\u062a\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Chicago Bulls",
+                "slug": "chicago-bulls",
+                "shortName": "Bulls",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 57540,
+                "nameCode": "CHI",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3409,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#ce1141",
+                    "secondary": "#000000",
+                    "text": "#000000"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0634\u064a\u0643\u0627\u063a\u0648 \u0628\u0648\u0644\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 127,
+                "display": 127,
+                "period1": 42,
+                "period2": 26,
+                "period3": 37,
+                "period4": 22,
+                "normaltime": 127
+            },
+            "awayScore": {
+                "current": 117,
+                "display": 117,
+                "period1": 28,
+                "period2": 33,
+                "period3": 33,
+                "period4": 23,
+                "normaltime": 117
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1711074640
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1711074666
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549074,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1711065600,
+            "slug": "houston-rockets-chicago-bulls",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "ktbsLtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "Milwaukee Bucks",
+                "slug": "milwaukee-bucks",
+                "shortName": "Bucks",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 105057,
+                "nameCode": "MIL",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3410,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#00471b",
+                    "secondary": "#eee1c6",
+                    "text": "#eee1c6"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0645\u064a\u0644\u0648\u0627\u0643\u064a \u0628\u0627\u0643\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Brooklyn Nets",
+                "slug": "brooklyn-nets",
+                "shortName": "Nets",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 56218,
+                "nameCode": "BKN",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3436,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#ffffff",
+                    "secondary": "#000000",
+                    "text": "#000000"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u0631\u0648\u0643\u0644\u064a\u0646 \u0646\u064a\u062a\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 115,
+                "display": 115,
+                "period1": 26,
+                "period2": 34,
+                "period3": 21,
+                "period4": 34,
+                "normaltime": 115
+            },
+            "awayScore": {
+                "current": 108,
+                "display": 108,
+                "period1": 19,
+                "period2": 25,
+                "period3": 25,
+                "period4": 39,
+                "normaltime": 108
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1711074449
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1711074484
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549072,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1711065600,
+            "slug": "brooklyn-nets-milwaukee-bucks",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "ltbsJtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "Dallas Mavericks",
+                "slug": "dallas-mavericks",
+                "shortName": "Mavericks",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 78701,
+                "nameCode": "DAL",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3411,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#007dc5",
+                    "secondary": "#20385b",
+                    "text": "#20385b"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062f\u0627\u0644\u0627\u0633 \u0645\u0627\u06a2\u0631\u064a\u0643\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Utah Jazz",
+                "slug": "utah-jazz",
+                "shortName": "Jazz",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 28607,
+                "nameCode": "UTA",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3434,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#002b5c",
+                    "secondary": "#f9a01b",
+                    "text": "#f9a01b"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u064a\u0648\u062a\u0627 \u062f\u062c\u0627\u0632"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 113,
+                "display": 113,
+                "period1": 26,
+                "period2": 27,
+                "period3": 30,
+                "period4": 30,
+                "normaltime": 113
+            },
+            "awayScore": {
+                "current": 97,
+                "display": 97,
+                "period1": 27,
+                "period2": 15,
+                "period3": 31,
+                "period4": 24,
+                "normaltime": 97
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1711076387
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1711076418
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549073,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1711067400,
+            "slug": "utah-jazz-dallas-mavericks",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "rtbswtb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "Denver Nuggets",
+                "slug": "denver-nuggets",
+                "shortName": "Nuggets",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 83360,
+                "nameCode": "DEN",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3417,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#4fa8ff",
+                    "secondary": "#f3bb4b",
+                    "text": "#f3bb4b"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062f\u0646\u06a2\u0631 \u0646\u0627\u062c\u064a\u062a\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "New York Knicks",
+                "slug": "new-york-knicks",
+                "shortName": "Knicks",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 38048,
+                "nameCode": "NYK",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3421,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#006bb6",
+                    "secondary": "#f58426",
+                    "text": "#f58426"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0646\u064a\u0648\u064a\u0648\u0631\u0643 \u0646\u064a\u0643\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 113,
+                "display": 113,
+                "period1": 32,
+                "period2": 29,
+                "period3": 27,
+                "period4": 25,
+                "normaltime": 113
+            },
+            "awayScore": {
+                "current": 100,
+                "display": 100,
+                "period1": 30,
+                "period2": 26,
+                "period3": 20,
+                "period4": 24,
+                "normaltime": 100
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1711077855
+            },
+            "changes": {
+                "changes": [
+                    "time.played",
+                    "time.currentPeriodStart",
+                    "status.code",
+                    "status.description",
+                    "status.type",
+                    "homeScore.normaltime",
+                    "awayScore.normaltime"
+                ],
+                "changeTimestamp": 1711077864
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549075,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1711069200,
+            "slug": "new-york-knicks-denver-nuggets",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        },
+        {
+            "tournament": {
+                "name": "NBA",
+                "slug": "nba",
+                "category": {
+                    "name": "USA",
+                    "slug": "usa",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "id": 15,
+                    "country": {
+                        "alpha2": "US",
+                        "name": "USA"
+                    },
+                    "flag": "usa",
+                    "alpha2": "US"
+                },
+                "uniqueTournament": {
+                    "name": "NBA",
+                    "slug": "nba",
+                    "primaryColorHex": "#045daf",
+                    "secondaryColorHex": "#cc2b31",
+                    "category": {
+                        "name": "USA",
+                        "slug": "usa",
+                        "sport": {
+                            "name": "Basketball",
+                            "slug": "basketball",
+                            "id": 2
+                        },
+                        "id": 15,
+                        "country": {
+                            "alpha2": "US",
+                            "name": "USA"
+                        },
+                        "flag": "usa",
+                        "alpha2": "US"
+                    },
+                    "userCount": 283474,
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "id": 132,
+                    "country": {},
+                    "hasEventPlayerStatistics": false,
+                    "hasBoxScore": true,
+                    "displayInverseHomeAwayTeams": true
+                },
+                "priority": 142,
+                "isLive": false,
+                "id": 177
+            },
+            "season": {
+                "name": "NBA 23\/24",
+                "year": "23\/24",
+                "editor": false,
+                "id": 54105
+            },
+            "customId": "qtbsytb",
+            "status": {
+                "code": 100,
+                "description": "Ended",
+                "type": "finished"
+            },
+            "winnerCode": 1,
+            "homeTeam": {
+                "name": "Phoenix Suns",
+                "slug": "phoenix-suns",
+                "shortName": "Suns",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 60617,
+                "nameCode": "PHX",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3416,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#e56020",
+                    "secondary": "#1d1160",
+                    "text": "#1d1160"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0641\u0648\u0646\u064a\u0643\u0633 \u0633\u0627\u0646\u0632"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Atlanta Hawks",
+                "slug": "atlanta-hawks",
+                "shortName": "Hawks",
+                "gender": "M",
+                "sport": {
+                    "name": "Basketball",
+                    "slug": "basketball",
+                    "id": 2
+                },
+                "userCount": 37159,
+                "nameCode": "ATL",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3423,
+                "country": {
+                    "alpha2": "US",
+                    "name": "USA"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#e03a3e",
+                    "secondary": "#ffffff",
+                    "text": "#ffffff"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0627\u0637\u0644\u0646\u0637\u0627 \u0647\u0627\u0648\u0643\u0633"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 128,
+                "display": 128,
+                "period1": 30,
+                "period2": 35,
+                "period3": 31,
+                "period4": 32,
+                "normaltime": 128
+            },
+            "awayScore": {
+                "current": 115,
+                "display": 115,
+                "period1": 37,
+                "period2": 23,
+                "period3": 33,
+                "period4": 22,
+                "normaltime": 115
+            },
+            "time": {
+                "played": 720,
+                "periodLength": 720,
+                "overtimeLength": 300,
+                "totalPeriodCount": 4,
+                "currentPeriodStartTimestamp": 1711083666
+            },
+            "changes": {
+                "changes": [
+                    "time.played"
+                ],
+                "changeTimestamp": 1711083705
+            },
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 11549076,
+            "periods": {
+                "current": "Score",
+                "period1": "1st quarter",
+                "period2": "2nd quarter",
+                "period3": "3rd quarter",
+                "period4": "4th quarter",
+                "overtime": "Overtime"
+            },
+            "startTimestamp": 1711074600,
+            "slug": "atlanta-hawks-phoenix-suns",
+            "finalResultOnly": false,
+            "isEditor": false,
+            "crowdsourcingEnabled": false
+        }
+    ],
+    "hasNextPage": true
+}

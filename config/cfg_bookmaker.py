@@ -26,4 +26,10 @@ def cfg_url_iforbet(eventId):
 ###
 
 # sofascore
-url_sofa_matches = 'https://api.sofascore.com/api/v1/unique-tournament/132/season/54105/events/next/0'
+url_sofa_upcoming_matches = 'https://api.sofascore.com/api/v1/unique-tournament/132/season/54105/events/next/0'
+
+def url_sofa_finished_matches(i):
+    return f'https://api.sofascore.com/api/v1/unique-tournament/132/season/54105/events/last/{i}'
+
+def url_sofa_matchpage(eventId):
+    return f"https://api.sofascore.com/api/v1/event/{eventId}/lineups"
