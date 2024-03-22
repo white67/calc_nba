@@ -1,10 +1,12 @@
 import sys
+import random
 sys.path.append('')
 import requests
 import json
 from datetime import datetime, timedelta, timezone
 
-cfg_hour_prior = 22
+API_TIMEOUT = 2 # seconds
+CFG_HOUR_PRIOR = 22
 api_headers_sofa = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'}
 
 class bet:
@@ -19,7 +21,6 @@ class bet:
         self.eventId = eventId,
         self.datetime = datetime,
         self.scrape_time = scrape_time
-
 
 
 # read json file
@@ -39,10 +40,17 @@ def save_json_response(json_file, response):
         
 def correct_date_timestamp(input_date):
     # Parse the input date string
-    input_date = str(input_date)
+    input_date = str(datetime.fromtimestamp(input_date, timezone.utc))
     parsed_date = datetime.strptime(input_date, "%Y-%m-%d %H:%M:%S%z")
     
+    # needs to convert data 1 hour later, because of the source date being different with UTC +1 / Central European Time (CET)
+    new_datetime = parsed_date + timedelta(hours=1)
+    print(new_datetime)
+    
     # Format the date according to the desired format
-    formatted_date = parsed_date.strftime("%Y/%m/%d %H:%M:%S")
+    formatted_date = new_datetime.strftime("%Y/%m/%d %H:%M:%S")
     
     return formatted_date
+
+def sleep_random(time):
+    return random.randint(time*88, time*112)/100

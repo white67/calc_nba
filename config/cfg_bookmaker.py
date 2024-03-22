@@ -33,3 +33,6 @@ def url_sofa_finished_matches(i):
 
 def url_sofa_matchpage(eventId):
     return f"https://api.sofascore.com/api/v1/event/{eventId}/lineups"
+
+def url_sofa_playerpage(slug_name, player_id):
+    return f"https://www.sofascore.com/player/{slug_name}/{player_id}"

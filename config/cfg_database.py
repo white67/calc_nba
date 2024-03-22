@@ -9,3 +9,8 @@ MATCHES_TEAM2_SCORE = "team2_score"
 MATCHES_MATCH_DATE = "match_date"
 MATCHES_STADIUM = "stadium"
 MATCHES_STADIUM_LOCATION = "stadium_location"
+
+STATS = "stats"
+STATS_PLAYER_NAME = "player_name"
+STATS_PLAYER_ID = "player_id"
+STATS_MATCH_ID = "match_id"

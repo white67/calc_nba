@@ -11,7 +11,8 @@
             "driver": "MySQL",
             "name": "nba2024",
             "database": "nba2024",
-            "username": "root"
+            "username": "root",
+            "askForPassword": true
         }
     ]
 }
