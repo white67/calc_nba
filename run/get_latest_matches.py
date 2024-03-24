@@ -26,6 +26,8 @@ def get_latest_events():
 
     # loop thru latest matches until error code, and save those that has not been entered in database yet
     counter = 0
+    counter_already_exist = 0
+    counter_already_exist_max = 40
     
     # test
     for i in range(0,100):
@@ -50,6 +52,13 @@ def get_latest_events():
             response = response.json()
 
             for match in response["events"]:
+                
+                if counter_already_exist >= counter_already_exist_max:
+                    print("\n\n##### Assuming next entries are already scraped, exit...")
+                    # Close the cursor and connection
+                    mycursor.close()
+                    db.close()
+                    return 1
                 
                 print(f"{match['homeTeam']['name']} vs {match['awayTeam']['name']}")
                 
@@ -77,6 +86,7 @@ def get_latest_events():
                     add_match_to_database(db, mycursor, teams[0], teams[1], sofascore_matchpage_url, scraped, team1_score, team2_score, match_date)
                 else:
                     print(f"{counter+1}.Entry already exist ({sofascore_matchpage_url}, {match_date})")
+                    counter_already_exist += 1
                 
                 # scrape match_page data -> save to stats table
                 eventId = match["id"]
@@ -97,6 +107,7 @@ def get_latest_events():
     # Close the cursor and connection
     mycursor.close()
     db.close()
+
 
 # match_id, team1, team2, sofascore_link, scraped, team1_score, team2_score, match_date
 def add_match_to_database(db, mycursor, team1, team2, sofascore_link, scraped, team1_score, team2_score, match_date):
@@ -384,9 +395,3 @@ def save_all_stats(db, cursor, url_api, teams, match_date):
 
 if __name__ == "__main__":
     get_latest_events()
-
-# maybe colorful output in terminal?
-
-# if every match in single list (containing like 30 matches) is already scraped in stats, dont call save_all_stats function and skip, exit the loops and end
-
-# put all database insertion functions to one file

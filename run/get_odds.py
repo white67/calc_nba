@@ -46,6 +46,7 @@ def get_new_events(cfg_hour_prior):
         
             # Check if the start time is less than ~24 hours from now
             time_difference = new_datetime - time_now
+            
             if timedelta(hours=0) <= time_difference <= timedelta(hours=cfg_hour_prior):
                 print(f"{match['homeTeam']['name']} vs {match['awayTeam']['name']}")
                 counter += 1
