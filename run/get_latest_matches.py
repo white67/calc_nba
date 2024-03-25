@@ -108,183 +108,6 @@ def get_latest_events():
     mycursor.close()
     db.close()
 
-
-# match_id, team1, team2, sofascore_link, scraped, team1_score, team2_score, match_date
-def add_match_to_database(db, mycursor, team1, team2, sofascore_link, scraped, team1_score, team2_score, match_date):
-    try:
-        mycursor.execute("""INSERT INTO matches (
-            team1,
-            team2,
-            sofascore_link,
-            scraped,
-            team1_score,
-            team2_score,
-            match_date
-        ) VALUES (
-            %s, %s, %s, %s, %s, %s, %s
-        );
-        """, (team1, team2, sofascore_link, scraped, team1_score, team2_score, match_date))
-        db.commit()  # Commit the transaction
-        print("Insertion successful!")
-    except mysql.connector.Error as err:
-        print("Error:", err)
-        db.rollback()  # Rollback the transaction if an error occurs
-    
-
-def get_player_id(cursor, player_name, sofascore_link):
-    # Execute a SELECT query to retrieve the player_id based on the player_name
-    query = "SELECT player_id FROM players WHERE player_name = %s and sofascore_link = %s"
-    cursor.execute(query, (player_name, sofascore_link))
-    
-    # Fetch the result
-    result = cursor.fetchone()
-    
-    # Check if a row was fetched
-    if result:
-        return result[0]  # Return the player_id
-    else:
-        return None  # Return None if player_name doesn't exist in the players table
-
-
-def get_match_id(cursor, teams, match_date):
-    # Execute a SELECT query to retrieve the match_id based on the player_name
-    query = "SELECT match_id FROM matches WHERE team1 = %s and team2 = %s and match_date = %s"
-    cursor.execute(query, (teams[0], teams[1], match_date))
-    
-    # Fetch the result
-    result = cursor.fetchone()
-    
-    # Check if a row was fetched
-    if result:
-        return result[0]  # Return the match_id
-    else:
-        return None  # Return None if player_name doesn't exist in the players table
-
-
-# inserting into stats
-def add_stats_to_database(db, cursor,
-    player_id,
-    match_id,
-    player_name,
-    team,
-    teams,
-    match_date,
-    points,
-    rebounds,
-    assists,
-    minutes_played,
-    position,
-    free_throws_attempts,
-    free_throws_success,
-    two_pointers_attempts,
-    two_pointers_success,
-    three_pointers_attempts,
-    three_pointers_success,
-    field_goals_attempts,
-    field_goals_success,
-    rebounds_defensive,
-    rebounds_offensive,
-    turnovers,
-    steals,
-    blocks,
-    personal_fouls):
-
-    try:
-        cursor.execute("""INSERT INTO stats (
-            player_id,
-            match_id,
-            player_name,
-            team,
-            points,
-            rebounds,
-            assists,
-            minutes_played,
-            position,
-            free_throws_attempts,
-            free_throws_success,
-            two_pointers_attempts,
-            two_pointers_success,
-            three_pointers_attempts,
-            three_pointers_success,
-            field_goals_attempts,
-            field_goals_success,
-            rebounds_defensive,
-            rebounds_offensive,
-            turnovers,
-            steals,
-            blocks,
-            personal_fouls
-        ) VALUES (
-            %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
-        );
-        """, (player_id,
-        match_id,
-        player_name,
-        team,
-        points,
-        rebounds,
-        assists,
-        minutes_played,
-        position,
-        free_throws_attempts,
-        free_throws_success,
-        two_pointers_attempts,
-        two_pointers_success,
-        three_pointers_attempts,
-        three_pointers_success,
-        field_goals_attempts,
-        field_goals_success,
-        rebounds_defensive,
-        rebounds_offensive,
-        turnovers,
-        steals,
-        blocks,
-        personal_fouls))
-        db.commit()  # Commit the transaction
-        print("Insertion successful!")
-    except mysql.connector.Error as err:
-        print("Error:", err)
-        db.rollback()  # Rollback the transaction if an error occurs
-
-
-# function to check if entry in database (in single table) already exists
-def check_duplicate(cursor, table_name, columns, data):
-    # Construct the WHERE clause dynamically based on the columns provided
-    where_clause = " AND ".join(f"{column} = %s" for column in columns)
-    
-    # Construct the SELECT query
-    query = f"SELECT * FROM {table_name} WHERE {where_clause}"
-    
-    print(f"query: {query}")
-    
-    # Execute the query with the provided data
-    cursor.execute(query, data)
-    
-    # Fetch the results
-    result = cursor.fetchone()
-    
-    # Check if any row was fetched (meaning there's already a duplicate entry)
-    return False if result == None else True
-
-
-def add_player_to_database(db, cursor, player_name, sofascore_link, team, birth_date):
-    try:
-        cursor.execute("""INSERT INTO players (
-            player_name,
-            sofascore_link,
-            team,
-            birth_date
-        ) VALUES (
-            %s, %s, %s, %s
-        );
-        """, (player_name, sofascore_link, team, birth_date))
-        db.commit()  # Commit the transaction
-        print("Insertion successful!")
-    except mysql.connector.Error as err:
-        print("Error:", err)
-        db.rollback()  # Rollback the transaction if an error occurs
-    
-
 def save_all_stats(db, cursor, url_api, teams, match_date):
     # sleeping before requests
     time.sleep(sleep_random(API_TIMEOUT))
@@ -305,14 +128,14 @@ def save_all_stats(db, cursor, url_api, teams, match_date):
                 sofascore_link = url_sofa_playerpage(player["player"]["slug"], player["player"]["id"])
                 
                 # check if entry already exists based on 3 variables
-                player_id = get_player_id(cursor, name, sofascore_link)
+                player_id = get_player_id(cursor, [PLAYERS_PLAYER_NAME, PLAYERS_SOFASCORE_LINK], [name, sofascore_link])
                 # what if player doesn't exist in database
                 if player_id == None:
                     # add a player to database
                     birth_date = correct_date_timestamp(player["player"]["dateOfBirthTimestamp"])
                     add_player_to_database(db, cursor, name, sofascore_link, team, birth_date)
                 
-                    player_id = get_player_id(cursor, name, sofascore_link)
+                    player_id = get_player_id(cursor, [PLAYERS_PLAYER_NAME, PLAYERS_SOFASCORE_LINK], [name, sofascore_link])
                     
                     
                 match_id = get_match_id(cursor, teams, match_date)
@@ -364,8 +187,6 @@ def save_all_stats(db, cursor, url_api, teams, match_date):
                     match_id,
                     name,
                     team,
-                    teams,
-                    match_date,
                     points,
                     rebounds,
                     assists,
@@ -391,7 +212,6 @@ def save_all_stats(db, cursor, url_api, teams, match_date):
         return 1
     else:
         print("Request failed with status code:", response.status_code)
-
 
 if __name__ == "__main__":
     get_latest_events()

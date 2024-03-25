@@ -1,6 +1,23 @@
 # superbet
+def cfg_url_superbet_upcoming(start_date, end_date):
+    return f'https://production-superbet-offer-pl.freetls.fastly.net/v2/pl-PL/events/by-date?offerState=prematch&startDate={start_date}&endDate={end_date}'
+    # start_date ~ 2024-03-25+17:23:00
+    # start_date ~ 2025-03-26+08:00:00
+
+sportId_superbet = 4
+tournamentId_superbet = 164
+    
 def cfg_url_superbet(eventId):
     return f'https://production-superbet-offer-pl.freetls.fastly.net/v2/pl-PL/events/{eventId}?matchIds={eventId}'
+
+def check_player_refers_superbet(specifiers, number):
+    # Check if any key starts with "player"
+    players_count = sum(1 for key in specifiers if key.startswith('player'))
+    
+    if number == "single":
+        return players_count == 1
+    if number == "multiple":
+        return players_count > 1
 
 # betclic
 def cfg_url_betclic(eventId, categorizationId):

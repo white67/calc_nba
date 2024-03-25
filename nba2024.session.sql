@@ -15,17 +15,39 @@ SELECT *
 FROM stats
 where match_id is null;
 
--- @block odds
-create table odds (
+-- @block bets
+create table bets (
     bet_id int not null auto_increment primary key,
+    bet_name varchar(255),
+    outcome varchar(255),
+    odds_value DECIMAL(10, 2),
+    player_id int,
     match_id int,
     refers_single_player boolean,
     refers_multiple_players boolean,
-    player_id int,
-    bet_name varchar(255),
-    bet_outcome varchar(255),
-    odd_value DECIMAL(10, 2),
     active_status boolean,
-
-
+    bet_full_info text,
+    foreign key (player_id) references players(player_id),
+    foreign key (match_id) references matches(match_id)
 );
+
+-- @block xdd
+ALTER TABLE bets
+ADD bet_full_info text;
+
+-- @block deleting
+drop table bets_assigned;
+drop table bets;
+
+-- @block new
+CREATE TABLE bets_assigned (
+    bet_id INT,
+    player_id INT,
+    FOREIGN KEY (bet_id) REFERENCES bets(bet_id),
+    FOREIGN KEY (player_id) REFERENCES players(player_id)
+);
+
+-- @block drop
+drop table matches_backup;
+drop table players_backup;
+drop table stats_backup;
