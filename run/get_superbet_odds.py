@@ -13,23 +13,16 @@ import mysql.connector
 ###
 
 # retrieve json file from API and save it to json file
-def get_superbet_bets():
+def get_superbet_odds():
+    bookmaker = "superbet"
     
     # make connection
-    db = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        passwd="mansionmusik1400",
-        database="nba2024"
-    )
-    
-    # set buffer
-    mycursor = db.cursor(buffered=True)
+    db, mycursor = db_connect()
     
     time.sleep(sleep_random(API_TIMEOUT))
     
-    # now we need to look for specific day matches, so take input
-    date_str = input("Specify date of upcoming matches (YYYY-MM-DD): ")
+    # now we need to look for specific day matches, so take input from config file
+    date_str = EVENTS_DATE
     date = datetime.strptime(date_str, '%Y-%m-%d')
     start_date = date + timedelta(hours=15)
     end_date = start_date + timedelta(days=1)
@@ -37,7 +30,7 @@ def get_superbet_bets():
     end_date_str = end_date.strftime('%Y-%m-%d %H:%M:%S')
     
     # get request
-    response = requests.get(cfg_url_superbet_upcoming(start_date_str, end_date_str), headers=api_headers_sofa)
+    response = requests.get(cfg_url_superbet_upcoming(start_date_str, end_date_str), headers=api_headers_common)
 
 
     # check api status code
@@ -56,11 +49,11 @@ def get_superbet_bets():
                 eventsId_of_upcoming_matches.append(match["eventId"])
         
         # having all events id, we can go and call some APIs
-        counter = len(eventsId_of_upcoming_matches)
+        counter = 1
         for event in eventsId_of_upcoming_matches:
             
             print(f"{counter}. Getting response for {event}...")
-            response = requests.get(cfg_url_superbet(event), headers=api_headers_sofa)
+            response = requests.get(cfg_url_superbet(event), headers=api_headers_common)
             
             if response.status_code == 200:
                 print("Code: 200")
@@ -141,7 +134,7 @@ def get_superbet_bets():
                     # test
                     
                     # save bet info in database
-                    add_bets_to_database(db, mycursor, bet_name, bet_outcome, bet_odds, bet_full_info, player_id, match_id, refers_single_player, refers_multiple_players, active_status)
+                    add_bets_to_database(db, mycursor, bet_name, bet_outcome, bet_odds, bet_full_info, player_id, match_id, refers_single_player, refers_multiple_players, active_status, bookmaker)
                     
                     # get bet_id to add connections
                     bet_id = get_bet_id(mycursor, [BETS_NAME, BETS_OUTCOME, BETS_FULL_INFO, BETS_ODDS], [bet_name, bet_outcome, bet_full_info, bet_odds])
@@ -162,6 +155,7 @@ def get_superbet_bets():
                             if player_id != None:
                                 # add to database
                                 add_bets_connection(db, mycursor, bet_id, player_id)
+            counter += 1
                         
                     
     elif response.status_code == 404:
@@ -176,4 +170,4 @@ def get_superbet_bets():
 
 
 if __name__ == "__main__":
-    get_superbet_bets()
+    get_superbet_odds()

@@ -26,6 +26,20 @@ BETS_OUTCOME = "outcome"
 BETS_FULL_INFO = "bet_full_info"
 BETS_ODDS = "odds_value"
 
+# connect with database
+def db_connect():
+    db = mysql.connector.connect(
+        host="localhost",
+        user="root",
+        passwd="mansionmusik1400",
+        database="nba2024"
+    )
+    
+    # set buffer
+    mycursor = db.cursor(buffered=True)
+    
+    return db, mycursor
+
 # match_id, team1, team2, sofascore_link, scraped, team1_score, team2_score, match_date
 def add_match_to_database(db, mycursor, team1, team2, sofascore_link, scraped, team1_score, team2_score, match_date):
     try:
@@ -150,7 +164,7 @@ def add_player_to_database(db, cursor, player_name, sofascore_link, team, birth_
         print("Error:", err)
         db.rollback()  # Rollback the transaction if an error occurs
 
-def add_bets_to_database(db, cursor, bet_name, outcome, odds_value, bet_full_info, player_id, match_id, refers_single_player, refers_multiple_players, active_status):
+def add_bets_to_database(db, cursor, bet_name, outcome, odds_value, bet_full_info, player_id, match_id, refers_single_player, refers_multiple_players, active_status, bookmaker):
     try:
         cursor.execute("""INSERT INTO bets (
             bet_name,
@@ -161,11 +175,12 @@ def add_bets_to_database(db, cursor, bet_name, outcome, odds_value, bet_full_inf
             match_id,
             refers_single_player,
             refers_multiple_players,
-            active_status
+            active_status,
+            bookmaker
         ) VALUES (
-            %s, %s, %s, %s, %s, %s, %s, %s, %s
+            %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
         );
-        """, (bet_name, outcome, odds_value, bet_full_info, player_id, match_id, refers_single_player, refers_multiple_players, active_status))
+        """, (bet_name, outcome, odds_value, bet_full_info, player_id, match_id, refers_single_player, refers_multiple_players, active_status, bookmaker))
         
         db.commit()  # Commit the transaction
         print("[bets] Insertion successful!")

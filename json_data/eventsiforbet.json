@@ -1,0 +1,4463 @@
+{
+    "code": 200,
+    "description": "OK.",
+    "data": [
+        {
+            "eventId": 40310971,
+            "remoteId": 43067323,
+            "eventName": "Milwaukee Bucks - Los Angeles Lakers",
+            "eventStart": 1711495800000,
+            "eventType": 1,
+            "category3Id": 29903,
+            "category2Id": 236,
+            "category1Id": 2,
+            "category3Name": "NBA",
+            "category2Name": "USA",
+            "category1Name": "Koszykówka",
+            "eventCodeId": 3980,
+            "gamesCount": 115,
+            "outcomesCount": null,
+            "treatAsSport": 2,
+            "category3AggregatedId": null,
+            "eventGames": [
+                {
+                    "gameId": 1321638531,
+                    "gameName": "Zwycięzca (z dogrywką)",
+                    "gameType": -2527,
+                    "gameCode": 162712,
+                    "argument": 0.0,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271643390,
+                            "outcomeName": "Milwaukee Bucks",
+                            "outcomeOdds": 1.24,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271643392,
+                            "outcomeName": "Los Angeles Lakers",
+                            "outcomeOdds": 4.1,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321638530,
+                    "gameName": "poniżej/powyżej 232.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 162732,
+                    "argument": 232.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271643391,
+                            "outcomeName": "poniżej 232.5",
+                            "outcomeOdds": 1.85,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271643393,
+                            "outcomeName": "powyżej 232.5",
+                            "outcomeOdds": 1.89,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321638674,
+                    "gameName": "poniżej/powyżej 233.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 162733,
+                    "argument": 233.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271644373,
+                            "outcomeName": "poniżej 233.5",
+                            "outcomeOdds": 1.77,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271644435,
+                            "outcomeName": "powyżej 233.5",
+                            "outcomeOdds": 1.98,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321638675,
+                    "gameName": "poniżej/powyżej 227.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 162734,
+                    "argument": 227.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271644428,
+                            "outcomeName": "poniżej 227.5",
+                            "outcomeOdds": 2.33,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271644513,
+                            "outcomeName": "powyżej 227.5",
+                            "outcomeOdds": 1.56,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321638677,
+                    "gameName": "poniżej/powyżej 231.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 162737,
+                    "argument": 231.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271644390,
+                            "outcomeName": "poniżej 231.5",
+                            "outcomeOdds": 1.93,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271644468,
+                            "outcomeName": "powyżej 231.5",
+                            "outcomeOdds": 1.81,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321638679,
+                    "gameName": "poniżej/powyżej 230.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 162738,
+                    "argument": 230.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271644395,
+                            "outcomeName": "poniżej 230.5",
+                            "outcomeOdds": 2.02,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271644480,
+                            "outcomeName": "powyżej 230.5",
+                            "outcomeOdds": 1.74,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321638680,
+                    "gameName": "poniżej/powyżej 236.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 162739,
+                    "argument": 236.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271644397,
+                            "outcomeName": "poniżej 236.5",
+                            "outcomeOdds": 1.59,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271644464,
+                            "outcomeName": "powyżej 236.5",
+                            "outcomeOdds": 2.27,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321638682,
+                    "gameName": "poniżej/powyżej 235.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 162740,
+                    "argument": 235.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271644388,
+                            "outcomeName": "poniżej 235.5",
+                            "outcomeOdds": 1.64,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271644465,
+                            "outcomeName": "powyżej 235.5",
+                            "outcomeOdds": 2.17,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321638711,
+                    "gameName": "poniżej/powyżej 226.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 162741,
+                    "argument": 226.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271644423,
+                            "outcomeName": "poniżej 226.5",
+                            "outcomeOdds": 2.46,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271644507,
+                            "outcomeName": "powyżej 226.5",
+                            "outcomeOdds": 1.51,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321638712,
+                    "gameName": "poniżej/powyżej 225.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 162742,
+                    "argument": 225.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271644437,
+                            "outcomeName": "poniżej 225.5",
+                            "outcomeOdds": 2.6,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271644520,
+                            "outcomeName": "powyżej 225.5",
+                            "outcomeOdds": 1.46,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321638716,
+                    "gameName": "poniżej/powyżej 237.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 162743,
+                    "argument": 237.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271644399,
+                            "outcomeName": "poniżej 237.5",
+                            "outcomeOdds": 1.54,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271644459,
+                            "outcomeName": "powyżej 237.5",
+                            "outcomeOdds": 2.39,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321638717,
+                    "gameName": "poniżej/powyżej 238.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 162744,
+                    "argument": 238.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271644398,
+                            "outcomeName": "poniżej 238.5",
+                            "outcomeOdds": 1.49,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271644482,
+                            "outcomeName": "powyżej 238.5",
+                            "outcomeOdds": 2.5,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321638720,
+                    "gameName": "poniżej/powyżej 229.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 162745,
+                    "argument": 229.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271644392,
+                            "outcomeName": "poniżej 229.5",
+                            "outcomeOdds": 2.11,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271644473,
+                            "outcomeName": "powyżej 229.5",
+                            "outcomeOdds": 1.68,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321638732,
+                    "gameName": "poniżej/powyżej 239.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 162746,
+                    "argument": 239.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271644422,
+                            "outcomeName": "poniżej 239.5",
+                            "outcomeOdds": 1.44,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271644519,
+                            "outcomeName": "powyżej 239.5",
+                            "outcomeOdds": 2.65,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321638733,
+                    "gameName": "poniżej/powyżej 234.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 162812,
+                    "argument": 234.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271644434,
+                            "outcomeName": "poniżej 234.5",
+                            "outcomeOdds": 1.71,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271644506,
+                            "outcomeName": "powyżej 234.5",
+                            "outcomeOdds": 2.07,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321638752,
+                    "gameName": "poniżej/powyżej 228.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 162820,
+                    "argument": 228.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271644466,
+                            "outcomeName": "poniżej 228.5",
+                            "outcomeOdds": 2.22,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271644515,
+                            "outcomeName": "powyżej 228.5",
+                            "outcomeOdds": 1.62,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321638609,
+                    "gameName": "Handicap -7.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 163519,
+                    "argument": -7.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271643608,
+                            "outcomeName": "Milwaukee Bucks (-7.5)",
+                            "outcomeOdds": 1.75,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271643618,
+                            "outcomeName": "Los Angeles Lakers (+7.5)",
+                            "outcomeOdds": 2.0,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321638610,
+                    "gameName": "Handicap -13.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 163523,
+                    "argument": -13.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271643619,
+                            "outcomeName": "Milwaukee Bucks (-13.5)",
+                            "outcomeOdds": 2.85,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271643629,
+                            "outcomeName": "Los Angeles Lakers (+13.5)",
+                            "outcomeOdds": 1.39,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321638611,
+                    "gameName": "Handicap -14.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 163573,
+                    "argument": -14.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271643610,
+                            "outcomeName": "Milwaukee Bucks (-14.5)",
+                            "outcomeOdds": 3.15,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271643624,
+                            "outcomeName": "Los Angeles Lakers (+14.5)",
+                            "outcomeOdds": 1.33,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321638612,
+                    "gameName": "Handicap -4.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 163602,
+                    "argument": -4.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271643605,
+                            "outcomeName": "Milwaukee Bucks (-4.5)",
+                            "outcomeOdds": 1.43,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271643614,
+                            "outcomeName": "Los Angeles Lakers (+4.5)",
+                            "outcomeOdds": 2.7,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321638613,
+                    "gameName": "Handicap -3.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 163609,
+                    "argument": -3.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271643609,
+                            "outcomeName": "Milwaukee Bucks (-3.5)",
+                            "outcomeOdds": 1.36,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271643625,
+                            "outcomeName": "Los Angeles Lakers (+3.5)",
+                            "outcomeOdds": 2.95,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321638614,
+                    "gameName": "Handicap -10.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 163610,
+                    "argument": -10.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271643612,
+                            "outcomeName": "Milwaukee Bucks (-10.5)",
+                            "outcomeOdds": 2.18,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271643623,
+                            "outcomeName": "Los Angeles Lakers (+10.5)",
+                            "outcomeOdds": 1.63,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321638615,
+                    "gameName": "Handicap -5.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 163611,
+                    "argument": -5.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271643607,
+                            "outcomeName": "Milwaukee Bucks (-5.5)",
+                            "outcomeOdds": 1.52,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271643615,
+                            "outcomeName": "Los Angeles Lakers (+5.5)",
+                            "outcomeOdds": 2.43,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321638616,
+                    "gameName": "Handicap -11.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 163612,
+                    "argument": -11.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271643613,
+                            "outcomeName": "Milwaukee Bucks (-11.5)",
+                            "outcomeOdds": 2.34,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271643628,
+                            "outcomeName": "Los Angeles Lakers (+11.5)",
+                            "outcomeOdds": 1.55,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321638617,
+                    "gameName": "Handicap -9.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 163613,
+                    "argument": -9.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271643621,
+                            "outcomeName": "Milwaukee Bucks (-9.5)",
+                            "outcomeOdds": 1.99,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271643632,
+                            "outcomeName": "Los Angeles Lakers (+9.5)",
+                            "outcomeOdds": 1.76,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321638618,
+                    "gameName": "Handicap -2.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 165533,
+                    "argument": -2.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271643611,
+                            "outcomeName": "Milwaukee Bucks (-2.5)",
+                            "outcomeOdds": 1.32,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271643631,
+                            "outcomeName": "Los Angeles Lakers (+2.5)",
+                            "outcomeOdds": 3.2,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321638619,
+                    "gameName": "Handicap -8.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 165534,
+                    "argument": -8.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271643606,
+                            "outcomeName": "Milwaukee Bucks (-8.5)",
+                            "outcomeOdds": 1.85,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271643627,
+                            "outcomeName": "Los Angeles Lakers (+8.5)",
+                            "outcomeOdds": 1.89,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321638620,
+                    "gameName": "Handicap -12.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 165535,
+                    "argument": -12.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271643626,
+                            "outcomeName": "Milwaukee Bucks (-12.5)",
+                            "outcomeOdds": 2.6,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271643635,
+                            "outcomeName": "Los Angeles Lakers (+12.5)",
+                            "outcomeOdds": 1.46,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321638621,
+                    "gameName": "Handicap -1.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 165555,
+                    "argument": -1.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271643622,
+                            "outcomeName": "Milwaukee Bucks (-1.5)",
+                            "outcomeOdds": 1.27,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271643634,
+                            "outcomeName": "Los Angeles Lakers (+1.5)",
+                            "outcomeOdds": 3.5,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321638622,
+                    "gameName": "Handicap -6.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 165620,
+                    "argument": -6.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271643616,
+                            "outcomeName": "Milwaukee Bucks (-6.5)",
+                            "outcomeOdds": 1.62,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271643633,
+                            "outcomeName": "Los Angeles Lakers (+6.5)",
+                            "outcomeOdds": 2.21,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321716442,
+                    "gameName": "Handicap -15.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 39348,
+                    "argument": -15.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272053924,
+                            "outcomeName": "Milwaukee Bucks (-15.5)",
+                            "outcomeOdds": 3.45,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272053933,
+                            "outcomeName": "Los Angeles Lakers (+15.5)",
+                            "outcomeOdds": 1.28,
+                            "status": 100
+                        }
+                    ]
+                }
+            ],
+            "cashoutEnabled": null,
+            "participants": [
+                {
+                    "localId": 24589,
+                    "remoteId": 3410,
+                    "name": "Milwaukee Bucks",
+                    "number": 1
+                },
+                {
+                    "localId": 24592,
+                    "remoteId": 3427,
+                    "name": "Los Angeles Lakers",
+                    "number": 2
+                }
+            ],
+            "tvChannelInfo": null,
+            "result": null,
+            "videoStream": null,
+            "betsCounter": null,
+            "sportId": null,
+            "countryId": null,
+            "leagueId": null,
+            "sportName": null,
+            "liveEventId": null,
+            "eventExtendedData": {
+                "neutralGround": "-1",
+                "remoteCategoryId": ""
+            },
+            "isOutright": null,
+            "marketTypesOrder": null,
+            "flashscoreLink": null,
+            "betBuilderModel": {
+                "remoteId": 10430552,
+                "customBetFixtureId": 292640,
+                "eventId": 40310971,
+                "eventIds": null
+            },
+            "customBetAvailable": null
+        },
+        {
+            "eventId": 40316201,
+            "remoteId": 43067321,
+            "eventName": "Miami Heat - Golden State Warriors",
+            "eventStart": 1711495800000,
+            "eventType": 1,
+            "category3Id": 29903,
+            "category2Id": 236,
+            "category1Id": 2,
+            "category3Name": "NBA",
+            "category2Name": "USA",
+            "category1Name": "Koszykówka",
+            "eventCodeId": 1154,
+            "gamesCount": 200,
+            "outcomesCount": null,
+            "treatAsSport": 2,
+            "category3AggregatedId": null,
+            "eventGames": [
+                {
+                    "gameId": 1321826143,
+                    "gameName": "Zwycięzca (z dogrywką)",
+                    "gameType": -2527,
+                    "gameCode": 105539,
+                    "argument": 0.0,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272580392,
+                            "outcomeName": "Miami Heat",
+                            "outcomeOdds": 2.0,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580399,
+                            "outcomeName": "Golden State Warriors",
+                            "outcomeOdds": 1.82,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321826156,
+                    "gameName": "1X2",
+                    "gameType": 1,
+                    "gameCode": 105544,
+                    "argument": 0.0,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 1,
+                    "eventLayout": 1,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272580418,
+                            "outcomeName": "Miami Heat",
+                            "outcomeOdds": 2.08,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580424,
+                            "outcomeName": "Remis",
+                            "outcomeOdds": 12.0,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580425,
+                            "outcomeName": "Golden State Warriors",
+                            "outcomeOdds": 1.89,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321833199,
+                    "gameName": "1. połowa - 1X2",
+                    "gameType": 3,
+                    "gameCode": 16236,
+                    "argument": 0.0,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 1,
+                    "eventLayout": 3,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272623007,
+                            "outcomeName": "Miami Heat",
+                            "outcomeOdds": 1.94,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623057,
+                            "outcomeName": "X",
+                            "outcomeOdds": 21.0,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623115,
+                            "outcomeName": "Golden State Warriors",
+                            "outcomeOdds": 1.8,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321833142,
+                    "gameName": "poniżej/powyżej 215.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 16242,
+                    "argument": 215.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622952,
+                            "outcomeName": "poniżej 215.5",
+                            "outcomeOdds": 2.13,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623034,
+                            "outcomeName": "powyżej 215.5",
+                            "outcomeOdds": 1.66,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321833144,
+                    "gameName": "poniżej/powyżej 212.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 16249,
+                    "argument": 212.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622958,
+                            "outcomeName": "poniżej 212.5",
+                            "outcomeOdds": 2.48,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623047,
+                            "outcomeName": "powyżej 212.5",
+                            "outcomeOdds": 1.5,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321833145,
+                    "gameName": "poniżej/powyżej 225.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 16442,
+                    "argument": 225.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622963,
+                            "outcomeName": "poniżej 225.5",
+                            "outcomeOdds": 1.46,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623083,
+                            "outcomeName": "powyżej 225.5",
+                            "outcomeOdds": 2.6,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321833150,
+                    "gameName": "poniżej/powyżej 220.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 16443,
+                    "argument": 220.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622969,
+                            "outcomeName": "poniżej 220.5",
+                            "outcomeOdds": 1.72,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623054,
+                            "outcomeName": "powyżej 220.5",
+                            "outcomeOdds": 2.04,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321833152,
+                    "gameName": "poniżej/powyżej 213.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 16504,
+                    "argument": 213.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622968,
+                            "outcomeName": "poniżej 213.5",
+                            "outcomeOdds": 2.35,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623053,
+                            "outcomeName": "powyżej 213.5",
+                            "outcomeOdds": 1.55,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321833153,
+                    "gameName": "poniżej/powyżej 224.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 16505,
+                    "argument": 224.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622970,
+                            "outcomeName": "poniżej 224.5",
+                            "outcomeOdds": 1.5,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623056,
+                            "outcomeName": "powyżej 224.5",
+                            "outcomeOdds": 2.48,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321833154,
+                    "gameName": "poniżej/powyżej 221.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 16506,
+                    "argument": 221.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622956,
+                            "outcomeName": "poniżej 221.5",
+                            "outcomeOdds": 1.66,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623039,
+                            "outcomeName": "powyżej 221.5",
+                            "outcomeOdds": 2.14,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321833182,
+                    "gameName": "poniżej/powyżej 222.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 16511,
+                    "argument": 222.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622974,
+                            "outcomeName": "poniżej 222.5",
+                            "outcomeOdds": 1.6,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623029,
+                            "outcomeName": "powyżej 222.5",
+                            "outcomeOdds": 2.24,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321833184,
+                    "gameName": "poniżej/powyżej 217.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 16516,
+                    "argument": 217.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622965,
+                            "outcomeName": "poniżej 217.5",
+                            "outcomeOdds": 1.95,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623050,
+                            "outcomeName": "powyżej 217.5",
+                            "outcomeOdds": 1.8,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321833185,
+                    "gameName": "poniżej/powyżej 214.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 16518,
+                    "argument": 214.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622992,
+                            "outcomeName": "poniżej 214.5",
+                            "outcomeOdds": 2.24,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623080,
+                            "outcomeName": "powyżej 214.5",
+                            "outcomeOdds": 1.61,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321833195,
+                    "gameName": "poniżej/powyżej 218.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 16519,
+                    "argument": 218.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622993,
+                            "outcomeName": "poniżej 218.5",
+                            "outcomeOdds": 1.86,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623079,
+                            "outcomeName": "powyżej 218.5",
+                            "outcomeOdds": 1.87,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321833196,
+                    "gameName": "poniżej/powyżej 216.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 16520,
+                    "argument": 216.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272623001,
+                            "outcomeName": "poniżej 216.5",
+                            "outcomeOdds": 2.03,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623088,
+                            "outcomeName": "powyżej 216.5",
+                            "outcomeOdds": 1.73,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321833197,
+                    "gameName": "poniżej/powyżej 219.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 16522,
+                    "argument": 219.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622971,
+                            "outcomeName": "poniżej 219.5",
+                            "outcomeOdds": 1.79,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623030,
+                            "outcomeName": "powyżej 219.5",
+                            "outcomeOdds": 1.96,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321833217,
+                    "gameName": "poniżej/powyżej 223.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 16525,
+                    "argument": 223.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272623031,
+                            "outcomeName": "poniżej 223.5",
+                            "outcomeOdds": 1.55,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623091,
+                            "outcomeName": "powyżej 223.5",
+                            "outcomeOdds": 2.36,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321838774,
+                    "gameName": "poniżej/powyżej 211.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 186049,
+                    "argument": 211.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272648893,
+                            "outcomeName": "poniżej 211.5",
+                            "outcomeOdds": 2.6,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272648894,
+                            "outcomeName": "powyżej 211.5",
+                            "outcomeOdds": 1.45,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321833165,
+                    "gameName": "Miami Heat - poniżej/powyżej 108.5 punktów (z dogrywką)",
+                    "gameType": 182,
+                    "gameCode": 16593,
+                    "argument": 108.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622944,
+                            "outcomeName": "Poniżej 108.5 punktów",
+                            "outcomeOdds": 1.9,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623016,
+                            "outcomeName": "Powyżej 108.5 punktów",
+                            "outcomeOdds": 1.81,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321833208,
+                    "gameName": "Miami Heat - poniżej/powyżej 107.5 punktów (z dogrywką)",
+                    "gameType": 182,
+                    "gameCode": 16595,
+                    "argument": 107.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622981,
+                            "outcomeName": "Poniżej 107.5 punktów",
+                            "outcomeOdds": 2.04,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623070,
+                            "outcomeName": "Powyżej 107.5 punktów",
+                            "outcomeOdds": 1.69,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321833209,
+                    "gameName": "Miami Heat - poniżej/powyżej 109.5 punktów (z dogrywką)",
+                    "gameType": 182,
+                    "gameCode": 16597,
+                    "argument": 109.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272623064,
+                            "outcomeName": "Poniżej 109.5 punktów",
+                            "outcomeOdds": 1.77,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623127,
+                            "outcomeName": "Powyżej 109.5 punktów",
+                            "outcomeOdds": 1.94,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321833213,
+                    "gameName": "Miami Heat - poniżej/powyżej 110.5 punktów (z dogrywką)",
+                    "gameType": 182,
+                    "gameCode": 16600,
+                    "argument": 110.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272623010,
+                            "outcomeName": "Poniżej 110.5 punktów",
+                            "outcomeOdds": 1.67,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623066,
+                            "outcomeName": "Powyżej 110.5 punktów",
+                            "outcomeOdds": 2.08,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321841367,
+                    "gameName": "Miami Heat - poniżej/powyżej 106.5 punktów (z dogrywką)",
+                    "gameType": 182,
+                    "gameCode": 159008,
+                    "argument": 106.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272661329,
+                            "outcomeName": "Poniżej 106.5 punktów",
+                            "outcomeOdds": 2.21,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272661330,
+                            "outcomeName": "Powyżej 106.5 punktów",
+                            "outcomeOdds": 1.6,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321833166,
+                    "gameName": "Golden State Warriors - poniżej/powyżej 110.5 punktów (z dogrywką)",
+                    "gameType": 183,
+                    "gameCode": 16603,
+                    "argument": 110.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622945,
+                            "outcomeName": "Poniżej 110.5 punktów",
+                            "outcomeOdds": 1.75,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623018,
+                            "outcomeName": "Powyżej 110.5 punktów",
+                            "outcomeOdds": 1.97,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321833167,
+                    "gameName": "Golden State Warriors - poniżej/powyżej 109.5 punktów (z dogrywką)",
+                    "gameType": 183,
+                    "gameCode": 16608,
+                    "argument": 109.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272623013,
+                            "outcomeName": "Poniżej 109.5 punktów",
+                            "outcomeOdds": 1.87,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623097,
+                            "outcomeName": "Powyżej 109.5 punktów",
+                            "outcomeOdds": 1.84,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321833170,
+                    "gameName": "Golden State Warriors - poniżej/powyżej 108.5 punktów (z dogrywką)",
+                    "gameType": 183,
+                    "gameCode": 16613,
+                    "argument": 108.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622980,
+                            "outcomeName": "Poniżej 108.5 punktów",
+                            "outcomeOdds": 2.01,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623095,
+                            "outcomeName": "Powyżej 108.5 punktów",
+                            "outcomeOdds": 1.72,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321833212,
+                    "gameName": "Golden State Warriors - poniżej/powyżej 111.5 punktów (z dogrywką)",
+                    "gameType": 183,
+                    "gameCode": 16614,
+                    "argument": 111.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272623062,
+                            "outcomeName": "Poniżej 111.5 punktów",
+                            "outcomeOdds": 1.64,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272623116,
+                            "outcomeName": "Powyżej 111.5 punktów",
+                            "outcomeOdds": 2.12,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321841366,
+                    "gameName": "Golden State Warriors - poniżej/powyżej 107.5 punktów (z dogrywką)",
+                    "gameType": 183,
+                    "gameCode": 159009,
+                    "argument": 107.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272661328,
+                            "outcomeName": "Poniżej 107.5 punktów",
+                            "outcomeOdds": 2.16,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272661331,
+                            "outcomeName": "Powyżej 107.5 punktów",
+                            "outcomeOdds": 1.62,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321826140,
+                    "gameName": "Handicap -2.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 105548,
+                    "argument": -2.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272580391,
+                            "outcomeName": "Miami Heat (-2.5)",
+                            "outcomeOdds": 2.17,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580405,
+                            "outcomeName": "Golden State Warriors (+2.5)",
+                            "outcomeOdds": 1.64,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321826141,
+                    "gameName": "Handicap +4.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 105570,
+                    "argument": 4.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272580393,
+                            "outcomeName": "Miami Heat (+4.5)",
+                            "outcomeOdds": 1.6,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580410,
+                            "outcomeName": "Golden State Warriors (-4.5)",
+                            "outcomeOdds": 2.25,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321826142,
+                    "gameName": "Handicap +9.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 105597,
+                    "argument": 9.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272580406,
+                            "outcomeName": "Miami Heat (+9.5)",
+                            "outcomeOdds": 1.28,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580421,
+                            "outcomeName": "Golden State Warriors (-9.5)",
+                            "outcomeOdds": 3.45,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321826144,
+                    "gameName": "Handicap +2.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 105598,
+                    "argument": 2.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272580394,
+                            "outcomeName": "Miami Heat (+2.5)",
+                            "outcomeOdds": 1.79,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580408,
+                            "outcomeName": "Golden State Warriors (-2.5)",
+                            "outcomeOdds": 1.95,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321826145,
+                    "gameName": "Handicap -3.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 105600,
+                    "argument": -3.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272580395,
+                            "outcomeName": "Miami Heat (-3.5)",
+                            "outcomeOdds": 2.32,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580407,
+                            "outcomeName": "Golden State Warriors (+3.5)",
+                            "outcomeOdds": 1.56,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321826146,
+                    "gameName": "Handicap +7.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 105602,
+                    "argument": 7.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272580396,
+                            "outcomeName": "Miami Heat (+7.5)",
+                            "outcomeOdds": 1.39,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580416,
+                            "outcomeName": "Golden State Warriors (-7.5)",
+                            "outcomeOdds": 2.85,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321826147,
+                    "gameName": "Handicap +6.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 105608,
+                    "argument": 6.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272580397,
+                            "outcomeName": "Miami Heat (+6.5)",
+                            "outcomeOdds": 1.44,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580417,
+                            "outcomeName": "Golden State Warriors (-6.5)",
+                            "outcomeOdds": 2.65,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321826148,
+                    "gameName": "Handicap -4.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 105609,
+                    "argument": -4.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272580400,
+                            "outcomeName": "Miami Heat (-4.5)",
+                            "outcomeOdds": 2.5,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580415,
+                            "outcomeName": "Golden State Warriors (+4.5)",
+                            "outcomeOdds": 1.49,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321826149,
+                    "gameName": "Handicap +1.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 107047,
+                    "argument": 1.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272580398,
+                            "outcomeName": "Miami Heat (+1.5)",
+                            "outcomeOdds": 1.86,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580411,
+                            "outcomeName": "Golden State Warriors (-1.5)",
+                            "outcomeOdds": 1.88,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321826150,
+                    "gameName": "Handicap +3.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 107048,
+                    "argument": 3.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272580402,
+                            "outcomeName": "Miami Heat (+3.5)",
+                            "outcomeOdds": 1.69,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580414,
+                            "outcomeName": "Golden State Warriors (-3.5)",
+                            "outcomeOdds": 2.09,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321826151,
+                    "gameName": "Handicap -6.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 107053,
+                    "argument": -6.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272580401,
+                            "outcomeName": "Miami Heat (-6.5)",
+                            "outcomeOdds": 2.95,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580412,
+                            "outcomeName": "Golden State Warriors (+6.5)",
+                            "outcomeOdds": 1.37,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321826152,
+                    "gameName": "Handicap -1.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 107055,
+                    "argument": -1.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272580409,
+                            "outcomeName": "Miami Heat (-1.5)",
+                            "outcomeOdds": 2.06,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580419,
+                            "outcomeName": "Golden State Warriors (+1.5)",
+                            "outcomeOdds": 1.71,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321826153,
+                    "gameName": "Handicap +8.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 107056,
+                    "argument": 8.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272580404,
+                            "outcomeName": "Miami Heat (+8.5)",
+                            "outcomeOdds": 1.33,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580420,
+                            "outcomeName": "Golden State Warriors (-8.5)",
+                            "outcomeOdds": 3.15,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321826154,
+                    "gameName": "Handicap -5.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 107058,
+                    "argument": -5.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272580403,
+                            "outcomeName": "Miami Heat (-5.5)",
+                            "outcomeOdds": 2.7,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580422,
+                            "outcomeName": "Golden State Warriors (+5.5)",
+                            "outcomeOdds": 1.43,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321826155,
+                    "gameName": "Handicap +5.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 107059,
+                    "argument": 5.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272580413,
+                            "outcomeName": "Miami Heat (+5.5)",
+                            "outcomeOdds": 1.52,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272580423,
+                            "outcomeName": "Golden State Warriors (-5.5)",
+                            "outcomeOdds": 2.43,
+                            "status": 100
+                        }
+                    ]
+                }
+            ],
+            "cashoutEnabled": null,
+            "participants": [
+                {
+                    "localId": 485,
+                    "remoteId": 3435,
+                    "name": "Miami Heat",
+                    "number": 1
+                },
+                {
+                    "localId": 480,
+                    "remoteId": 3428,
+                    "name": "Golden State Warriors",
+                    "number": 2
+                }
+            ],
+            "tvChannelInfo": null,
+            "result": null,
+            "videoStream": null,
+            "betsCounter": null,
+            "sportId": null,
+            "countryId": null,
+            "leagueId": null,
+            "sportName": null,
+            "liveEventId": null,
+            "eventExtendedData": {
+                "neutralGround": "-1",
+                "remoteCategoryId": ""
+            },
+            "isOutright": null,
+            "marketTypesOrder": null,
+            "flashscoreLink": null,
+            "betBuilderModel": {
+                "remoteId": 10430551,
+                "customBetFixtureId": 292639,
+                "eventId": 40316201,
+                "eventIds": null
+            },
+            "customBetAvailable": null
+        },
+        {
+            "eventId": 40310990,
+            "remoteId": 43067325,
+            "eventName": "New Orleans Pelicans - Oklahoma City Thunder",
+            "eventStart": 1711497600000,
+            "eventType": 1,
+            "category3Id": 29903,
+            "category2Id": 236,
+            "category1Id": 2,
+            "category3Name": "NBA",
+            "category2Name": "USA",
+            "category1Name": "Koszykówka",
+            "eventCodeId": 4359,
+            "gamesCount": 198,
+            "outcomesCount": null,
+            "treatAsSport": 2,
+            "category3AggregatedId": null,
+            "eventGames": [
+                {
+                    "gameId": 1321639304,
+                    "gameName": "Zwycięzca (z dogrywką)",
+                    "gameType": -2527,
+                    "gameCode": 176501,
+                    "argument": 0.0,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271646827,
+                            "outcomeName": "New Orleans Pelicans",
+                            "outcomeOdds": 2.02,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646840,
+                            "outcomeName": "Oklahoma City Thunder",
+                            "outcomeOdds": 1.8,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639313,
+                    "gameName": "1X2",
+                    "gameType": 1,
+                    "gameCode": 176502,
+                    "argument": 0.0,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 1,
+                    "eventLayout": 1,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271646837,
+                            "outcomeName": "New Orleans Pelicans",
+                            "outcomeOdds": 2.1,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646849,
+                            "outcomeName": "Remis",
+                            "outcomeOdds": 13.0,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646857,
+                            "outcomeName": "Oklahoma City Thunder",
+                            "outcomeOdds": 1.86,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321639625,
+                    "gameName": "1. połowa - 1X2",
+                    "gameType": 3,
+                    "gameCode": 182265,
+                    "argument": 0.0,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 1,
+                    "eventLayout": 3,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271647822,
+                            "outcomeName": "New Orleans Pelicans",
+                            "outcomeOdds": 1.95,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271647882,
+                            "outcomeName": "X",
+                            "outcomeOdds": 22.0,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271647894,
+                            "outcomeName": "Oklahoma City Thunder",
+                            "outcomeOdds": 1.79,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639308,
+                    "gameName": "poniżej/powyżej 228.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 176503,
+                    "argument": 228.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271646822,
+                            "outcomeName": "poniżej 228.5",
+                            "outcomeOdds": 1.54,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646842,
+                            "outcomeName": "powyżej 228.5",
+                            "outcomeOdds": 2.38,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321639414,
+                    "gameName": "poniżej/powyżej 221.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 182267,
+                    "argument": 221.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271647158,
+                            "outcomeName": "poniżej 221.5",
+                            "outcomeOdds": 2.01,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271647176,
+                            "outcomeName": "powyżej 221.5",
+                            "outcomeOdds": 1.74,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321639416,
+                    "gameName": "poniżej/powyżej 225.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 182269,
+                    "argument": 225.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271647166,
+                            "outcomeName": "poniżej 225.5",
+                            "outcomeOdds": 1.71,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271647180,
+                            "outcomeName": "powyżej 225.5",
+                            "outcomeOdds": 2.07,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321639417,
+                    "gameName": "poniżej/powyżej 227.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 182270,
+                    "argument": 227.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271647159,
+                            "outcomeName": "poniżej 227.5",
+                            "outcomeOdds": 1.59,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271647172,
+                            "outcomeName": "powyżej 227.5",
+                            "outcomeOdds": 2.27,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321639418,
+                    "gameName": "poniżej/powyżej 226.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 182271,
+                    "argument": 226.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271647165,
+                            "outcomeName": "poniżej 226.5",
+                            "outcomeOdds": 1.65,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271647179,
+                            "outcomeName": "powyżej 226.5",
+                            "outcomeOdds": 2.16,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321639419,
+                    "gameName": "poniżej/powyżej 223.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 182272,
+                    "argument": 223.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271647168,
+                            "outcomeName": "poniżej 223.5",
+                            "outcomeOdds": 1.85,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271647182,
+                            "outcomeName": "powyżej 223.5",
+                            "outcomeOdds": 1.89,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321639420,
+                    "gameName": "poniżej/powyżej 230.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 182273,
+                    "argument": 230.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271647162,
+                            "outcomeName": "poniżej 230.5",
+                            "outcomeOdds": 1.45,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271647173,
+                            "outcomeName": "powyżej 230.5",
+                            "outcomeOdds": 2.65,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321639425,
+                    "gameName": "poniżej/powyżej 224.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 182306,
+                    "argument": 224.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271647174,
+                            "outcomeName": "poniżej 224.5",
+                            "outcomeOdds": 1.77,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271647184,
+                            "outcomeName": "powyżej 224.5",
+                            "outcomeOdds": 1.98,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321639426,
+                    "gameName": "poniżej/powyżej 222.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 182307,
+                    "argument": 222.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271647164,
+                            "outcomeName": "poniżej 222.5",
+                            "outcomeOdds": 1.93,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271647178,
+                            "outcomeName": "powyżej 222.5",
+                            "outcomeOdds": 1.82,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321639427,
+                    "gameName": "poniżej/powyżej 229.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 182353,
+                    "argument": 229.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271647177,
+                            "outcomeName": "poniżej 229.5",
+                            "outcomeOdds": 1.49,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271647183,
+                            "outcomeName": "powyżej 229.5",
+                            "outcomeOdds": 2.5,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321833054,
+                    "gameName": "poniżej/powyżej 220.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 16134,
+                    "argument": 220.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622527,
+                            "outcomeName": "poniżej 220.5",
+                            "outcomeOdds": 2.11,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272622532,
+                            "outcomeName": "powyżej 220.5",
+                            "outcomeOdds": 1.68,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321833056,
+                    "gameName": "poniżej/powyżej 219.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 16135,
+                    "argument": 219.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622528,
+                            "outcomeName": "poniżej 219.5",
+                            "outcomeOdds": 2.21,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272622534,
+                            "outcomeName": "powyżej 219.5",
+                            "outcomeOdds": 1.62,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321995941,
+                    "gameName": "poniżej/powyżej 218.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 196060,
+                    "argument": 218.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1273402384,
+                            "outcomeName": "poniżej 218.5",
+                            "outcomeOdds": 2.32,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1273402385,
+                            "outcomeName": "powyżej 218.5",
+                            "outcomeOdds": 1.56,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1322000613,
+                    "gameName": "poniżej/powyżej 217.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 130665,
+                    "argument": 217.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1273428349,
+                            "outcomeName": "poniżej 217.5",
+                            "outcomeOdds": 2.45,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1273428350,
+                            "outcomeName": "powyżej 217.5",
+                            "outcomeOdds": 1.51,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1322061051,
+                    "gameName": "poniżej/powyżej 216.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 161940,
+                    "argument": 216.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1273758615,
+                            "outcomeName": "poniżej 216.5",
+                            "outcomeOdds": 2.6,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1273758618,
+                            "outcomeName": "powyżej 216.5",
+                            "outcomeOdds": 1.46,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321639591,
+                    "gameName": "New Orleans Pelicans - poniżej/powyżej 111.5 punktów (z dogrywką)",
+                    "gameType": 182,
+                    "gameCode": 182376,
+                    "argument": 111.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271647745,
+                            "outcomeName": "Poniżej 111.5 punktów",
+                            "outcomeOdds": 1.81,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271647805,
+                            "outcomeName": "Powyżej 111.5 punktów",
+                            "outcomeOdds": 1.9,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639608,
+                    "gameName": "New Orleans Pelicans - poniżej/powyżej 112.5 punktów (z dogrywką)",
+                    "gameType": 182,
+                    "gameCode": 182377,
+                    "argument": 112.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271647770,
+                            "outcomeName": "Poniżej 112.5 punktów",
+                            "outcomeOdds": 1.7,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271647839,
+                            "outcomeName": "Powyżej 112.5 punktów",
+                            "outcomeOdds": 2.04,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639614,
+                    "gameName": "New Orleans Pelicans - poniżej/powyżej 113.5 punktów (z dogrywką)",
+                    "gameType": 182,
+                    "gameCode": 182379,
+                    "argument": 113.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271647746,
+                            "outcomeName": "Poniżej 113.5 punktów",
+                            "outcomeOdds": 1.6,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271647812,
+                            "outcomeName": "Powyżej 113.5 punktów",
+                            "outcomeOdds": 2.2,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321971555,
+                    "gameName": "New Orleans Pelicans - poniżej/powyżej 110.5 punktów (z dogrywką)",
+                    "gameType": 182,
+                    "gameCode": 157071,
+                    "argument": 110.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1273275413,
+                            "outcomeName": "Poniżej 110.5 punktów",
+                            "outcomeOdds": 1.93,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1273275414,
+                            "outcomeName": "Powyżej 110.5 punktów",
+                            "outcomeOdds": 1.78,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1322020823,
+                    "gameName": "New Orleans Pelicans - poniżej/powyżej 109.5 punktów (z dogrywką)",
+                    "gameType": 182,
+                    "gameCode": 181095,
+                    "argument": 109.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1273544777,
+                            "outcomeName": "Poniżej 109.5 punktów",
+                            "outcomeOdds": 2.08,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1273544778,
+                            "outcomeName": "Powyżej 109.5 punktów",
+                            "outcomeOdds": 1.67,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639606,
+                    "gameName": "Oklahoma City Thunder - poniżej/powyżej 113.5 punktów (z dogrywką)",
+                    "gameType": 183,
+                    "gameCode": 182380,
+                    "argument": 113.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271647773,
+                            "outcomeName": "Poniżej 113.5 punktów",
+                            "outcomeOdds": 1.7,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271647807,
+                            "outcomeName": "Powyżej 113.5 punktów",
+                            "outcomeOdds": 2.04,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639611,
+                    "gameName": "Oklahoma City Thunder - poniżej/powyżej 114.5 punktów (z dogrywką)",
+                    "gameType": 183,
+                    "gameCode": 182381,
+                    "argument": 114.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271647777,
+                            "outcomeName": "Poniżej 114.5 punktów",
+                            "outcomeOdds": 1.6,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271647848,
+                            "outcomeName": "Powyżej 114.5 punktów",
+                            "outcomeOdds": 2.2,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639643,
+                    "gameName": "Oklahoma City Thunder - poniżej/powyżej 112.5 punktów (z dogrywką)",
+                    "gameType": 183,
+                    "gameCode": 182383,
+                    "argument": 112.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271647776,
+                            "outcomeName": "Poniżej 112.5 punktów",
+                            "outcomeOdds": 1.81,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271647841,
+                            "outcomeName": "Powyżej 112.5 punktów",
+                            "outcomeOdds": 1.9,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321833053,
+                    "gameName": "Oklahoma City Thunder - poniżej/powyżej 111.5 punktów (z dogrywką)",
+                    "gameType": 183,
+                    "gameCode": 16161,
+                    "argument": 111.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272622522,
+                            "outcomeName": "Poniżej 111.5 punktów",
+                            "outcomeOdds": 1.93,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272622526,
+                            "outcomeName": "Powyżej 111.5 punktów",
+                            "outcomeOdds": 1.78,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321995938,
+                    "gameName": "Oklahoma City Thunder - poniżej/powyżej 110.5 punktów (z dogrywką)",
+                    "gameType": 183,
+                    "gameCode": 196062,
+                    "argument": 110.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1273402382,
+                            "outcomeName": "Poniżej 110.5 punktów",
+                            "outcomeOdds": 2.08,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1273402387,
+                            "outcomeName": "Powyżej 110.5 punktów",
+                            "outcomeOdds": 1.67,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639300,
+                    "gameName": "Handicap +4.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 176504,
+                    "argument": 4.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271646823,
+                            "outcomeName": "New Orleans Pelicans (+4.5)",
+                            "outcomeOdds": 1.62,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646836,
+                            "outcomeName": "Oklahoma City Thunder (-4.5)",
+                            "outcomeOdds": 2.2,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639301,
+                    "gameName": "Handicap -3.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 176505,
+                    "argument": -3.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271646821,
+                            "outcomeName": "New Orleans Pelicans (-3.5)",
+                            "outcomeOdds": 2.34,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646829,
+                            "outcomeName": "Oklahoma City Thunder (+3.5)",
+                            "outcomeOdds": 1.56,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639302,
+                    "gameName": "Handicap +9.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 176506,
+                    "argument": 9.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271646830,
+                            "outcomeName": "New Orleans Pelicans (+9.5)",
+                            "outcomeOdds": 1.3,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646847,
+                            "outcomeName": "Oklahoma City Thunder (-9.5)",
+                            "outcomeOdds": 3.3,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639303,
+                    "gameName": "Handicap +3.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 176507,
+                    "argument": 3.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271646824,
+                            "outcomeName": "New Orleans Pelicans (+3.5)",
+                            "outcomeOdds": 1.71,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646839,
+                            "outcomeName": "Oklahoma City Thunder (-3.5)",
+                            "outcomeOdds": 2.06,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639305,
+                    "gameName": "Handicap +5.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 176508,
+                    "argument": 5.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271646825,
+                            "outcomeName": "New Orleans Pelicans (+5.5)",
+                            "outcomeOdds": 1.54,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646850,
+                            "outcomeName": "Oklahoma City Thunder (-5.5)",
+                            "outcomeOdds": 2.37,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639306,
+                    "gameName": "Handicap -4.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 176509,
+                    "argument": -4.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271646828,
+                            "outcomeName": "New Orleans Pelicans (-4.5)",
+                            "outcomeOdds": 2.5,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646843,
+                            "outcomeName": "Oklahoma City Thunder (+4.5)",
+                            "outcomeOdds": 1.49,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639307,
+                    "gameName": "Handicap -1.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 176510,
+                    "argument": -1.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271646848,
+                            "outcomeName": "New Orleans Pelicans (-1.5)",
+                            "outcomeOdds": 2.08,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646856,
+                            "outcomeName": "Oklahoma City Thunder (+1.5)",
+                            "outcomeOdds": 1.69,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639310,
+                    "gameName": "Handicap +6.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 176513,
+                    "argument": 6.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271646833,
+                            "outcomeName": "New Orleans Pelicans (+6.5)",
+                            "outcomeOdds": 1.47,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646851,
+                            "outcomeName": "Oklahoma City Thunder (-6.5)",
+                            "outcomeOdds": 2.6,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639311,
+                    "gameName": "Handicap +2.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 176515,
+                    "argument": 2.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271646834,
+                            "outcomeName": "New Orleans Pelicans (+2.5)",
+                            "outcomeOdds": 1.82,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646846,
+                            "outcomeName": "Oklahoma City Thunder (-2.5)",
+                            "outcomeOdds": 1.93,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639312,
+                    "gameName": "Handicap +1.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 176516,
+                    "argument": 1.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271646831,
+                            "outcomeName": "New Orleans Pelicans (+1.5)",
+                            "outcomeOdds": 1.89,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646844,
+                            "outcomeName": "Oklahoma City Thunder (-1.5)",
+                            "outcomeOdds": 1.85,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639314,
+                    "gameName": "Handicap +8.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 176528,
+                    "argument": 8.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271646835,
+                            "outcomeName": "New Orleans Pelicans (+8.5)",
+                            "outcomeOdds": 1.35,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646852,
+                            "outcomeName": "Oklahoma City Thunder (-8.5)",
+                            "outcomeOdds": 3.05,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639315,
+                    "gameName": "Handicap +7.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 176529,
+                    "argument": 7.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271646832,
+                            "outcomeName": "New Orleans Pelicans (+7.5)",
+                            "outcomeOdds": 1.41,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646845,
+                            "outcomeName": "Oklahoma City Thunder (-7.5)",
+                            "outcomeOdds": 2.75,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639316,
+                    "gameName": "Handicap -5.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 177414,
+                    "argument": -5.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271646826,
+                            "outcomeName": "New Orleans Pelicans (-5.5)",
+                            "outcomeOdds": 2.7,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646841,
+                            "outcomeName": "Oklahoma City Thunder (+5.5)",
+                            "outcomeOdds": 1.42,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321639317,
+                    "gameName": "Handicap -2.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 177415,
+                    "argument": -2.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1271646853,
+                            "outcomeName": "New Orleans Pelicans (-2.5)",
+                            "outcomeOdds": 2.19,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1271646855,
+                            "outcomeName": "Oklahoma City Thunder (+2.5)",
+                            "outcomeOdds": 1.63,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321728688,
+                    "gameName": "Handicap -6.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 134226,
+                    "argument": -6.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272120378,
+                            "outcomeName": "New Orleans Pelicans (-6.5)",
+                            "outcomeOdds": 2.95,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272120379,
+                            "outcomeName": "Oklahoma City Thunder (+6.5)",
+                            "outcomeOdds": 1.37,
+                            "status": 100
+                        }
+                    ]
+                }
+            ],
+            "cashoutEnabled": null,
+            "participants": [
+                {
+                    "localId": 24583,
+                    "remoteId": 5539,
+                    "name": "New Orleans Pelicans",
+                    "number": 1
+                },
+                {
+                    "localId": 483,
+                    "remoteId": 3418,
+                    "name": "Oklahoma City Thunder",
+                    "number": 2
+                }
+            ],
+            "tvChannelInfo": null,
+            "result": null,
+            "videoStream": null,
+            "betsCounter": null,
+            "sportId": null,
+            "countryId": null,
+            "leagueId": null,
+            "sportName": null,
+            "liveEventId": null,
+            "eventExtendedData": {
+                "neutralGround": "-1",
+                "remoteCategoryId": ""
+            },
+            "isOutright": null,
+            "marketTypesOrder": null,
+            "flashscoreLink": null,
+            "betBuilderModel": {
+                "remoteId": 10430553,
+                "customBetFixtureId": 292641,
+                "eventId": 40310990,
+                "eventIds": null
+            },
+            "customBetAvailable": null
+        },
+        {
+            "eventId": 40316246,
+            "remoteId": 43067327,
+            "eventName": "Sacramento Kings - Dallas Mavericks",
+            "eventStart": 1711504800000,
+            "eventType": 1,
+            "category3Id": 29903,
+            "category2Id": 236,
+            "category1Id": 2,
+            "category3Name": "NBA",
+            "category2Name": "USA",
+            "category1Name": "Koszykówka",
+            "eventCodeId": 2601,
+            "gamesCount": 105,
+            "outcomesCount": null,
+            "treatAsSport": 2,
+            "category3AggregatedId": null,
+            "eventGames": [
+                {
+                    "gameId": 1321828035,
+                    "gameName": "Zwycięzca (z dogrywką)",
+                    "gameType": -2527,
+                    "gameCode": 116981,
+                    "argument": 0.0,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272594578,
+                            "outcomeName": "Sacramento Kings",
+                            "outcomeOdds": 1.83,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594594,
+                            "outcomeName": "Dallas Mavericks",
+                            "outcomeOdds": 1.99,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321828043,
+                    "gameName": "1X2",
+                    "gameType": 1,
+                    "gameCode": 116982,
+                    "argument": 0.0,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 1,
+                    "eventLayout": 1,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272594577,
+                            "outcomeName": "Sacramento Kings",
+                            "outcomeOdds": 1.9,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594593,
+                            "outcomeName": "Remis",
+                            "outcomeOdds": 12.0,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594598,
+                            "outcomeName": "Dallas Mavericks",
+                            "outcomeOdds": 2.07,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321837411,
+                    "gameName": "1. połowa - 1X2",
+                    "gameType": 3,
+                    "gameCode": 183834,
+                    "argument": 0.0,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 1,
+                    "eventLayout": 3,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272639967,
+                            "outcomeName": "Sacramento Kings",
+                            "outcomeOdds": 1.81,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640032,
+                            "outcomeName": "X",
+                            "outcomeOdds": 21.0,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640095,
+                            "outcomeName": "Dallas Mavericks",
+                            "outcomeOdds": 1.92,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321837415,
+                    "gameName": "poniżej/powyżej 230.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 183836,
+                    "argument": 230.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272639959,
+                            "outcomeName": "poniżej 230.5",
+                            "outcomeOdds": 2.39,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640028,
+                            "outcomeName": "powyżej 230.5",
+                            "outcomeOdds": 1.54,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321837425,
+                    "gameName": "poniżej/powyżej 235.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 183838,
+                    "argument": 235.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272639973,
+                            "outcomeName": "poniżej 235.5",
+                            "outcomeOdds": 1.89,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640053,
+                            "outcomeName": "powyżej 235.5",
+                            "outcomeOdds": 1.85,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321837426,
+                    "gameName": "poniżej/powyżej 240.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 183839,
+                    "argument": 240.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272639972,
+                            "outcomeName": "poniżej 240.5",
+                            "outcomeOdds": 1.57,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640054,
+                            "outcomeName": "powyżej 240.5",
+                            "outcomeOdds": 2.32,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321837427,
+                    "gameName": "poniżej/powyżej 236.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 183840,
+                    "argument": 236.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272639994,
+                            "outcomeName": "poniżej 236.5",
+                            "outcomeOdds": 1.81,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640079,
+                            "outcomeName": "powyżej 236.5",
+                            "outcomeOdds": 1.93,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321837429,
+                    "gameName": "poniżej/powyżej 233.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 183841,
+                    "argument": 233.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272639968,
+                            "outcomeName": "poniżej 233.5",
+                            "outcomeOdds": 2.06,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640050,
+                            "outcomeName": "powyżej 233.5",
+                            "outcomeOdds": 1.71,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321837430,
+                    "gameName": "poniżej/powyżej 232.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 183842,
+                    "argument": 232.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272639969,
+                            "outcomeName": "poniżej 232.5",
+                            "outcomeOdds": 2.16,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640052,
+                            "outcomeName": "powyżej 232.5",
+                            "outcomeOdds": 1.65,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321837446,
+                    "gameName": "poniżej/powyżej 234.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 183844,
+                    "argument": 234.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272639991,
+                            "outcomeName": "poniżej 234.5",
+                            "outcomeOdds": 1.97,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640051,
+                            "outcomeName": "powyżej 234.5",
+                            "outcomeOdds": 1.78,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321837448,
+                    "gameName": "poniżej/powyżej 239.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 183845,
+                    "argument": 239.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272640011,
+                            "outcomeName": "poniżej 239.5",
+                            "outcomeOdds": 1.62,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640101,
+                            "outcomeName": "powyżej 239.5",
+                            "outcomeOdds": 2.21,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321837452,
+                    "gameName": "poniżej/powyżej 231.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 183846,
+                    "argument": 231.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272639987,
+                            "outcomeName": "poniżej 231.5",
+                            "outcomeOdds": 2.27,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640076,
+                            "outcomeName": "powyżej 231.5",
+                            "outcomeOdds": 1.59,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321837471,
+                    "gameName": "poniżej/powyżej 237.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 183847,
+                    "argument": 237.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272640026,
+                            "outcomeName": "poniżej 237.5",
+                            "outcomeOdds": 1.74,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640098,
+                            "outcomeName": "powyżej 237.5",
+                            "outcomeOdds": 2.01,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321837472,
+                    "gameName": "poniżej/powyżej 242.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 183848,
+                    "argument": 242.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272640012,
+                            "outcomeName": "poniżej 242.5",
+                            "outcomeOdds": 1.47,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640074,
+                            "outcomeName": "powyżej 242.5",
+                            "outcomeOdds": 2.55,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321837474,
+                    "gameName": "poniżej/powyżej 241.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 183849,
+                    "argument": 241.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272640008,
+                            "outcomeName": "poniżej 241.5",
+                            "outcomeOdds": 1.52,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640096,
+                            "outcomeName": "powyżej 241.5",
+                            "outcomeOdds": 2.43,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321837475,
+                    "gameName": "poniżej/powyżej 238.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 183850,
+                    "argument": 238.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272640033,
+                            "outcomeName": "poniżej 238.5",
+                            "outcomeOdds": 1.68,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640118,
+                            "outcomeName": "powyżej 238.5",
+                            "outcomeOdds": 2.11,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321842105,
+                    "gameName": "poniżej/powyżej 229.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 144368,
+                    "argument": 229.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272664654,
+                            "outcomeName": "poniżej 229.5",
+                            "outcomeOdds": 2.5,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272664657,
+                            "outcomeName": "powyżej 229.5",
+                            "outcomeOdds": 1.49,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1322086532,
+                    "gameName": "poniżej/powyżej 228.5 (z dogrywką)",
+                    "gameType": -2966,
+                    "gameCode": 129420,
+                    "argument": 228.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 6,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1273893917,
+                            "outcomeName": "poniżej 228.5",
+                            "outcomeOdds": 2.65,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1273893919,
+                            "outcomeName": "powyżej 228.5",
+                            "outcomeOdds": 1.44,
+                            "status": 100
+                        }
+                    ],
+                    "combinationTypes": [
+                        1
+                    ]
+                },
+                {
+                    "gameId": 1321837433,
+                    "gameName": "Sacramento Kings - poniżej/powyżej 118.5 punktów (z dogrywką)",
+                    "gameType": 182,
+                    "gameCode": 183856,
+                    "argument": 118.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272639963,
+                            "outcomeName": "Poniżej 118.5 punktów",
+                            "outcomeOdds": 1.82,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640041,
+                            "outcomeName": "Powyżej 118.5 punktów",
+                            "outcomeOdds": 1.88,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321837437,
+                    "gameName": "Sacramento Kings - poniżej/powyżej 117.5 punktów (z dogrywką)",
+                    "gameType": 182,
+                    "gameCode": 183857,
+                    "argument": 117.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272640000,
+                            "outcomeName": "Poniżej 117.5 punktów",
+                            "outcomeOdds": 1.95,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640123,
+                            "outcomeName": "Powyżej 117.5 punktów",
+                            "outcomeOdds": 1.76,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321837486,
+                    "gameName": "Sacramento Kings - poniżej/powyżej 119.5 punktów (z dogrywką)",
+                    "gameType": 182,
+                    "gameCode": 183859,
+                    "argument": 119.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272640090,
+                            "outcomeName": "Poniżej 119.5 punktów",
+                            "outcomeOdds": 1.71,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640137,
+                            "outcomeName": "Powyżej 119.5 punktów",
+                            "outcomeOdds": 2.01,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321837488,
+                    "gameName": "Sacramento Kings - poniżej/powyżej 120.5 punktów (z dogrywką)",
+                    "gameType": 182,
+                    "gameCode": 183860,
+                    "argument": 120.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272640089,
+                            "outcomeName": "Poniżej 120.5 punktów",
+                            "outcomeOdds": 1.62,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640142,
+                            "outcomeName": "Powyżej 120.5 punktów",
+                            "outcomeOdds": 2.16,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321842102,
+                    "gameName": "Sacramento Kings - poniżej/powyżej 116.5 punktów (z dogrywką)",
+                    "gameType": 182,
+                    "gameCode": 147216,
+                    "argument": 116.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272664650,
+                            "outcomeName": "Poniżej 116.5 punktów",
+                            "outcomeOdds": 2.09,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272664651,
+                            "outcomeName": "Powyżej 116.5 punktów",
+                            "outcomeOdds": 1.66,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321837414,
+                    "gameName": "Dallas Mavericks - poniżej/powyżej 117.5 punktów (z dogrywką)",
+                    "gameType": 183,
+                    "gameCode": 183861,
+                    "argument": 117.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272639974,
+                            "outcomeName": "Poniżej 117.5 punktów",
+                            "outcomeOdds": 1.86,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640058,
+                            "outcomeName": "Powyżej 117.5 punktów",
+                            "outcomeOdds": 1.85,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321837439,
+                    "gameName": "Dallas Mavericks - poniżej/powyżej 119.5 punktów (z dogrywką)",
+                    "gameType": 183,
+                    "gameCode": 183862,
+                    "argument": 119.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272640001,
+                            "outcomeName": "Poniżej 119.5 punktów",
+                            "outcomeOdds": 1.64,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640124,
+                            "outcomeName": "Powyżej 119.5 punktów",
+                            "outcomeOdds": 2.12,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321837447,
+                    "gameName": "Dallas Mavericks - poniżej/powyżej 118.5 punktów (z dogrywką)",
+                    "gameType": 183,
+                    "gameCode": 183864,
+                    "argument": 118.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272639989,
+                            "outcomeName": "Poniżej 118.5 punktów",
+                            "outcomeOdds": 1.74,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640048,
+                            "outcomeName": "Powyżej 118.5 punktów",
+                            "outcomeOdds": 1.98,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321837449,
+                    "gameName": "Dallas Mavericks - poniżej/powyżej 116.5 punktów (z dogrywką)",
+                    "gameType": 183,
+                    "gameCode": 183865,
+                    "argument": 116.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272639992,
+                            "outcomeName": "Poniżej 116.5 punktów",
+                            "outcomeOdds": 1.99,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272640047,
+                            "outcomeName": "Powyżej 116.5 punktów",
+                            "outcomeOdds": 1.73,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321842103,
+                    "gameName": "Dallas Mavericks - poniżej/powyżej 115.5 punktów (z dogrywką)",
+                    "gameType": 183,
+                    "gameCode": 147217,
+                    "argument": 115.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 5,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272664652,
+                            "outcomeName": "Poniżej 115.5 punktów",
+                            "outcomeOdds": 2.14,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272664653,
+                            "outcomeName": "Powyżej 115.5 punktów",
+                            "outcomeOdds": 1.63,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321828030,
+                    "gameName": "Handicap +4.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 116984,
+                    "argument": 4.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272594564,
+                            "outcomeName": "Sacramento Kings (+4.5)",
+                            "outcomeOdds": 1.5,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594579,
+                            "outcomeName": "Dallas Mavericks (-4.5)",
+                            "outcomeOdds": 2.47,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321828031,
+                    "gameName": "Handicap -6.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 116985,
+                    "argument": -6.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272594570,
+                            "outcomeName": "Sacramento Kings (-6.5)",
+                            "outcomeOdds": 2.6,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594582,
+                            "outcomeName": "Dallas Mavericks (+6.5)",
+                            "outcomeOdds": 1.45,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321828032,
+                    "gameName": "Handicap +2.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 116988,
+                    "argument": 2.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272594566,
+                            "outcomeName": "Sacramento Kings (+2.5)",
+                            "outcomeOdds": 1.66,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594590,
+                            "outcomeName": "Dallas Mavericks (-2.5)",
+                            "outcomeOdds": 2.14,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321828033,
+                    "gameName": "Handicap -2.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 116995,
+                    "argument": -2.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272594565,
+                            "outcomeName": "Sacramento Kings (-2.5)",
+                            "outcomeOdds": 1.95,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594574,
+                            "outcomeName": "Dallas Mavericks (+2.5)",
+                            "outcomeOdds": 1.79,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321828034,
+                    "gameName": "Handicap -9.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 117003,
+                    "argument": -9.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272594569,
+                            "outcomeName": "Sacramento Kings (-9.5)",
+                            "outcomeOdds": 3.4,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594581,
+                            "outcomeName": "Dallas Mavericks (+9.5)",
+                            "outcomeOdds": 1.29,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321828036,
+                    "gameName": "Handicap +1.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 117090,
+                    "argument": 1.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272594567,
+                            "outcomeName": "Sacramento Kings (+1.5)",
+                            "outcomeOdds": 1.72,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594589,
+                            "outcomeName": "Dallas Mavericks (-1.5)",
+                            "outcomeOdds": 2.05,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321828037,
+                    "gameName": "Handicap +6.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 117163,
+                    "argument": 6.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272594573,
+                            "outcomeName": "Sacramento Kings (+6.5)",
+                            "outcomeOdds": 1.38,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594592,
+                            "outcomeName": "Dallas Mavericks (-6.5)",
+                            "outcomeOdds": 2.9,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321828038,
+                    "gameName": "Handicap -5.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 117185,
+                    "argument": -5.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272594576,
+                            "outcomeName": "Sacramento Kings (-5.5)",
+                            "outcomeOdds": 2.41,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594585,
+                            "outcomeName": "Dallas Mavericks (+5.5)",
+                            "outcomeOdds": 1.53,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321828039,
+                    "gameName": "Handicap -8.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 117206,
+                    "argument": -8.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272594572,
+                            "outcomeName": "Sacramento Kings (-8.5)",
+                            "outcomeOdds": 3.1,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594591,
+                            "outcomeName": "Dallas Mavericks (+8.5)",
+                            "outcomeOdds": 1.34,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321828040,
+                    "gameName": "Handicap -3.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 117241,
+                    "argument": -3.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272594575,
+                            "outcomeName": "Sacramento Kings (-3.5)",
+                            "outcomeOdds": 2.09,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594586,
+                            "outcomeName": "Dallas Mavericks (+3.5)",
+                            "outcomeOdds": 1.69,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321828041,
+                    "gameName": "Handicap +5.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 117250,
+                    "argument": 5.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272594568,
+                            "outcomeName": "Sacramento Kings (+5.5)",
+                            "outcomeOdds": 1.44,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594587,
+                            "outcomeName": "Dallas Mavericks (-5.5)",
+                            "outcomeOdds": 2.65,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321828042,
+                    "gameName": "Handicap +3.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 117251,
+                    "argument": 3.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272594571,
+                            "outcomeName": "Sacramento Kings (+3.5)",
+                            "outcomeOdds": 1.58,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594584,
+                            "outcomeName": "Dallas Mavericks (-3.5)",
+                            "outcomeOdds": 2.29,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321828044,
+                    "gameName": "Handicap -7.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 117252,
+                    "argument": -7.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272594583,
+                            "outcomeName": "Sacramento Kings (-7.5)",
+                            "outcomeOdds": 2.85,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594596,
+                            "outcomeName": "Dallas Mavericks (+7.5)",
+                            "outcomeOdds": 1.4,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321828045,
+                    "gameName": "Handicap -1.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 117253,
+                    "argument": -1.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272594580,
+                            "outcomeName": "Sacramento Kings (-1.5)",
+                            "outcomeOdds": 1.88,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594595,
+                            "outcomeName": "Dallas Mavericks (+1.5)",
+                            "outcomeOdds": 1.86,
+                            "status": 100
+                        }
+                    ]
+                },
+                {
+                    "gameId": 1321828046,
+                    "gameName": "Handicap -4.5 (z dogrywką)",
+                    "gameType": -2950,
+                    "gameCode": 117254,
+                    "argument": -4.5,
+                    "combinationType": 1,
+                    "marketTypes": [],
+                    "gameLayout": 2,
+                    "eventLayout": 7,
+                    "outcomes": [
+                        {
+                            "outcomeId": 1272594588,
+                            "outcomeName": "Sacramento Kings (-4.5)",
+                            "outcomeOdds": 2.24,
+                            "status": 100
+                        },
+                        {
+                            "outcomeId": 1272594597,
+                            "outcomeName": "Dallas Mavericks (+4.5)",
+                            "outcomeOdds": 1.6,
+                            "status": 100
+                        }
+                    ]
+                }
+            ],
+            "cashoutEnabled": null,
+            "participants": [
+                {
+                    "localId": 24595,
+                    "remoteId": 3413,
+                    "name": "Sacramento Kings",
+                    "number": 1
+                },
+                {
+                    "localId": 24586,
+                    "remoteId": 3411,
+                    "name": "Dallas Mavericks",
+                    "number": 2
+                }
+            ],
+            "tvChannelInfo": null,
+            "result": null,
+            "videoStream": null,
+            "betsCounter": null,
+            "sportId": null,
+            "countryId": null,
+            "leagueId": null,
+            "sportName": null,
+            "liveEventId": null,
+            "eventExtendedData": {
+                "neutralGround": "-1",
+                "remoteCategoryId": ""
+            },
+            "isOutright": null,
+            "marketTypesOrder": null,
+            "flashscoreLink": null,
+            "betBuilderModel": {
+                "remoteId": 10430554,
+                "customBetFixtureId": 292642,
+                "eventId": 40316246,
+                "eventIds": null
+            },
+            "customBetAvailable": null
+        }
+    ]
+}

@@ -40,7 +40,7 @@ def get_latest_events():
         # sleeping before requests
         time.sleep(sleep_random(API_TIMEOUT))
         # get request
-        response = requests.get(url_sofa_finished_matches(i), headers=api_headers_sofa)
+        response = requests.get(url_sofa_finished_matches(i), headers=api_headers_common)
         
         print(f"Looping thru page {i+1}...")
 
@@ -111,7 +111,7 @@ def get_latest_events():
 def save_all_stats(db, cursor, url_api, teams, match_date):
     # sleeping before requests
     time.sleep(sleep_random(API_TIMEOUT))
-    response = requests.get(url_api, headers=api_headers_sofa)
+    response = requests.get(url_api, headers=api_headers_common)
     
     if response.status_code == 200:
         print("Code: 200")

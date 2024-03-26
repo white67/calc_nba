@@ -5,9 +5,11 @@ import requests
 import json
 from datetime import datetime, timedelta, timezone
 
+EVENTS_DATE = "2024-03-26"
+
 API_TIMEOUT = 2 # seconds
 CFG_HOUR_PRIOR = 22
-api_headers_sofa = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'}
+api_headers_common = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'}
 
 class bet:
     def __init__(self, team1, team2, btype, name, odds, player, bookmaker, eventId, datetime, scrape_time):
@@ -48,7 +50,26 @@ def correct_date_timestamp(input_date):
     print(new_datetime)
     
     # Format the date according to the desired format
-    formatted_date = new_datetime.strftime("%Y/%m/%d %H:%M:%S")
+    formatted_date = new_datetime.strftime("%Y-%m-%d %H:%M:%S")
+    
+    return formatted_date
+
+def correct_date_timestamp2(input_date):
+    # Convert milliseconds to seconds by dividing by 1000
+    timestamp_seconds = input_date / 1000
+    
+    # Convert the timestamp to a datetime object
+    parsed_date = datetime.utcfromtimestamp(timestamp_seconds)
+    
+    # Adjust to CET (UTC+1) timezone
+    cet_timezone = timezone(timedelta(hours=1))
+    cet_date = parsed_date.replace(tzinfo=cet_timezone)
+    
+    # Add 1 hour to the datetime (CET is 1 hour ahead of UTC)
+    new_datetime = cet_date + timedelta(hours=1)
+    
+    # Format the date according to the desired format
+    formatted_date = new_datetime.strftime("%Y-%m-%d %H:%M:%S")
     
     return formatted_date
 

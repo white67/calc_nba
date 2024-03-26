@@ -37,6 +37,11 @@ def cfg_url_sts(eventId):
     return f'https://api.sts.pl/web/v1/offer/prematch/{eventId}?lang=pl'
 
 # iforbet
+category3Id_iforbet = 29903
+category2Id_iforbet = 236
+category1Id_iforbet = 2
+url_iforbet_upcoming = 'https://www.iforbet.pl/rest/market/categories/multi/29903/events?gamesClass=major'
+
 def cfg_url_iforbet(eventId):
     return f'https://www.iforbet.pl/rest/market/events/{eventId}'
 

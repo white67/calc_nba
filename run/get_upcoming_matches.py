@@ -25,7 +25,7 @@ def get_new_events(cfg_hour_prior):
     
     # sleeping before requests
     time.sleep(sleep_random(API_TIMEOUT))
-    response = requests.get(url_sofa_upcoming_matches, headers=api_headers_sofa)
+    response = requests.get(url_sofa_upcoming_matches, headers=api_headers_common)
 
     if response.status_code == 200:
         print("Code: 200")

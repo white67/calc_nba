@@ -33,7 +33,7 @@ create table bets (
 
 -- @block xdd
 ALTER TABLE bets
-ADD bet_full_info text;
+ADD bookmaker varchar(255);
 
 -- @block deleting
 drop table bets_assigned;
@@ -51,3 +51,6 @@ CREATE TABLE bets_assigned (
 drop table matches_backup;
 drop table players_backup;
 drop table stats_backup;
+
+-- @block ADD
+update bets set bookmaker = "superbet" where bet_id > 0;
