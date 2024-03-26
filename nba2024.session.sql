@@ -9,6 +9,8 @@ select * from stats where match_id = 922;
 CREATE TABLE matches_backup AS SELECT * FROM matches;
 CREATE TABLE stats_backup AS SELECT * FROM stats;
 CREATE TABLE players_backup AS SELECT * FROM players;
+CREATE TABLE bets_backup AS SELECT * FROM bets;
+CREATE TABLE bets_assigned_backup AS SELECT * FROM bets_assigned;
 
 -- @block
 SELECT *
@@ -32,8 +34,8 @@ create table bets (
 );
 
 -- @block xdd
-ALTER TABLE bets
-ADD bookmaker varchar(255);
+ALTER TABLE players
+ADD sofascore_player_id int, country varchar(255), last_update datetime;
 
 -- @block deleting
 drop table bets_assigned;

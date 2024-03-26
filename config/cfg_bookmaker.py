@@ -58,3 +58,8 @@ def url_sofa_matchpage(eventId):
 
 def url_sofa_playerpage(slug_name, player_id):
     return f"https://www.sofascore.com/player/{slug_name}/{player_id}"
+
+url_sofa_team_lineups = 'https://api.sofascore.com/api/v1/unique-tournament/132/season/54105/standings/total'
+
+def url_sofa_team_lineup(team_id):
+    return f"https://api.sofascore.com/api/v1/team/{team_id}/players"

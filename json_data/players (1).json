@@ -1,0 +1,3375 @@
+{
+    "players": [
+        {
+            "player": {
+                "name": "Jerami Grant",
+                "firstName": "Jerami",
+                "lastName": "Grant ",
+                "slug": "grant-jerami",
+                "shortName": "J. Grant",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "F",
+                "jerseyNumber": "9",
+                "height": 203,
+                "userCount": 2233,
+                "gender": "M",
+                "id": 817119,
+                "country": {
+                    "alpha2": "US",
+                    "alpha3": "USA",
+                    "name": "USA"
+                },
+                "shirtNumber": 9,
+                "dateOfBirthTimestamp": 763430400,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062c\u064a\u0631\u0627\u0645\u064a \u063a\u0631\u0627\u0646\u062a"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u062c. \u063a\u0631\u0627\u0646\u062a"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Anfernee Simons",
+                "firstName": "Anfernee",
+                "lastName": "Simons ",
+                "slug": "simons-anfernee",
+                "shortName": "A. Simons",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "G",
+                "jerseyNumber": "1",
+                "height": 191,
+                "userCount": 2274,
+                "gender": "M",
+                "id": 940767,
+                "country": {
+                    "alpha2": "US",
+                    "alpha3": "USA",
+                    "name": "USA"
+                },
+                "shirtNumber": 1,
+                "dateOfBirthTimestamp": 928800000,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0623\u0646\u0641\u0631\u0646\u064a \u0633\u064a\u0645\u0648\u0646\u0633"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u0623. \u0633\u064a\u0645\u0648\u0646\u0633"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Shaedon Sharpe",
+                "firstName": "Shaedon",
+                "lastName": "Sharpe ",
+                "slug": "sharpe-shaedon",
+                "shortName": "S. Sharpe",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "G",
+                "jerseyNumber": "17",
+                "height": 198,
+                "userCount": 756,
+                "gender": "M",
+                "id": 1178822,
+                "country": {
+                    "alpha2": "CA",
+                    "alpha3": "CAN",
+                    "name": "Canada"
+                },
+                "shirtNumber": 17,
+                "dateOfBirthTimestamp": 1054252800,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0634\u064a\u062f\u0648\u0646 \u0634\u0627\u0631\u0628"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u0634. \u0634\u0627\u0631\u0628"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Deandre Ayton",
+                "firstName": "Deandre",
+                "lastName": "Ayton ",
+                "slug": "ayton-deandre",
+                "shortName": "D. Ayton",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "C",
+                "jerseyNumber": "2",
+                "height": 211,
+                "userCount": 2990,
+                "gender": "M",
+                "id": 940812,
+                "country": {
+                    "alpha2": "BS",
+                    "alpha3": "BHS",
+                    "name": "Bahamas"
+                },
+                "shirtNumber": 2,
+                "dateOfBirthTimestamp": 901152000,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062f\u064a\u0646\u062f\u0631\u064a \u0623\u064a\u062a\u0648\u0646"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u062f. \u0623\u064a\u062a\u0648\u0646"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Toumani Camara",
+                "firstName": "",
+                "lastName": "",
+                "slug": "camara-toumani",
+                "shortName": "T. Camara",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "F",
+                "jerseyNumber": "33",
+                "height": 203,
+                "retired": false,
+                "userCount": 592,
+                "gender": "M",
+                "id": 1179735,
+                "country": {
+                    "alpha2": "BE",
+                    "alpha3": "BEL",
+                    "name": "Belgium"
+                },
+                "shirtNumber": 33,
+                "dateOfBirthTimestamp": 957744000,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u0648\u0645\u0627\u0646\u064a \u0643\u0627\u0645\u0627\u0631\u0627"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u062a. \u0643\u0627\u0645\u0627\u0631\u0627"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Matisse Thybulle",
+                "firstName": "Matisse",
+                "lastName": "Thybulle ",
+                "slug": "thybulle-matisse",
+                "shortName": "M. Thybulle",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "GF",
+                "jerseyNumber": "4",
+                "height": 196,
+                "userCount": 410,
+                "gender": "M",
+                "id": 989085,
+                "country": {
+                    "alpha2": "AU",
+                    "alpha3": "AUS",
+                    "name": "Australia"
+                },
+                "shirtNumber": 4,
+                "dateOfBirthTimestamp": 857433600,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0645\u0627\u062a\u064a\u0633 \u062b\u064a\u0628\u0648\u0644"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u0645. \u062b\u064a\u0628\u0648\u0644"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Jabari Walker",
+                "firstName": "Jabari",
+                "lastName": "Walker ",
+                "slug": "walker-jabari",
+                "shortName": "J. Walker",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "F",
+                "jerseyNumber": "34",
+                "height": 203,
+                "userCount": 136,
+                "gender": "M",
+                "id": 1183277,
+                "country": {
+                    "alpha2": "US",
+                    "alpha3": "USA",
+                    "name": "USA"
+                },
+                "shirtNumber": 34,
+                "dateOfBirthTimestamp": 1027987200,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062c\u0627\u0628\u0627\u0631\u064a \u0648\u0648\u0643\u0631"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u062c. \u0648\u0648\u0643\u0631"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Duop Reath",
+                "slug": "reath-duop",
+                "shortName": "D. Reath",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "C",
+                "jerseyNumber": "26",
+                "height": 206,
+                "retired": false,
+                "userCount": 264,
+                "deceased": false,
+                "gender": "M",
+                "id": 958805,
+                "country": {
+                    "alpha2": "AU",
+                    "alpha3": "AUS",
+                    "name": "Australia"
+                },
+                "shirtNumber": 26,
+                "dateOfBirthTimestamp": 835747200,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062f\u0648\u0628 \u0631\u064a\u062b"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u062f. \u0631\u064a\u062b"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Dalano Banton",
+                "firstName": "Dalano",
+                "lastName": "Banton ",
+                "slug": "dalano-banton",
+                "shortName": "D. Banton",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "F",
+                "jerseyNumber": "45",
+                "height": 201,
+                "userCount": 158,
+                "gender": "M",
+                "id": 1133795,
+                "country": {
+                    "alpha2": "CA",
+                    "alpha3": "CAN",
+                    "name": "Canada"
+                },
+                "shirtNumber": 45,
+                "dateOfBirthTimestamp": 941932800,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062f\u0627\u0644\u0627\u0646\u0648 \u0628\u0627\u0646\u062a\u0648\u0646"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u062f. \u0628\u0627\u0646\u062a\u0648\u0646"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Kris Murray",
+                "slug": "murray-kris",
+                "shortName": "K. Murray",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "F",
+                "jerseyNumber": "8",
+                "height": 203,
+                "userCount": 116,
+                "gender": "M",
+                "id": 1180989,
+                "country": {
+                    "alpha2": "US",
+                    "alpha3": "USA",
+                    "name": "USA"
+                },
+                "shirtNumber": 8,
+                "dateOfBirthTimestamp": 966643200,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0643\u0631\u064a\u0633 \u0645\u0648\u0631\u0627\u064a"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u0643. \u0645\u0648\u0631\u0627\u064a"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Malcolm Brogdon",
+                "firstName": "Malcolm",
+                "lastName": "Brogdon ",
+                "slug": "brogdon-malcolm",
+                "shortName": "M. Brogdon",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "G",
+                "jerseyNumber": "11",
+                "height": 196,
+                "userCount": 1414,
+                "gender": "M",
+                "id": 846931,
+                "country": {
+                    "alpha2": "US",
+                    "alpha3": "USA",
+                    "name": "USA"
+                },
+                "shirtNumber": 11,
+                "dateOfBirthTimestamp": 724032000,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0645\u0627\u0644\u0643\u0648\u0644\u0645 \u0628\u0631\u0648\u063a\u062f\u0648\u0646"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u0645. \u0628\u0631\u0648\u063a\u062f\u0648\u0646"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Scoot Henderson",
+                "slug": "henderson-scoot",
+                "shortName": "S. Henderson",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "G",
+                "jerseyNumber": "0",
+                "height": 193,
+                "userCount": 1380,
+                "gender": "M",
+                "id": 1206071,
+                "country": {
+                    "alpha2": "US",
+                    "alpha3": "USA",
+                    "name": "USA"
+                },
+                "shirtNumber": 0,
+                "dateOfBirthTimestamp": 1075766400,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0633\u0643\u0648\u062a \u0647\u0646\u062f\u0631\u0633\u0648\u0646"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u0633. \u0647\u0646\u062f\u0631\u0633\u0648\u0646"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Ashton Hagans",
+                "firstName": "Ashton",
+                "lastName": "Hagans",
+                "slug": "ashton-hagans",
+                "shortName": "A. Hagans",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "GF",
+                "jerseyNumber": "19",
+                "height": 191,
+                "retired": false,
+                "userCount": 7,
+                "deceased": false,
+                "gender": "M",
+                "id": 1092942,
+                "country": {
+                    "alpha2": "US",
+                    "alpha3": "USA",
+                    "name": "USA"
+                },
+                "shirtNumber": 19,
+                "dateOfBirthTimestamp": 931392000
+            }
+        },
+        {
+            "player": {
+                "name": "Robert Williams",
+                "firstName": "Robert",
+                "lastName": "Williams ",
+                "slug": "williams-robert",
+                "shortName": "R. Williams III",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "CF",
+                "jerseyNumber": "35",
+                "height": 206,
+                "userCount": 1026,
+                "gender": "M",
+                "id": 940756,
+                "country": {
+                    "alpha2": "US",
+                    "alpha3": "USA",
+                    "name": "USA"
+                },
+                "shirtNumber": 35,
+                "dateOfBirthTimestamp": 877046400,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0631\u0648\u0628\u064a\u0631\u062a \u0648\u064a\u0644\u064a\u0627\u0645\u0632"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u0631. \u0648\u064a\u0644\u064a\u0627\u0645\u0632"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Moses Brown",
+                "firstName": "Moses",
+                "lastName": "Brown ",
+                "slug": "brown-moses",
+                "shortName": "M. Brown",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "C",
+                "jerseyNumber": "10",
+                "height": 218,
+                "retired": false,
+                "userCount": 112,
+                "gender": "M",
+                "id": 996152,
+                "country": {
+                    "alpha2": "US",
+                    "alpha3": "USA",
+                    "name": "USA"
+                },
+                "shirtNumber": 10,
+                "dateOfBirthTimestamp": 939772800,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0645\u0648\u0633\u0649 \u0628\u0631\u0627\u0648\u0646"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u0645. \u0628\u0631\u0627\u0648\u0646"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Taze Moore",
+                "slug": "moore-taze",
+                "shortName": "T. Moore",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "jerseyNumber": "4",
+                "height": 193,
+                "userCount": 6,
+                "gender": "M",
+                "id": 1179501,
+                "country": {
+                    "alpha2": "US",
+                    "alpha3": "USA",
+                    "name": "USA"
+                },
+                "shirtNumber": 4,
+                "dateOfBirthTimestamp": 899078400
+            }
+        }
+    ],
+    "foreignPlayers": [
+        {
+            "player": {
+                "name": "Duop Reath",
+                "slug": "reath-duop",
+                "shortName": "D. Reath",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "C",
+                "jerseyNumber": "26",
+                "height": 206,
+                "retired": false,
+                "userCount": 264,
+                "deceased": false,
+                "gender": "M",
+                "id": 958805,
+                "country": {
+                    "alpha2": "AU",
+                    "alpha3": "AUS",
+                    "name": "Australia"
+                },
+                "shirtNumber": 26,
+                "dateOfBirthTimestamp": 835747200,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062f\u0648\u0628 \u0631\u064a\u062b"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u062f. \u0631\u064a\u062b"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Matisse Thybulle",
+                "firstName": "Matisse",
+                "lastName": "Thybulle ",
+                "slug": "thybulle-matisse",
+                "shortName": "M. Thybulle",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "GF",
+                "jerseyNumber": "4",
+                "height": 196,
+                "userCount": 410,
+                "gender": "M",
+                "id": 989085,
+                "country": {
+                    "alpha2": "AU",
+                    "alpha3": "AUS",
+                    "name": "Australia"
+                },
+                "shirtNumber": 4,
+                "dateOfBirthTimestamp": 857433600,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0645\u0627\u062a\u064a\u0633 \u062b\u064a\u0628\u0648\u0644"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u0645. \u062b\u064a\u0628\u0648\u0644"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Toumani Camara",
+                "firstName": "",
+                "lastName": "",
+                "slug": "camara-toumani",
+                "shortName": "T. Camara",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "F",
+                "jerseyNumber": "33",
+                "height": 203,
+                "retired": false,
+                "userCount": 592,
+                "gender": "M",
+                "id": 1179735,
+                "country": {
+                    "alpha2": "BE",
+                    "alpha3": "BEL",
+                    "name": "Belgium"
+                },
+                "shirtNumber": 33,
+                "dateOfBirthTimestamp": 957744000,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062a\u0648\u0645\u0627\u0646\u064a \u0643\u0627\u0645\u0627\u0631\u0627"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u062a. \u0643\u0627\u0645\u0627\u0631\u0627"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Deandre Ayton",
+                "firstName": "Deandre",
+                "lastName": "Ayton ",
+                "slug": "ayton-deandre",
+                "shortName": "D. Ayton",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "C",
+                "jerseyNumber": "2",
+                "height": 211,
+                "userCount": 2990,
+                "gender": "M",
+                "id": 940812,
+                "country": {
+                    "alpha2": "BS",
+                    "alpha3": "BHS",
+                    "name": "Bahamas"
+                },
+                "shirtNumber": 2,
+                "dateOfBirthTimestamp": 901152000,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062f\u064a\u0646\u062f\u0631\u064a \u0623\u064a\u062a\u0648\u0646"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u062f. \u0623\u064a\u062a\u0648\u0646"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Dalano Banton",
+                "firstName": "Dalano",
+                "lastName": "Banton ",
+                "slug": "dalano-banton",
+                "shortName": "D. Banton",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "F",
+                "jerseyNumber": "45",
+                "height": 201,
+                "userCount": 158,
+                "gender": "M",
+                "id": 1133795,
+                "country": {
+                    "alpha2": "CA",
+                    "alpha3": "CAN",
+                    "name": "Canada"
+                },
+                "shirtNumber": 45,
+                "dateOfBirthTimestamp": 941932800,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062f\u0627\u0644\u0627\u0646\u0648 \u0628\u0627\u0646\u062a\u0648\u0646"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u062f. \u0628\u0627\u0646\u062a\u0648\u0646"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Shaedon Sharpe",
+                "firstName": "Shaedon",
+                "lastName": "Sharpe ",
+                "slug": "sharpe-shaedon",
+                "shortName": "S. Sharpe",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "G",
+                "jerseyNumber": "17",
+                "height": 198,
+                "userCount": 756,
+                "gender": "M",
+                "id": 1178822,
+                "country": {
+                    "alpha2": "CA",
+                    "alpha3": "CAN",
+                    "name": "Canada"
+                },
+                "shirtNumber": 17,
+                "dateOfBirthTimestamp": 1054252800,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0634\u064a\u062f\u0648\u0646 \u0634\u0627\u0631\u0628"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u0634. \u0634\u0627\u0631\u0628"
+                    }
+                }
+            }
+        }
+    ],
+    "nationalPlayers": [
+        {
+            "player": {
+                "name": "Duop Reath",
+                "slug": "reath-duop",
+                "shortName": "D. Reath",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "C",
+                "jerseyNumber": "26",
+                "height": 206,
+                "retired": false,
+                "userCount": 264,
+                "deceased": false,
+                "gender": "M",
+                "id": 958805,
+                "country": {
+                    "alpha2": "AU",
+                    "alpha3": "AUS",
+                    "name": "Australia"
+                },
+                "shirtNumber": 26,
+                "dateOfBirthTimestamp": 835747200,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u062f\u0648\u0628 \u0631\u064a\u062b"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u062f. \u0631\u064a\u062b"
+                    }
+                }
+            }
+        },
+        {
+            "player": {
+                "name": "Matisse Thybulle",
+                "firstName": "Matisse",
+                "lastName": "Thybulle ",
+                "slug": "thybulle-matisse",
+                "shortName": "M. Thybulle",
+                "team": {
+                    "name": "Portland Trail Blazers",
+                    "slug": "portland-trail-blazers",
+                    "shortName": "Trail Blazers",
+                    "gender": "M",
+                    "sport": {
+                        "name": "Basketball",
+                        "slug": "basketball",
+                        "id": 2
+                    },
+                    "tournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "uniqueTournament": {
+                            "name": "NBA",
+                            "slug": "nba",
+                            "primaryColorHex": "#045daf",
+                            "secondaryColorHex": "#cc2b31",
+                            "category": {
+                                "name": "USA",
+                                "slug": "usa",
+                                "sport": {
+                                    "name": "Basketball",
+                                    "slug": "basketball",
+                                    "id": 2
+                                },
+                                "id": 15,
+                                "country": {
+                                    "alpha2": "US",
+                                    "alpha3": "USA",
+                                    "name": "USA"
+                                },
+                                "flag": "usa",
+                                "alpha2": "US"
+                            },
+                            "userCount": 284469,
+                            "id": 132,
+                            "country": {},
+                            "displayInverseHomeAwayTeams": true
+                        },
+                        "priority": 142,
+                        "isLive": false,
+                        "id": 177
+                    },
+                    "primaryUniqueTournament": {
+                        "name": "NBA",
+                        "slug": "nba",
+                        "primaryColorHex": "#045daf",
+                        "secondaryColorHex": "#cc2b31",
+                        "category": {
+                            "name": "USA",
+                            "slug": "usa",
+                            "sport": {
+                                "name": "Basketball",
+                                "slug": "basketball",
+                                "id": 2
+                            },
+                            "id": 15,
+                            "country": {
+                                "alpha2": "US",
+                                "alpha3": "USA",
+                                "name": "USA"
+                            },
+                            "flag": "usa",
+                            "alpha2": "US"
+                        },
+                        "userCount": 284469,
+                        "id": 132,
+                        "country": {},
+                        "displayInverseHomeAwayTeams": true
+                    },
+                    "userCount": 25701,
+                    "nameCode": "POR",
+                    "disabled": false,
+                    "national": false,
+                    "type": 0,
+                    "id": 3414,
+                    "country": {
+                        "alpha2": "US",
+                        "alpha3": "USA",
+                        "name": "USA"
+                    },
+                    "teamColors": {
+                        "primary": "#f0163a",
+                        "secondary": "#ffffff",
+                        "text": "#ffffff"
+                    },
+                    "fieldTranslations": {
+                        "nameTranslation": {
+                            "ar": "\u067e\u0648\u0631\u062a\u0644\u0627\u0646\u062f \u062a\u0631\u0627\u064a\u0644 \u0628\u0644\u0627\u064a\u0632\u0631\u0633"
+                        },
+                        "shortNameTranslation": {}
+                    }
+                },
+                "position": "GF",
+                "jerseyNumber": "4",
+                "height": 196,
+                "userCount": 410,
+                "gender": "M",
+                "id": 989085,
+                "country": {
+                    "alpha2": "AU",
+                    "alpha3": "AUS",
+                    "name": "Australia"
+                },
+                "shirtNumber": 4,
+                "dateOfBirthTimestamp": 857433600,
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0645\u0627\u062a\u064a\u0633 \u062b\u064a\u0628\u0648\u0644"
+                    },
+                    "shortNameTranslation": {
+                        "ar": "\u0645. \u062b\u064a\u0628\u0648\u0644"
+                    }
+                }
+            }
+        }
+    ],
+    "supportStaff": []
+}

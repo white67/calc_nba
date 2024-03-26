@@ -54,19 +54,14 @@ def correct_date_timestamp(input_date):
     
     return formatted_date
 
-def correct_date_timestamp2(input_date):
-    # Convert milliseconds to seconds by dividing by 1000
-    timestamp_seconds = input_date / 1000
+def correct_date_timestamp_0h(input_date):
+    # Parse the input date string
+    input_date = str(datetime.fromtimestamp(input_date, timezone.utc))
+    parsed_date = datetime.strptime(input_date, "%Y-%m-%d %H:%M:%S%z")
     
-    # Convert the timestamp to a datetime object
-    parsed_date = datetime.utcfromtimestamp(timestamp_seconds)
-    
-    # Adjust to CET (UTC+1) timezone
-    cet_timezone = timezone(timedelta(hours=1))
-    cet_date = parsed_date.replace(tzinfo=cet_timezone)
-    
-    # Add 1 hour to the datetime (CET is 1 hour ahead of UTC)
-    new_datetime = cet_date + timedelta(hours=1)
+    # needs to convert data 1 hour later, because of the source date being different with UTC +1 / Central European Time (CET)
+    new_datetime = parsed_date
+    print(new_datetime)
     
     # Format the date according to the desired format
     formatted_date = new_datetime.strftime("%Y-%m-%d %H:%M:%S")

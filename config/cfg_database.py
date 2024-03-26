@@ -1,4 +1,6 @@
 import mysql.connector
+from mysql.connector import Error
+from datetime import datetime
 
 MATCHES = "matches"
 MATCHES_MATCH_ID = "match_id"
@@ -17,6 +19,7 @@ STATS_PLAYER_NAME = "player_name"
 STATS_PLAYER_ID = "player_id"
 STATS_MATCH_ID = "match_id"
 
+PLAYERS = "players"
 PLAYERS_PLAYER_NAME = "player_name"
 PLAYERS_SOFASCORE_LINK = "sofascore_link"
 PLAYERS_TEAM = "team"
@@ -221,6 +224,31 @@ def check_duplicate(cursor, table_name, columns, data):
     
     # Check if any row was fetched (meaning there's already a duplicate entry)
     return False if result == None else True
+
+def update_player_info(db, cursor, player_name, sofascore_link, team_name, sofascore_player_id, birth_date, country, datetime_now):
+    try:
+        query = (f"SELECT * FROM players WHERE player_name = %s AND sofascore_link = %s")
+        cursor.execute(query, (player_name, sofascore_link))
+        existing_entry = cursor.fetchone()
+
+        if existing_entry:
+            # test
+            # Update other columns
+            update_query = ("UPDATE players SET team = %s, sofascore_player_id = %s, birth_date = %s, country = %s, last_update = %s"
+                            "WHERE player_name = %s AND sofascore_link = %s")
+            cursor.execute(update_query, (team_name, sofascore_player_id, birth_date, country, datetime_now, player_name, sofascore_link))
+            db.commit()
+            print("Entry updated successfully.")
+        else:
+            print(f"Entry does not exist: {player_name}, {sofascore_link}, {country}")
+            add_player_to_database(db, cursor, player_name, sofascore_link, team_name, birth_date)
+            
+            # try adding again
+            update_player_info(db, cursor, player_name, sofascore_link, team_name, sofascore_player_id, birth_date, country, datetime_now)
+    except Error as e:
+        print("Error while connecting to MySQL", e)
+
+
 
 def get_player_id(cursor, columns, data):
     where_clause = " AND ".join(f"{column} = %s" for column in columns)
