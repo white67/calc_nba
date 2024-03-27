@@ -13,9 +13,7 @@ import mysql.connector
 ###
 
 # retrieve json file from API and save it to json file
-def get_superbet_odds():
-    bookmaker = "superbet"
-    
+def get_superbet_odds(bookmaker):
     # make connection
     db, mycursor = db_connect()
     
@@ -170,4 +168,4 @@ def get_superbet_odds():
 
 
 if __name__ == "__main__":
-    get_superbet_odds()
+    get_superbet_odds(BOOKMAKER_SUPERBET)

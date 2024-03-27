@@ -1,2 +1,0 @@
-
-    print(teams_id)

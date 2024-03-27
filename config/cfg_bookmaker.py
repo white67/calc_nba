@@ -1,4 +1,6 @@
 # superbet
+BOOKMAKER_SUPERBET = "superbet"
+
 def cfg_url_superbet_upcoming(start_date, end_date):
     return f'https://production-superbet-offer-pl.freetls.fastly.net/v2/pl-PL/events/by-date?offerState=prematch&startDate={start_date}&endDate={end_date}'
     # start_date ~ 2024-03-25+17:23:00
@@ -37,6 +39,7 @@ def cfg_url_sts(eventId):
     return f'https://api.sts.pl/web/v1/offer/prematch/{eventId}?lang=pl'
 
 # iforbet
+BOOKMAKER_IFORBET = "iforbet"
 category3Id_iforbet = 29903
 category2Id_iforbet = 236
 category1Id_iforbet = 2

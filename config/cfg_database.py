@@ -18,6 +18,25 @@ STATS = "stats"
 STATS_PLAYER_NAME = "player_name"
 STATS_PLAYER_ID = "player_id"
 STATS_MATCH_ID = "match_id"
+STATS_P = "points"
+STATS_R = "rebounds"
+STATS_A = "assists"
+STATS_MIN = "mintes_played"
+STATS_POS = "position"
+STATS_FTA = "free_throws_attempts"
+STATS_FTS = "free_throws_success"
+STATS_TWO_ATT = "two_pointers_attempts"
+STATS_TWO_SUC = "two_pointers_success"
+STATS_THREE_ATT = "three_pointers_attempts"
+STATS_THREE_SUC = "three_pointers_success"
+STATS_FGA = "field_goals_attempts"
+STATS_FGS = "field_goals_success"
+STATS_RD = "rebounds_defensive"
+STATS_RO = "rebounds_offensive"
+STATS_TO = "turnovers"
+STATS_S = "steals"
+STATS_B = "blocks"
+STATS_PF = "personal_fouls"
 
 PLAYERS = "players"
 PLAYERS_PLAYER_NAME = "player_name"
@@ -28,6 +47,7 @@ BETS_NAME = "bet_name"
 BETS_OUTCOME = "outcome"
 BETS_FULL_INFO = "bet_full_info"
 BETS_ODDS = "odds_value"
+BETS_BOOKMAKER = "bookmaker"
 
 # connect with database
 def db_connect():
@@ -70,8 +90,6 @@ def add_stats_to_database(db, cursor,
     match_id,
     player_name,
     team,
-    teams,
-    match_date,
     points,
     rebounds,
     assists,
