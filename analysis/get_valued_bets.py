@@ -100,21 +100,5 @@ print(f"counter_over: {counter_over}")
 print(f"counter_under: {counter_under}")
 print(f"count_other: {count_other}")
 
-
-# Open the new text file in write mode
-with open('new_file.txt', 'w', encoding='utf-8') as file:
-    # Loop through the items in the dictionary
-    for key, value in all_bet_names.items():
-        print(key)
-        file.write(key + '\n')
-
-
-
 # Close the cursor and connection
 mycursor.close()
-
-
-# get all bets in the upcoming day
-
-
-

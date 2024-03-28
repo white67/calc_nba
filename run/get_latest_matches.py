@@ -14,15 +14,7 @@ import mysql.connector
 def get_latest_events():
     
     # make connection
-    db = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        passwd="mansionmusik1400",
-        database="nba2024"
-    )
-    
-    # set buffer
-    mycursor = db.cursor(buffered=True)
+    db, mycursor = db_connect()
 
     # loop thru latest matches until error code, and save those that has not been entered in database yet
     counter = 0
@@ -81,9 +73,8 @@ def get_latest_events():
                     scraped = 0
                     team1_score = match["homeScore"]["current"]
                     team2_score = match["awayScore"]["current"]
-                    
-                    # test
-                    add_match_to_database(db, mycursor, teams[0], teams[1], sofascore_matchpage_url, scraped, team1_score, team2_score, match_date)
+
+                    db_add(db, mycursor, MATCHES, [MATCHES_TEAM1, MATCHES_TEAM2, MATCHES_SOFASCORE_LINK, MATCHES_SCRAPED, MATCHES_TEAM1_SCORE, MATCHES_TEAM2_SCORE, MATCHES_MATCH_DATE], [teams[0], teams[1], sofascore_matchpage_url, scraped, team1_score, team2_score, match_date])
                 else:
                     print(f"{counter+1}.Entry already exist ({sofascore_matchpage_url}, {match_date})")
                     counter_already_exist += 1
@@ -91,8 +82,7 @@ def get_latest_events():
                 # scrape match_page data -> save to stats table
                 eventId = match["id"]
                 url_sofa_match_stats = url_sofa_matchpage(eventId)
-                
-                # test
+
                 save_all_stats(db, mycursor, url_sofa_match_stats, teams, match_date)
                 
                 counter += 1
@@ -128,17 +118,16 @@ def save_all_stats(db, cursor, url_api, teams, match_date):
                 sofascore_link = url_sofa_playerpage(player["player"]["slug"], player["player"]["id"])
                 
                 # check if entry already exists based on 3 variables
-                player_id = get_player_id(cursor, [PLAYERS_PLAYER_NAME, PLAYERS_SOFASCORE_LINK], [name, sofascore_link])
+                player_id = get_id(cursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_SOFASCORE_LINK], [name, sofascore_link])
                 # what if player doesn't exist in database
                 if player_id == None:
                     # add a player to database
                     birth_date = correct_date_timestamp(player["player"]["dateOfBirthTimestamp"])
-                    add_player_to_database(db, cursor, name, sofascore_link, team, birth_date)
+                    db_add(db, cursor, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_SOFASCORE_LINK, PLAYERS_TEAM, PLAYERS_BIRTH_DATE], [name, sofascore_link, team, birth_date])
                 
-                    player_id = get_player_id(cursor, [PLAYERS_PLAYER_NAME, PLAYERS_SOFASCORE_LINK], [name, sofascore_link])
+                    player_id = get_id(cursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_SOFASCORE_LINK], [name, sofascore_link])
                     
-                    
-                match_id = get_match_id(cursor, teams, match_date)
+                match_id = get_id(cursor, MATCHES_MATCH_ID, MATCHES, [MATCHES_TEAM1, MATCHES_TEAM2, MATCHES_MATCH_DATE], [teams[0], teams[1], match_date])
                 entry_exist = check_duplicate(cursor, STATS, [STATS_PLAYER_ID, STATS_MATCH_ID], [player_id, match_id])
                 
                 # if entry does not exist
@@ -170,7 +159,6 @@ def save_all_stats(db, cursor, url_api, teams, match_date):
                 blocks = stats["blocks"]
                 personal_fouls = stats["personalFouls"]
                 
-                # test
                 # print("::", end="")
                 # result = ", ".join([
                 #     name, position, team, str(points), str(rebounds), str(assists), str(minutes_played),
@@ -182,30 +170,8 @@ def save_all_stats(db, cursor, url_api, teams, match_date):
                 # print(result)
                 
                 # test
-                add_stats_to_database(db, cursor,
-                    player_id,
-                    match_id,
-                    name,
-                    team,
-                    points,
-                    rebounds,
-                    assists,
-                    minutes_played,
-                    position,
-                    free_throws_attempts,
-                    free_throws_success,
-                    two_pointers_attempts,
-                    two_pointers_success,
-                    three_pointers_attempts,
-                    three_pointers_success,
-                    field_goals_attempts,
-                    field_goals_success,
-                    rebounds_defensive,
-                    rebounds_offensive,
-                    turnovers,
-                    steals,
-                    blocks,
-                    personal_fouls)   
+                db_add(db, cursor, STATS, [STATS_PLAYER_ID, STATS_MATCH_ID, STATS_PLAYER_NAME, STATS_TEAM, STATS_P, STATS_R, STATS_A, STATS_MIN, STATS_POS, STATS_FTA, STATS_FTS, STATS_TWO_ATT, STATS_TWO_SUC, STATS_THREE_ATT, STATS_THREE_SUC, STATS_FGA, STATS_FGS, STATS_RD, STATS_RO, STATS_TO, STATS_S, STATS_B, STATS_PF], [player_id,match_id,name,team,points,rebounds,assists,minutes_played,position,free_throws_attempts,free_throws_success,two_pointers_attempts,two_pointers_success,three_pointers_attempts,three_pointers_success,field_goals_attempts,field_goals_success,rebounds_defensive,rebounds_offensive,turnovers,steals,blocks,personal_fouls])
+                  
     elif response.status_code == 404:
         print(f"Code: 404")
         # tbh break already, yeah?

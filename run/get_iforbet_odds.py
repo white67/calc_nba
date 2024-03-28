@@ -102,9 +102,9 @@ def get_iforbet_odds(bookmaker):
                         
                         refers_single_player = True
                         refers_multiple_players = False
-                        player_id = get_player_id(mycursor, [PLAYERS_PLAYER_NAME, PLAYERS_TEAM], [player_name, teams[0]])
+                        player_id = get_id(mycursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_TEAM], [player_name, teams[0]])
                         if player_id == None:
-                            player_id = get_player_id(mycursor, [PLAYERS_PLAYER_NAME, PLAYERS_TEAM], [player_name, teams[1]])
+                            player_id = get_id(mycursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_TEAM], [player_name, teams[1]])
                             if player_id == None:
                                 # there are no players with this name and any of the 2 teams (playing) in database PLAYERS
                                 pass
@@ -116,7 +116,7 @@ def get_iforbet_odds(bookmaker):
                         bet_outcome = outcome["outcomeName"]
                         bet_odds = outcome["outcomeOdds"]
                         active_status = True if outcome["status"] == 100 else False
-                        match_id = get_match_id(mycursor, teams, event_datetime)
+                        match_id = get_id(mycursor, MATCHES_MATCH_ID, MATCHES, [MATCHES_TEAM1, MATCHES_TEAM2, MATCHES_MATCH_DATE], [teams[0], teams[1], event_datetime])
                         
                         # print("### Data to be added to BETS database:")
                         # print(
@@ -133,15 +133,14 @@ def get_iforbet_odds(bookmaker):
                         # )
 
                         # save bet info in database
-                        add_bets_to_database(db, mycursor, bet_name, bet_outcome, bet_odds, bet_full_info, player_id, match_id, refers_single_player, refers_multiple_players, active_status, bookmaker)
+                        db_add(db, mycursor, BETS, [BETS_NAME, BETS_OUTCOME, BETS_ODDS, BETS_FULL_INFO, BETS_PLAYER_ID, BETS_MATCH_ID, BETS_REFERS_SINGLE, BETS_REFERS_MULTIPLE, BETS_ACTIVE_STATUS, BETS_BOOKMAKER], [bet_name, bet_outcome, bet_odds, bet_full_info, player_id, match_id, refers_single_player, refers_multiple_players, active_status, bookmaker])
                         
                         # get bet_id to add connections
-                        bet_id = get_bet_id(mycursor, [BETS_NAME, BETS_OUTCOME, BETS_ODDS, BETS_BOOKMAKER], [bet_name, bet_outcome, bet_odds, bookmaker])
+                        bet_id = get_id(mycursor, BETS_BET_ID, BETS, [BETS_NAME, BETS_OUTCOME, BETS_ODDS, BETS_BOOKMAKER], [bet_name, bet_outcome, bet_odds, bookmaker])
                         
                         if player_id != None:
-                            # add to database
-                            add_bets_connection(db, mycursor, bet_id, player_id)
-                            print(f"Adding bet connection: {bet_name} | {player_name}")
+                            # add bet connection to database
+                            db_add(db, mycursor, BETS_ASSIGNED, [BETS_ASSIGNED_BET_ID, BETS_ASSIGNED_PLAYER_ID], [bet_id, player_id])
             counter += 1
                         
                     

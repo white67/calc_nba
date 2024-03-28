@@ -47,7 +47,6 @@ def update_team_lineup(cfg_hour_prior):
             
             # check if every player's team is updated in database
             for player in response["players"]:
-            #    if player["player"]["team"]["shortName"].split(" ")[-1] == team_name:
                 player_name = player["player"]["name"]
                 player_slug = player["player"]["slug"]
                 player_sofa_id = player["player"]["id"]
@@ -57,22 +56,17 @@ def update_team_lineup(cfg_hour_prior):
                 player_country = player["player"]["country"]["name"]
                 datetime_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 
-                # test
                 # print(f"""player_name: {player_name}\n
                 #         player_sofascore_link: {player_sofascore_link}\n
                 #         player_date_of_birth: {player_date_of_birth}\n
                 #         player_country: {player_country}\n
                 #         datetime_now: {datetime_now}\n
                 #         """)
-                
-                # test
+
                 update_player_info(db, mycursor, player_name, player_sofascore_link, team_name, player_sofa_id, player_date_of_birth, player_country, datetime_now)
-                   
-                   
-           
+
         else:
             print("Request failed with status code:", response.status_code)
-
 
     # Close the cursor and connection
     mycursor.close()

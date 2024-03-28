@@ -34,8 +34,8 @@ create table bets (
 );
 
 -- @block xdd
-ALTER TABLE players
-ADD sofascore_player_id int, country varchar(255), last_update datetime;
+ALTER TABLE bets
+ADD success boolean;
 
 -- @block deleting
 drop table bets_assigned;

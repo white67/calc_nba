@@ -13,15 +13,7 @@ import mysql.connector
 def get_new_events(cfg_hour_prior):
     
     # make connection
-    db = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        passwd="mansionmusik1400",
-        database="nba2024"
-    )
-    
-    # set buffer
-    mycursor = db.cursor(buffered=True)
+    db, mycursor = db_connect()
     
     # sleeping before requests
     time.sleep(sleep_random(API_TIMEOUT))
@@ -76,12 +68,10 @@ def get_new_events(cfg_hour_prior):
                 if entry_exist:
                     print(f"Entry already exist. skip.")
                 else:
-                    add_match_to_database(db, mycursor, team1, team2, sofascore_matchpage_url, scraped, team1_score, team2_score, match_date)
-                    print(f"Added match to database.")
+                    db_add(db, mycursor, MATCHES, [MATCHES_TEAM1, MATCHES_TEAM2, MATCHES_SOFASCORE_LINK, MATCHES_SCRAPED, MATCHES_TEAM1_SCORE, MATCHES_TEAM2_SCORE, MATCHES_MATCH_DATE], [team1, team2, sofascore_matchpage_url, scraped, team1_score, team2_score, match_date])
     else:
         print("Request failed with status code:", response.status_code)
 
-    
     print(f"Total upcoming matches: {counter}")
     
     # Close the cursor and connection
