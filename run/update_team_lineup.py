@@ -51,9 +51,16 @@ def update_team_lineup(cfg_hour_prior):
                 player_slug = player["player"]["slug"]
                 player_sofa_id = player["player"]["id"]
                 player_sofascore_link = f"https://www.sofascore.com/player/{player_slug}/{player_sofa_id}"
-                player_date_of_birth = player["player"]["dateOfBirthTimestamp"]
-                player_date_of_birth = correct_date_timestamp_0h(player_date_of_birth)
-                player_country = player["player"]["country"]["name"]
+                if "dateOfBirthTimestamp" in player["player"]:
+                    player_date_of_birth = player["player"]["dateOfBirthTimestamp"]
+                    player_date_of_birth = correct_date_timestamp_0h(player_date_of_birth)
+                else:
+                    player_date_of_birth = None
+                    print(f"### BRAK DATY | {player_name} | {player_sofascore_link}")
+                if "name" in player["player"]["country"]:
+                    player_country = player["player"]["country"]["name"]
+                else:
+                    country = None
                 datetime_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 
                 # print(f"""player_name: {player_name}\n
@@ -62,8 +69,8 @@ def update_team_lineup(cfg_hour_prior):
                 #         player_country: {player_country}\n
                 #         datetime_now: {datetime_now}\n
                 #         """)
-
-                update_player_info(db, mycursor, player_name, player_sofascore_link, team_name, player_sofa_id, player_date_of_birth, player_country, datetime_now)
+                db_update(db, mycursor, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_SOFASCORE_LINK, PLAYERS_TEAM, PLAYERS_SOFASCORE_ID, PLAYERS_BIRTH_DATE, PLAYERS_COUNTRY, PLAYERS_LAST_UPDATE], [player_name, player_sofascore_link, team_name, player_sofa_id, player_date_of_birth, player_country, datetime_now], [PLAYERS_PLAYER_NAME, PLAYERS_SOFASCORE_LINK], [player_name, player_sofascore_link])
+                # update_player_info(db, mycursor, player_name, player_sofascore_link, team_name, player_sofa_id, player_date_of_birth, player_country, datetime_now)
 
         else:
             print("Request failed with status code:", response.status_code)

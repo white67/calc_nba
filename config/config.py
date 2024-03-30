@@ -5,7 +5,7 @@ import requests
 import json
 from datetime import datetime, timedelta, timezone
 
-EVENTS_DATE = "2024-03-27"
+EVENTS_DATE = "2024-03-30"
 
 API_TIMEOUT = 2 # seconds
 CFG_HOUR_PRIOR = 22

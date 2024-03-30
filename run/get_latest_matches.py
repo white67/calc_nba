@@ -6,7 +6,6 @@ from config.cfg_bookmaker import *
 from config.cfg_database import *
 import math
 
-import mysql.connector
 
 ###
 
