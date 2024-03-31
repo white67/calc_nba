@@ -147,29 +147,6 @@ def db_update(db, cursor, table_name, columns, data, columns_to_check, data_to_c
         print("Error:", err)
         db.rollback()  # Rollback the transaction if an error occurs
 
-def update_player_info(db, cursor, player_name, sofascore_link, team_name, sofascore_player_id, birth_date, country, datetime_now):
-    try:
-        query = (f"SELECT * FROM players WHERE player_name = %s AND sofascore_link = %s")
-        cursor.execute(query, (player_name, sofascore_link))
-        existing_entry = cursor.fetchone()
-
-        if existing_entry:
-            # test
-            # Update other columns
-            update_query = ("UPDATE players SET team = %s, sofascore_player_id = %s, birth_date = %s, country = %s, last_update = %s"
-                            "WHERE player_name = %s AND sofascore_link = %s")
-            cursor.execute(update_query, (team_name, sofascore_player_id, birth_date, country, datetime_now, player_name, sofascore_link))
-            db.commit()
-            print("Entry updated successfully.")
-        else:
-            print(f"Entry does not exist: {player_name}, {sofascore_link}, {country}")
-            db_add(db, cursor, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_SOFASCORE_LINK, PLAYERS_TEAM, PLAYERS_BIRTH_DATE], [player_name, sofascore_link, team_name, birth_date])
-            
-            # try adding again
-            update_player_info(db, cursor, player_name, sofascore_link, team_name, sofascore_player_id, birth_date, country, datetime_now)
-    except Error as e:
-        print("Error while connecting to MySQL", e)
-
 
 def get_id(cursor, id_data, table_name, columns, data):
     where_clause = " AND ".join(f"{column} = %s" for column in columns)

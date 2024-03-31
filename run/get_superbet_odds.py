@@ -98,33 +98,8 @@ def get_superbet_odds(bookmaker):
                     
                     active_status = True if bet["status"] == "active" else False
                     
-                    # print(f"teams[0]: {teams[0]}")
-                    # print(f"teams[1]: {teams[1]}")
                     # print(f"event_datetime: {event_datetime}")
                     match_id = get_id(mycursor, MATCHES_MATCH_ID, MATCHES, [MATCHES_TEAM1, MATCHES_TEAM2, MATCHES_MATCH_DATE], [teams[0], teams[1], event_datetime])
-                    
-                    # if refers_single_player:
-                    #     print(f"{bet_name}")
-                    
-                    # if refers_multiple_players:
-                    #     print(f"{bet_name}")
-                    
-                    # print("### Data to be added to BETS database:")
-                    # print(
-                    #     f"bet_name: {bet_name}\n" +
-                    #     f"bet_outcome: {bet_outcome}\n" +
-                    #     f"bet_odds: {bet_odds}\n" +
-                    #     f"bet_full_info: {bet_full_info}\n" +
-                    #     f"player_id: {player_id}\n" +
-                    #     f"match_id: {match_id}\n" +
-                    #     f"refers_single_player: {refers_single_player}\n" +
-                    #     f"refers_multiple_players: {refers_multiple_players}\n" +
-                    #     f"active_status: {active_status}\n"
-                    # )
-                    
-                    # time.sleep(2)
-                    
-                    # test
                     
                     # save bet info in database
                     db_add(db, mycursor, BETS, [BETS_NAME, BETS_OUTCOME, BETS_ODDS, BETS_FULL_INFO, BETS_PLAYER_ID, BETS_MATCH_ID, BETS_REFERS_SINGLE, BETS_REFERS_MULTIPLE, BETS_ACTIVE_STATUS, BETS_BOOKMAKER], [bet_name, bet_outcome, bet_odds, bet_full_info, player_id, match_id, refers_single_player, refers_multiple_players, active_status, bookmaker])
