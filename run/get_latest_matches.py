@@ -134,7 +134,7 @@ def save_all_stats(db, cursor, url_api, teams, match_date):
                     print(f"Player data already inserted ({player_id}, {match_id})")
                     continue
                 
-                print(f"Addding {name} stats to database...")
+                print(f"Adding {name} stats to database...")
                 
                 position = player["position"]
                 stats = player["statistics"]
@@ -158,18 +158,10 @@ def save_all_stats(db, cursor, url_api, teams, match_date):
                 blocks = stats["blocks"]
                 personal_fouls = stats["personalFouls"]
                 
-                # print("::", end="")
-                # result = ", ".join([
-                #     name, position, team, str(points), str(rebounds), str(assists), str(minutes_played),
-                #     str(free_throws_attempts), str(free_throws_success), str(two_pointers_attempts),
-                #     str(two_pointers_success), str(three_pointers_attempts), str(three_pointers_success),
-                #     str(field_goals_attempts), str(field_goals_success), str(rebounds_defensive),
-                #     str(rebounds_offensive), str(turnovers), str(steals), str(blocks), str(personal_fouls)
-                # ])
-                # print(result)
-                
-                # test
                 db_add(db, cursor, STATS, [STATS_PLAYER_ID, STATS_MATCH_ID, STATS_PLAYER_NAME, STATS_TEAM, STATS_P, STATS_R, STATS_A, STATS_MIN, STATS_POS, STATS_FTA, STATS_FTS, STATS_TWO_ATT, STATS_TWO_SUC, STATS_THREE_ATT, STATS_THREE_SUC, STATS_FGA, STATS_FGS, STATS_RD, STATS_RO, STATS_TO, STATS_S, STATS_B, STATS_PF], [player_id,match_id,name,team,points,rebounds,assists,minutes_played,position,free_throws_attempts,free_throws_success,two_pointers_attempts,two_pointers_success,three_pointers_attempts,three_pointers_success,field_goals_attempts,field_goals_success,rebounds_defensive,rebounds_offensive,turnovers,steals,blocks,personal_fouls])
+                
+                # update scraped to true in matches db
+                db_update(db, cursor, MATCHES, [MATCHES_SCRAPED], [1], [MATCHES_MATCH_ID], [match_id])
                   
     elif response.status_code == 404:
         print(f"Code: 404")
