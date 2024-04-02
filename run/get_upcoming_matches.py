@@ -43,8 +43,8 @@ def get_new_events(cfg_hour_prior):
                 print(f"{match['homeTeam']['name']} vs {match['awayTeam']['name']}")
                 counter += 1
             
-                team1 = match["homeTeam"]["shortName"]
-                team2 = match["awayTeam"]["shortName"]
+                team1 = match["homeTeam"]["shortName"].split(" ")[-1]
+                team2 = match["awayTeam"]["shortName"].split(" ")[-1]
                 sofascore_matchpage_url = f"https://www.sofascore.com/{match["slug"]}/{match["customId"]}#id:{match["id"]}"
                 
                 # match_date

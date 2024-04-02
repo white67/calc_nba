@@ -61,8 +61,8 @@ def get_latest_events():
                 entry_exist = check_duplicate(mycursor, MATCHES, [MATCHES_SOFASCORE_LINK, MATCHES_MATCH_DATE], [sofascore_matchpage_url, match_date])
                 
                 teams = []
-                teams.append(match["homeTeam"]["shortName"])
-                teams.append(match["awayTeam"]["shortName"])
+                teams.append(match["homeTeam"]["shortName"].split(" ")[-1])
+                teams.append(match["awayTeam"]["shortName"].split(" ")[-1])
                 
                 # if entry does not exist
                 if not entry_exist:

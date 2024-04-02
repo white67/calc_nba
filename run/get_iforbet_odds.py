@@ -106,8 +106,10 @@ def get_iforbet_odds(bookmaker):
                         if player_id == None:
                             player_id = get_id(mycursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_TEAM], [player_name, teams[1]])
                             if player_id == None:
-                                # there are no players with this name and any of the 2 teams (playing) in database PLAYERS
-                                pass
+                                player_id = get_id(mycursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME], [player_name])
+                                if player_id == None:
+                                    # there are no players with this name and any of the 2 teams (playing) in database PLAYERS
+                                    pass
                         
                         print(f"{player_id} | {player_name}") if player_id == None else ""
                     

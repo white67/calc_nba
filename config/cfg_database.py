@@ -66,6 +66,7 @@ BETS_MATCH_ID = "match_id"
 BETS_ACTIVE_STATUS = "active_status"
 BETS_REFERS_SINGLE = "refers_single_player"
 BETS_REFERS_MULTIPLE = "refers_multiple_players"
+BETS_SUCCESS = "success"
 
 BETS_ASSIGNED = "bets_assigned"
 BETS_ASSIGNED_BET_ID = "bet_id"
@@ -123,15 +124,17 @@ def db_update(db, cursor, table_name, columns, data, columns_to_check, data_to_c
         if len(data_to_check) == 0:
             where_clause = ''
             existance = True
+            updated_data = data
         else:
             where_clause = " AND ".join(f"{column} = %s" for column in columns_to_check)
             where_clause = f" WHERE {where_clause}"
             existance = check_duplicate(cursor, table_name, columns_to_check, data_to_check)
+            updated_data = data + data_to_check
             
         if existance:
             updated_str = ', '.join(f"{column} = %s" for column in columns)
             update_query = (f"UPDATE {table_name} SET {updated_str}{where_clause};")
-            cursor.execute(update_query, data)
+            cursor.execute(update_query, updated_data)
             db.commit()
             print(f"[{table_name}] Entry updated successfully.")
             print(f"{data}")

@@ -36,14 +36,6 @@ def convert_bet_name(bet_name):
         stat_name.append(STATS_B)
         return stat_name
     
-    if bet_name.replace(" ", "") == "Double double (z dogrywką)".replace(" ", ""):
-        # stat_name.append("dd")
-        return stat_name
-    
-    if bet_name.replace(" ", "") == "Triple double (z dogrywką)".replace(" ", ""):
-        # stat_name.append("td")
-        return stat_name
-    
     if bet_name.replace(" ", "") == "Liczba punktów i asyst zawodnika (z dogrywką)".replace(" ", ""):
         stat_name.append(STATS_P)
         stat_name.append(STATS_A)
@@ -93,6 +85,14 @@ def convert_bet_name(bet_name):
     if bet_name.replace(" ", "") == "Liczba trafionych rzutów za 2pkt zawodnika (z dogrywką)".replace(" ", ""):
         stat_name.append(STATS_TWO_SUC)
         return stat_name
+    
+    if bet_name.replace(" ", "") == "Double double (z dogrywką)".replace(" ", ""):
+        # stat_name.append("dd")
+        return None
+    
+    if bet_name.replace(" ", "") == "Triple double (z dogrywką)".replace(" ", ""):
+        # stat_name.append("td")
+        return None
     
     return None
     

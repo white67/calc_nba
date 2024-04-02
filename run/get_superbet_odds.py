@@ -67,8 +67,6 @@ def get_superbet_odds(bookmaker):
                 teams = matchName.split("·")
                 teams[0] = teams[0].split(" ")[-1]
                 teams[1] = teams[1].split(" ")[-1]
-                team1_name = matchName.split("·")[0].split()[-1]
-                team2_name = matchName.split("·")[1].split()[-1]
                 
                 for bet in response["data"][0]["odds"]:
                     player_id = None
@@ -83,12 +81,14 @@ def get_superbet_odds(bookmaker):
                         refers_single_player = check_player_refers_superbet(bet["specifiers"], "single")
                         
                         if refers_single_player:
-                            player_id = get_id(mycursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_TEAM], [bet["specifiers"]["player"], team1_name])
+                            player_id = get_id(mycursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_TEAM], [bet["specifiers"]["player"], teams[0]])
                             if player_id == None:
-                                player_id = get_id(mycursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_TEAM], [bet["specifiers"]["player"], team2_name])
+                                player_id = get_id(mycursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_TEAM], [bet["specifiers"]["player"], teams[1]])
                                 if player_id == None:
-                                    # there are no players with this name and any of the 2 teams (playing) in database PLAYERS
-                                    pass
+                                    player_id = get_id(mycursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME], [bet["specifiers"]["player"]])
+                                    if player_id == None:
+                                        # there are no players with this name and any of the 2 teams (playing) in database PLAYERS
+                                        pass
                                 
                         refers_multiple_players = check_player_refers_superbet(bet["specifiers"], "multiple")    
                     else:
@@ -107,22 +107,9 @@ def get_superbet_odds(bookmaker):
                     # get bet_id to add connections
                     bet_id = get_id(mycursor, BETS_BET_ID, BETS, [BETS_NAME, BETS_OUTCOME, BETS_FULL_INFO, BETS_ODDS], [bet_name, bet_outcome, bet_full_info, bet_odds])
                     
-                    if 'specifiers' in bet:
-                        # get all player_ids
-                        # Loop through keys in bet["specifiers"]
-                        for key, value in bet["specifiers"].items():
-                            player_id = None
-                            # Check if the key starts with "player"
-                            if key.startswith("player"):
-                                player_id = get_id(mycursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_TEAM], [value, team1_name])
-                                if player_id == None:
-                                    player_id = get_id(mycursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_TEAM], [value, team2_name])
-                                    if player_id == None:
-                                        # there are no players with this name and any of the 2 teams (playing) in database PLAYERS
-                                        pass
-                            if player_id != None:
-                                # add to database
-                                db_add(db, mycursor, BETS_ASSIGNED, [BETS_ASSIGNED_BET_ID, BETS_ASSIGNED_PLAYER_ID], [bet_id, player_id])
+                    if player_id != None:
+                        # add to database
+                        db_add(db, mycursor, BETS_ASSIGNED, [BETS_ASSIGNED_BET_ID, BETS_ASSIGNED_PLAYER_ID], [bet_id, player_id])
             counter += 1
 
     elif response.status_code == 404:
