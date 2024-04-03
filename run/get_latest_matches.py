@@ -66,7 +66,7 @@ def get_latest_events():
                 
                 # if entry does not exist
                 if not entry_exist:
-                    print(f"{counter+1}. Entry does NOT exist. Adding to database ({sofascore_matchpage_url}, {match_date})")
+                    # print(f"{counter+1}. Entry does NOT exist. Adding to database ({sofascore_matchpage_url}, {match_date})")
                     
                     # save data
                     scraped = 0
@@ -75,14 +75,19 @@ def get_latest_events():
 
                     db_add(db, mycursor, MATCHES, [MATCHES_TEAM1, MATCHES_TEAM2, MATCHES_SOFASCORE_LINK, MATCHES_SCRAPED, MATCHES_TEAM1_SCORE, MATCHES_TEAM2_SCORE, MATCHES_MATCH_DATE], [teams[0], teams[1], sofascore_matchpage_url, scraped, team1_score, team2_score, match_date])
                 else:
-                    print(f"{counter+1}.Entry already exist ({sofascore_matchpage_url}, {match_date})")
+                    # print(f"{counter+1}.Entry already exist ({sofascore_matchpage_url}, {match_date})")
                     counter_already_exist += 1
                 
                 # scrape match_page data -> save to stats table
                 eventId = match["id"]
                 url_sofa_match_stats = url_sofa_matchpage(eventId)
+                
+                # check if bets from this match has already been scraped
+                if_scraped = get_id(mycursor, MATCHES_SCRAPED, MATCHES, [MATCHES_TEAM1, MATCHES_TEAM2, MATCHES_MATCH_DATE], [teams[0], teams[1], match_date])
+                
 
-                save_all_stats(db, mycursor, url_sofa_match_stats, teams, match_date)
+                if if_scraped != 1:
+                    save_all_stats(db, mycursor, url_sofa_match_stats, teams, match_date)
                 
                 counter += 1
             
@@ -103,7 +108,6 @@ def save_all_stats(db, cursor, url_api, teams, match_date):
     response = requests.get(url_api, headers=api_headers_common)
     
     if response.status_code == 200:
-        print("Code: 200")
         response = response.json()
     
         # for "home" and "away"
@@ -131,10 +135,10 @@ def save_all_stats(db, cursor, url_api, teams, match_date):
                 
                 # if entry does not exist
                 if entry_exist:
-                    print(f"Player data already inserted ({player_id}, {match_id})")
+                    # print(f"Player data already inserted ({player_id}, {match_id})")
                     continue
                 
-                print(f"Adding {name} stats to database...")
+                # print(f"Adding {name} stats to database...")
                 
                 position = player["position"]
                 stats = player["statistics"]
@@ -160,8 +164,8 @@ def save_all_stats(db, cursor, url_api, teams, match_date):
                 
                 db_add(db, cursor, STATS, [STATS_PLAYER_ID, STATS_MATCH_ID, STATS_PLAYER_NAME, STATS_TEAM, STATS_P, STATS_R, STATS_A, STATS_MIN, STATS_POS, STATS_FTA, STATS_FTS, STATS_TWO_ATT, STATS_TWO_SUC, STATS_THREE_ATT, STATS_THREE_SUC, STATS_FGA, STATS_FGS, STATS_RD, STATS_RO, STATS_TO, STATS_S, STATS_B, STATS_PF], [player_id,match_id,name,team,points,rebounds,assists,minutes_played,position,free_throws_attempts,free_throws_success,two_pointers_attempts,two_pointers_success,three_pointers_attempts,three_pointers_success,field_goals_attempts,field_goals_success,rebounds_defensive,rebounds_offensive,turnovers,steals,blocks,personal_fouls])
                 
-                # update scraped to true in matches db
-                db_update(db, cursor, MATCHES, [MATCHES_SCRAPED], [1], [MATCHES_MATCH_ID], [match_id])
+        # update scraped to true in matches db
+        db_update(db, cursor, MATCHES, [MATCHES_SCRAPED], [1], [MATCHES_MATCH_ID], [match_id])
                   
     elif response.status_code == 404:
         print(f"Code: 404")

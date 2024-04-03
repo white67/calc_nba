@@ -15,8 +15,6 @@ def update_team_lineup(cfg_hour_prior):
     # make connection
     db, mycursor = db_connect()
     
-    # sleeping before requests
-    time.sleep(sleep_random(API_TIMEOUT))
     response = requests.get(url_sofa_team_lineups, headers=api_headers_common)
 
     if response.status_code == 200:
@@ -34,14 +32,14 @@ def update_team_lineup(cfg_hour_prior):
     else:
         print("Request failed with status code:", response.status_code)
         
-    print(teams_id)
+    # print(teams_id)
     
     for team_id, team_name in teams_id.items():
         time.sleep(sleep_random(API_TIMEOUT))
         response = requests.get(url_sofa_team_lineup(team_id), headers=api_headers_common)
 
         if response.status_code == 200:
-            print("Code: 200")
+            # print("Code: 200")
             
             response = response.json()
             

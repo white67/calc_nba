@@ -15,8 +15,6 @@ def get_new_events(cfg_hour_prior):
     # make connection
     db, mycursor = db_connect()
     
-    # sleeping before requests
-    time.sleep(sleep_random(API_TIMEOUT))
     response = requests.get(url_sofa_upcoming_matches, headers=api_headers_common)
 
     if response.status_code == 200:
@@ -67,18 +65,21 @@ def get_new_events(cfg_hour_prior):
                 entry_exist = check_duplicate(mycursor, MATCHES, [MATCHES_SOFASCORE_LINK, MATCHES_MATCH_DATE], [sofascore_matchpage_url, match_date])
                 
                 if entry_exist:
-                    print(f"Entry already exist. skip.")
+                    # print(f"Entry already exist. skip.")
+                    continue
                 else:
                     db_add(db, mycursor, MATCHES, [MATCHES_TEAM1, MATCHES_TEAM2, MATCHES_SOFASCORE_LINK, MATCHES_SCRAPED, MATCHES_TEAM1_SCORE, MATCHES_TEAM2_SCORE, MATCHES_MATCH_DATE], [team1, team2, sofascore_matchpage_url, scraped, team1_score, team2_score, match_date])
 
     else:
         print("Request failed with status code:", response.status_code)
 
-    print(f"Total upcoming matches: {counter}")
+    # print(f"Total upcoming matches: {counter}")
     
     # Close the cursor and connection
     mycursor.close()
     db.close()
+    
+    return counter
 
 if __name__ == "__main__":
     get_new_events(CFG_HOUR_PRIOR)

@@ -16,10 +16,10 @@ import mysql.connector
 # retrieve json file from API and save it to json file
 def get_superbet_odds(bookmaker):
     
+    counter_bets_scraped = 0
+    
     # make connection
     db, mycursor = db_connect()
-    
-    time.sleep(sleep_random(API_TIMEOUT))
     
     # now we need to look for specific day matches, so take input from config file
     date_str = EVENTS_DATE
@@ -57,7 +57,7 @@ def get_superbet_odds(bookmaker):
             response = requests.get(cfg_url_superbet(event), headers=api_headers_common)
             
             if response.status_code == 200:
-                print("Code: 200")
+                # print("Code: 200")
                 
                 # get all events ids and then parse to api one-by-one
                 response = response.json()
@@ -80,7 +80,7 @@ def get_superbet_odds(bookmaker):
                 match_id = get_id(mycursor, MATCHES_MATCH_ID, MATCHES, [MATCHES_TEAM1, MATCHES_TEAM2, MATCHES_MATCH_DATE], [teams[0], teams[1], event_datetime])
                 
                 print(f"teams: {teams[0]} - {teams[1]}")
-                print(f"match_id: {match_id}")
+                # print(f"match_id: {match_id}")
                 
                 # print(f"match_id: {match_id}")
                 
@@ -124,6 +124,8 @@ def get_superbet_odds(bookmaker):
                         # save bet info in database
                         db_add(db, mycursor, BETS, [BETS_NAME, BETS_OUTCOME, BETS_ODDS, BETS_FULL_INFO, BETS_PLAYER_ID, BETS_MATCH_ID, BETS_REFERS_SINGLE, BETS_REFERS_MULTIPLE, BETS_ACTIVE_STATUS, BETS_BOOKMAKER], [bet_name, bet_outcome, bet_odds, bet_full_info, player_id, match_id, refers_single_player, refers_multiple_players, active_status, bookmaker])
                         
+                        counter_bets_scraped += 1
+                        
                         # get bet_id to add connections
                         bet_id = get_id(mycursor, BETS_BET_ID, BETS, [BETS_NAME, BETS_OUTCOME, BETS_FULL_INFO, BETS_ODDS], [bet_name, bet_outcome, bet_full_info, bet_odds])
                         
@@ -144,6 +146,8 @@ def get_superbet_odds(bookmaker):
     # Close the cursor and connection
     mycursor.close()
     db.close()
+    
+    return counter_bets_scraped
 
 
 if __name__ == "__main__":

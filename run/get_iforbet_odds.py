@@ -15,10 +15,10 @@ import mysql.connector
 # retrieve json file from API and save it to json file
 def get_iforbet_odds(bookmaker):
     
+    counter_bets_scraped = 0
+    
     # make connection
     db, mycursor = db_connect()
-    
-    time.sleep(sleep_random(API_TIMEOUT))
     
     # now we need to look for specific day matches, so take input from config file
     date_str = EVENTS_DATE
@@ -58,7 +58,7 @@ def get_iforbet_odds(bookmaker):
             response = requests.get(cfg_url_iforbet(event), headers=api_headers_common)
             
             if response.status_code == 200:
-                print("Code: 200")
+                # print("Code: 200")
                 
                 # get all events ids and then parse to api one-by-one
                 response = response.json()
@@ -72,18 +72,18 @@ def get_iforbet_odds(bookmaker):
                 # event_datetime += timedelta(hours=1)
                 # event_datetime = event_datetime.strftime('%Y-%m-%d %H:%M:%S')
                 
-                print(f"event_datetime: {event_datetime}")
+                # print(f"event_datetime: {event_datetime}")
                 
                 matchName = response["data"]["eventName"]
                 teams = []
                 for team in response["data"]["participants"]:
                     teams.append(team["name"].split()[-1])
                     
-                print(f"teams[0]: {teams[0]}")
-                print(f"teams[1]: {teams[1]}\n\n")
+                # print(f"teams[0]: {teams[0]}")
+                # print(f"teams[1]: {teams[1]}\n\n")
                 
                 match_id = get_id(mycursor, MATCHES_MATCH_ID, MATCHES, [MATCHES_TEAM1, MATCHES_TEAM2, MATCHES_MATCH_DATE], [teams[0], teams[1], event_datetime])
-                print(f"match_id: {match_id}")
+                # print(f"match_id: {match_id}")
                 
                 # check if bets from this match has already been scraped
                 iforbet_scraped = get_id(mycursor, MATCHES_IFORBET_SCRAPED, MATCHES, [MATCHES_TEAM1, MATCHES_TEAM2, MATCHES_MATCH_DATE], [teams[0], teams[1], event_datetime])
@@ -119,7 +119,7 @@ def get_iforbet_odds(bookmaker):
                                         # there are no players with this name and any of the 2 teams (playing) in database PLAYERS
                                         pass
                             
-                            print(f"{player_id} | {player_name}") if player_id == None else ""
+                            # print(f"{player_id} | {player_name}") if player_id == None else ""
                         
                         for outcome in bet["outcomes"]:
                             
@@ -131,6 +131,8 @@ def get_iforbet_odds(bookmaker):
                             # save bet info in database
                             db_add(db, mycursor, BETS, [BETS_NAME, BETS_OUTCOME, BETS_ODDS, BETS_FULL_INFO, BETS_PLAYER_ID, BETS_MATCH_ID, BETS_REFERS_SINGLE, BETS_REFERS_MULTIPLE, BETS_ACTIVE_STATUS, BETS_BOOKMAKER], [bet_name, bet_outcome, bet_odds, bet_full_info, player_id, match_id, refers_single_player, refers_multiple_players, active_status, bookmaker])
                             
+                            counter_bets_scraped += 1
+                            
                             # get bet_id to add connections
                             bet_id = get_id(mycursor, BETS_BET_ID, BETS, [BETS_NAME, BETS_OUTCOME, BETS_ODDS, BETS_BOOKMAKER], [bet_name, bet_outcome, bet_odds, bookmaker])
                             
@@ -141,9 +143,7 @@ def get_iforbet_odds(bookmaker):
                     # set superbet_scraped to true
                     db_update(db, mycursor, MATCHES, [MATCHES_IFORBET_SCRAPED], [1], [MATCHES_MATCH_ID], [match_id])
 
-            counter += 1
-                        
-                    
+            counter += 1       
     elif response.status_code == 404:
         print(f"Code: 404")
     else:
@@ -152,6 +152,8 @@ def get_iforbet_odds(bookmaker):
     # Close the cursor and connection
     mycursor.close()
     db.close()
+    
+    return counter_bets_scraped
 
 if __name__ == "__main__":
     get_iforbet_odds(BOOKMAKER_IFORBET)
