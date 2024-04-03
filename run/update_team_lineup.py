@@ -56,21 +56,20 @@ def update_team_lineup(cfg_hour_prior):
                     player_date_of_birth = correct_date_timestamp_0h(player_date_of_birth)
                 else:
                     player_date_of_birth = None
-                    print(f"### BRAK DATY | {player_name} | {player_sofascore_link}")
+                    # print(f"### BRAK DATY | {player_name} | {player_sofascore_link}")
                 if "name" in player["player"]["country"]:
                     player_country = player["player"]["country"]["name"]
                 else:
                     country = None
                 datetime_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 
-                # print(f"""player_name: {player_name}\n
-                #         player_sofascore_link: {player_sofascore_link}\n
-                #         player_date_of_birth: {player_date_of_birth}\n
-                #         player_country: {player_country}\n
-                #         datetime_now: {datetime_now}\n
-                #         """)
-                db_update(db, mycursor, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_SOFASCORE_LINK, PLAYERS_TEAM, PLAYERS_SOFASCORE_ID, PLAYERS_BIRTH_DATE, PLAYERS_COUNTRY, PLAYERS_LAST_UPDATE], [player_name, player_sofascore_link, team_name, player_sofa_id, player_date_of_birth, player_country, datetime_now], [PLAYERS_PLAYER_NAME, PLAYERS_SOFASCORE_LINK], [player_name, player_sofascore_link])
-                # update_player_info(db, mycursor, player_name, player_sofascore_link, team_name, player_sofa_id, player_date_of_birth, player_country, datetime_now)
+                actual_team = get_id(mycursor, "team", PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_SOFASCORE_LINK], [player_name, player_sofascore_link])
+                
+                if actual_team == None or actual_team != team_name:
+                    code = db_update(db, mycursor, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_SOFASCORE_LINK, PLAYERS_TEAM, PLAYERS_SOFASCORE_ID, PLAYERS_BIRTH_DATE, PLAYERS_COUNTRY, PLAYERS_LAST_UPDATE], [player_name, player_sofascore_link, team_name, player_sofa_id, player_date_of_birth, player_country, datetime_now], [PLAYERS_PLAYER_NAME, PLAYERS_SOFASCORE_LINK], [player_name, player_sofascore_link])
+                    
+                    if code == -2:
+                        db_add(db, mycursor, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_SOFASCORE_LINK, PLAYERS_TEAM, PLAYERS_BIRTH_DATE, PLAYERS_SOFASCORE_ID, PLAYERS_COUNTRY, PLAYERS_LAST_UPDATE], [player_name, player_sofascore_link, team_name, player_date_of_birth, player_sofa_id, player_country, datetime_now])
 
         else:
             print("Request failed with status code:", response.status_code)

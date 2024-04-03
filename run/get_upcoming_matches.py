@@ -27,7 +27,8 @@ def get_new_events(cfg_hour_prior):
         counter = 0
         for match in response["events"]:
             # get event start time
-            match_date = correct_date_timestamp(match["startTimestamp"])
+            match_date = datetime.fromtimestamp(match["startTimestamp"])
+            
 
             input_date = str(datetime.fromtimestamp(match["startTimestamp"], timezone.utc))
             parsed_date = datetime.strptime(input_date, "%Y-%m-%d %H:%M:%S%z")
@@ -35,7 +36,7 @@ def get_new_events(cfg_hour_prior):
             # needs to convert data 1 hour later, because of the source date being different with UTC +1 / Central European Time (CET)
             new_datetime = parsed_date + timedelta(hours=1)
             time_now = datetime.now(timezone.utc)
-        
+            
             # Check if the start time is less than ~24 hours from now
             time_difference = new_datetime - time_now
             
@@ -69,6 +70,7 @@ def get_new_events(cfg_hour_prior):
                     print(f"Entry already exist. skip.")
                 else:
                     db_add(db, mycursor, MATCHES, [MATCHES_TEAM1, MATCHES_TEAM2, MATCHES_SOFASCORE_LINK, MATCHES_SCRAPED, MATCHES_TEAM1_SCORE, MATCHES_TEAM2_SCORE, MATCHES_MATCH_DATE], [team1, team2, sofascore_matchpage_url, scraped, team1_score, team2_score, match_date])
+
     else:
         print("Request failed with status code:", response.status_code)
 

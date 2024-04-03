@@ -5,7 +5,7 @@ import requests
 import json
 from datetime import datetime, timedelta, timezone
 
-EVENTS_DATE = "2024-04-02"
+EVENTS_DATE = "2024-04-03"
 
 API_TIMEOUT = 2 # seconds
 CFG_HOUR_PRIOR = 22
@@ -61,7 +61,7 @@ def correct_date_timestamp_0h(input_date):
     
     # no need to convert data 1 hour later
     new_datetime = parsed_date
-    print(new_datetime)
+    # print(new_datetime)
     
     # Format the date according to the desired format
     formatted_date = new_datetime.strftime("%Y-%m-%d %H:%M:%S")

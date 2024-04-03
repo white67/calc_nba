@@ -5,6 +5,11 @@ from config.config import *
 from config.cfg_bookmaker import *
 from config.cfg_database import *
 
+def wrong_team_name(team):
+    if team.lower() == "washington":
+        return "Wizards"
+    return team
+
 def convert_bet_name(bet_name):
     stat_name = []
     

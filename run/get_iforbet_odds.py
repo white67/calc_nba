@@ -58,12 +58,12 @@ def get_iforbet_odds(bookmaker):
             response = requests.get(cfg_url_iforbet(event), headers=api_headers_common)
             
             if response.status_code == 200:
-                print("\n\nCode: 200")
+                print("Code: 200")
                 
                 # get all events ids and then parse to api one-by-one
                 response = response.json()
                 
-                print(f"{response["data"]["eventStart"]}")
+                # print(f"{response["data"]["eventStart"]}")
                 # event_datetime = correct_date_timestamp(response["data"]["eventStart"])
                 ev = response["data"]["eventStart"]/1000
                 event_datetime = datetime.fromtimestamp(ev)
@@ -82,54 +82,65 @@ def get_iforbet_odds(bookmaker):
                 print(f"teams[0]: {teams[0]}")
                 print(f"teams[1]: {teams[1]}\n\n")
                 
-                for bet in response["data"]["eventGames"]:
-                    player_name = None
-                    player_id = None
-                    refers_single_player = None
-                    refers_multiple_players = None
-                    bet_full_info = None
-                    bet_name = bet["gameName"]
+                match_id = get_id(mycursor, MATCHES_MATCH_ID, MATCHES, [MATCHES_TEAM1, MATCHES_TEAM2, MATCHES_MATCH_DATE], [teams[0], teams[1], event_datetime])
+                print(f"match_id: {match_id}")
+                
+                # check if bets from this match has already been scraped
+                iforbet_scraped = get_id(mycursor, MATCHES_IFORBET_SCRAPED, MATCHES, [MATCHES_TEAM1, MATCHES_TEAM2, MATCHES_MATCH_DATE], [teams[0], teams[1], event_datetime])
+                
+                if match_id != None and iforbet_scraped == None:
                     
-                    pattern = bet["gameTypePattern"]
-                    if "{%player}" in pattern:
-                        # print(f"{bet_name}")
-                        bet_name_patterns = bet_name.split(" - ")[0]
-                        if "," in bet_name_patterns:
-                            bet_name_patterns = bet_name_patterns.split(", ")
-                            player_name = f"{bet_name_patterns[1]} {bet_name_patterns[0]}"
-                        else:
-                            player_name = bet_name_patterns
+                    for bet in response["data"]["eventGames"]:
+                        player_name = None
+                        player_id = None
+                        refers_single_player = None
+                        refers_multiple_players = None
+                        bet_full_info = None
+                        bet_name = bet["gameName"]
                         
-                        refers_single_player = True
-                        refers_multiple_players = False
-                        player_id = get_id(mycursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_TEAM], [player_name, teams[0]])
-                        if player_id == None:
-                            player_id = get_id(mycursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_TEAM], [player_name, teams[1]])
+                        pattern = bet["gameTypePattern"]
+                        if "{%player}" in pattern:
+                            # print(f"{bet_name}")
+                            bet_name_patterns = bet_name.split(" - ")[0]
+                            if "," in bet_name_patterns:
+                                bet_name_patterns = bet_name_patterns.split(", ")
+                                player_name = f"{bet_name_patterns[1]} {bet_name_patterns[0]}"
+                            else:
+                                player_name = bet_name_patterns
+                            
+                            refers_single_player = True
+                            refers_multiple_players = False
+                            player_id = get_id(mycursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_TEAM], [player_name, teams[0]])
                             if player_id == None:
-                                player_id = get_id(mycursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME], [player_name])
+                                player_id = get_id(mycursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_TEAM], [player_name, teams[1]])
                                 if player_id == None:
-                                    # there are no players with this name and any of the 2 teams (playing) in database PLAYERS
-                                    pass
+                                    player_id = get_id(mycursor, PLAYERS_PLAYER_ID, PLAYERS, [PLAYERS_PLAYER_NAME], [player_name])
+                                    if player_id == None:
+                                        # there are no players with this name and any of the 2 teams (playing) in database PLAYERS
+                                        pass
+                            
+                            print(f"{player_id} | {player_name}") if player_id == None else ""
                         
-                        print(f"{player_id} | {player_name}") if player_id == None else ""
-                    
-                    for outcome in bet["outcomes"]:
-                        
-                        bet_outcome = outcome["outcomeName"]
-                        bet_odds = outcome["outcomeOdds"]
-                        active_status = True if outcome["status"] == 100 else False
-                        match_id = get_id(mycursor, MATCHES_MATCH_ID, MATCHES, [MATCHES_TEAM1, MATCHES_TEAM2, MATCHES_MATCH_DATE], [teams[0], teams[1], event_datetime])
-                        
+                        for outcome in bet["outcomes"]:
+                            
+                            bet_outcome = outcome["outcomeName"]
+                            bet_odds = outcome["outcomeOdds"]
+                            active_status = True if outcome["status"] == 100 else False
+                            
 
-                        # save bet info in database
-                        db_add(db, mycursor, BETS, [BETS_NAME, BETS_OUTCOME, BETS_ODDS, BETS_FULL_INFO, BETS_PLAYER_ID, BETS_MATCH_ID, BETS_REFERS_SINGLE, BETS_REFERS_MULTIPLE, BETS_ACTIVE_STATUS, BETS_BOOKMAKER], [bet_name, bet_outcome, bet_odds, bet_full_info, player_id, match_id, refers_single_player, refers_multiple_players, active_status, bookmaker])
-                        
-                        # get bet_id to add connections
-                        bet_id = get_id(mycursor, BETS_BET_ID, BETS, [BETS_NAME, BETS_OUTCOME, BETS_ODDS, BETS_BOOKMAKER], [bet_name, bet_outcome, bet_odds, bookmaker])
-                        
-                        if player_id != None:
-                            # add bet connection to database
-                            db_add(db, mycursor, BETS_ASSIGNED, [BETS_ASSIGNED_BET_ID, BETS_ASSIGNED_PLAYER_ID], [bet_id, player_id])
+                            # save bet info in database
+                            db_add(db, mycursor, BETS, [BETS_NAME, BETS_OUTCOME, BETS_ODDS, BETS_FULL_INFO, BETS_PLAYER_ID, BETS_MATCH_ID, BETS_REFERS_SINGLE, BETS_REFERS_MULTIPLE, BETS_ACTIVE_STATUS, BETS_BOOKMAKER], [bet_name, bet_outcome, bet_odds, bet_full_info, player_id, match_id, refers_single_player, refers_multiple_players, active_status, bookmaker])
+                            
+                            # get bet_id to add connections
+                            bet_id = get_id(mycursor, BETS_BET_ID, BETS, [BETS_NAME, BETS_OUTCOME, BETS_ODDS, BETS_BOOKMAKER], [bet_name, bet_outcome, bet_odds, bookmaker])
+                            
+                            if player_id != None:
+                                # add bet connection to database
+                                db_add(db, mycursor, BETS_ASSIGNED, [BETS_ASSIGNED_BET_ID, BETS_ASSIGNED_PLAYER_ID], [bet_id, player_id])
+                                
+                    # set superbet_scraped to true
+                    db_update(db, mycursor, MATCHES, [MATCHES_IFORBET_SCRAPED], [1], [MATCHES_MATCH_ID], [match_id])
+
             counter += 1
                         
                     

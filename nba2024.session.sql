@@ -13,9 +13,7 @@ CREATE TABLE bets_backup AS SELECT * FROM bets;
 CREATE TABLE bets_assigned_backup AS SELECT * FROM bets_assigned;
 
 -- @block
-SELECT *
-FROM stats
-where match_id is null;
+ALTER TABLE bets MODIFY COLUMN match_id int NOT NULL;
 
 -- @block bets
 create table bets (
@@ -34,8 +32,8 @@ create table bets (
 );
 
 -- @block xdd
-ALTER TABLE bets
-ADD success boolean;
+ALTER TABLE matches
+ADD iforbet_scraped boolean;
 
 -- @block deleting
 drop table bets_assigned;
@@ -55,4 +53,10 @@ drop table players_backup;
 drop table stats_backup;
 
 -- @block ADD
-update bets set bookmaker = "superbet" where bet_id > 0;
+update matches set superbet_scraped = 1 where match_id = 1316;
+
+-- @block
+SELECT match_id, COUNT(*) AS entry_count
+FROM bets
+GROUP BY match_id
+HAVING COUNT(*) = 1;

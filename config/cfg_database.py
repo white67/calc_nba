@@ -18,6 +18,8 @@ MATCHES_TEAM2_SCORE = "team2_score"
 MATCHES_MATCH_DATE = "match_date"
 MATCHES_STADIUM = "stadium"
 MATCHES_STADIUM_LOCATION = "stadium_location"
+MATCHES_SUPERBET_SCRAPED = "superbet_scraped"
+MATCHES_IFORBET_SCRAPED = "iforbet_scraped"
 
 STATS = "stats"
 STATS_PLAYER_NAME = "player_name"
@@ -140,10 +142,10 @@ def db_update(db, cursor, table_name, columns, data, columns_to_check, data_to_c
             print(f"{data}")
         else:
             print(f"[{table_name}] Entry does not exist: {data_to_check}")
-            # db_add(db, cursor, PLAYERS, [PLAYERS_PLAYER_NAME, PLAYERS_SOFASCORE_LINK, PLAYERS_TEAM, PLAYERS_BIRTH_DATE], [player_name, sofascore_link, team_name, birth_date])
+            return -2
+        
+        return 0
             
-            # try adding again
-            # here add code but it seems like it needs to be class object
     except mysql.connector.Error as err:
         print("Error:", err)
         db.rollback()  # Rollback the transaction if an error occurs
